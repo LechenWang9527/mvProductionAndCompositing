@@ -1,0 +1,18 @@
+== STYLES.md 行数
+396 E:/新建文件夹/实习/MV/ref_prompts/docs/STYLES.md
+== skills 树
+E:/新建文件夹/实习/MV/ref_prompts/skills/code-animation-prompts/agents/openai.yaml
+E:/新建文件夹/实习/MV/ref_prompts/skills/code-animation-prompts/references/attribution.md
+E:/新建文件夹/实习/MV/ref_prompts/skills/code-animation-prompts/references/catalog.json
+E:/新建文件夹/实习/MV/ref_prompts/skills/code-animation-prompts/references/library-changes.json
+E:/新建文件夹/实习/MV/ref_prompts/skills/code-animation-prompts/references/rendering.md
+E:/新建文件夹/实习/MV/ref_prompts/skills/code-animation-prompts/scripts/render_video.py
+E:/新建文件夹/实习/MV/ref_prompts/skills/code-animation-prompts/scripts/styles.py
+E:/新建文件夹/实习/MV/ref_prompts/skills/code-animation-prompts/SKILL.md
+== images 数
+b6-preview.gif
+hero.png
+picker-search.png
+promo-hq.gif
+style-gallery.png
+6

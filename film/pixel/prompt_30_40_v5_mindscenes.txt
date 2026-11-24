@@ -1,0 +1,25 @@
+The provided image is the first frame of this shot - keep it exactly as it is. This is a low-resolution 1980s 8-bit game image, not an illustration: the whole picture is built from big visible square pixels, roughly 480 pixels wide across the whole screen, every edge stair-stepped, every pixel a flat solid square of one colour. The squares in the reference image define the exact size for everything you draw. Keep every new pixel at that same size for the whole shot. No anti-aliasing, no smooth gradients, no soft shading, no painted texture, no fine hair lines, no illustration detail. Flat colour blocks and hard stair-step edges only, from the first frame to the last.
+
+Same night, same water surface mirroring the city, same crowd of small solid black hooded silhouettes, same floating amber lanterns, same stone lantern burning on the right, same city of warm windows on the left, same bare tree, same mountain ridge, same camera height and framing. The camera only glides forward very slowly - no shake, no rotation, no fast zoom.
+
+The flame in the middle of the water shrinks and dims into a small quiet lantern, and as it dims it reveals a figure behind it.
+
+The figure is an old thin man in a long blue-grey cloak, slightly stooped. His face must read as the classic portrait of the Tang poet Du Fu drawn with only a dozen big square pixels: a dark cloth headwrap, a narrow gaunt bony face, high cheekbones, hollow eye sockets, two long thin drooping eyebrows, and a long sparse wispy beard in a few separate strands. He turns his head slowly and looks straight at the traveller. Keep the face blocky, never smooth or beautify it.
+
+The black silhouettes sink back into the water and disappear, the water becomes ordinary stone pavement again, and the whole real world settles and stops: the traveller and the old man stand still side by side, and the road, the city, the tree and the sky behind them do not change any more for the rest of the shot. This is the fixed stage.
+
+Then the air in front of them fills with a memory. A huge pale amber ghost image appears floating in the air above the road, semi-transparent like a projection of light, edge-lit and flickering faintly, clearly NOT part of the real street.
+
+Inside this first memory, an enormous dense old city of Tang dynasty Chang'an: hundreds of tiled roofs and low houses packed tightly together up the hillside, alleys between them, warm windows scattered through the mass.
+
+Inside the same memory, in front of all those houses, a small rented room with a wooden door and a few stone steps, and standing in its doorway a landlord: a stout round-faced man in a rich dark red silk robe, arms folded then opening one hand, palm up, demanding, a string of copper coins in his other hand. The coins multiply in his palm - one more, two more, five more - the string growing longer and heavier as he opens his hand wider. He is a hard, smug, well-fed man, the exact opposite of the thin old poet.
+
+The first memory fades away into the dark.
+
+Then a second memory rises in the same place, the same pale amber translucent ghost light, but now inside it there is only one small thatched hut standing alone on an open field: dry yellow straw roof, packed earth walls. A cold autumn wind hits it and the straw begins to tear away - a few strands first, then whole flat clumps flying sideways, then the roof peels open in chunks and the bare wooden frame underneath is exposed, the hut leaning and shuddering while straw streams away across the dark sky. The straw flies inside the memory, glowing faintly, never touching the real street.
+
+Both the traveller and the old man stay completely still in the foreground the whole time, watching. They never move through the shot. The real street around them never changes.
+
+Everything stays blocky and flat. Never resolve into smooth 3D, a painting, or a photograph.
+
+No text, no letters, no numbers, no captions, no signs, no writing, no watermark, no logo, no UI.

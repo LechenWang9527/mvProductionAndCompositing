@@ -1,0 +1,19 @@
+Continue from the exact first frame: same camera, same traveler, same staircase, same city. Retro video game cutscene look — flat shaded shapes, clean hard edges, limited but vivid palette, subtle banding, no photorealistic detail.
+
+The traveler climbs. One step, then another, steady. Each footfall makes that step bloom with a different luminous colour for a heartbeat before it settles into a dim ember — amber, then jade, then violet, then rose, then gold — a staircase that remembers everyone who ever walked it.
+
+As he climbs, faint translucent silhouettes of previous travellers fade in on the steps below and behind him, each in a different century's shape: a robed figure with a staff, a figure with a bundle, a figure in a coat with a case. They are ghosts, never fully solid, walking the same path a few steps behind, then dissolving into the glow. He never looks back.
+
+The sky above the city comes alive: slow aurora ribbons moving across the dusk, shifting from warm amber into deep plum, teal and violet, reflected faintly on the polished edges of the steps. The city's windows open and close like breathing, each a different small colour — amber, cyan, rose — but the composition stays calm and readable, never busy.
+
+At the moment of the first sung line, he stops on a step and lifts his head toward the gate, hood shifting, face still unseen, then climbs on.
+
+By the end, the gate is close and enormous, its arch filled with warm light, and the whole staircase below him is a river of soft colour with several ghost travellers scattered up its length.
+
+Camera: a slow, continuous push-in and tilt-up along the stairs, following his climb, no cuts, smooth.
+
+Keep it gorgeous but uncluttered: one staircase, one traveler, ghosts, one city, one sky.
+
+STRICT: absolutely no text of any kind — no subtitles, captions, letters, numbers, words, labels, logos, watermarks, speech bubbles, game HUD, no runes or glyphs that read as writing. Subtitles are added later in post.
+
+Negative: photorealistic, 3D render, CGI, live action, film grain, lens flare, bokeh, depth of field blur, anime, realistic human face, subtitle, caption, lower third, text overlay, typography, letters, numbers, glyphs, watermark, logo, HUD, UI, oversaturated neon, cluttered detail, busy texture, pure white background, cropped, frame border.

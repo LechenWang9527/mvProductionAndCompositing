@@ -1,0 +1,19 @@
+Continue the exact same shot, same camera, same world as the first frame. Retro video game cutscene look: flat shaded shapes, clean hard edges, limited palette, subtle banding, no photorealistic detail, no film grain.
+
+The traveler stands at the bottom of the glowing staircase. Over the next ten seconds he climbs: one step, then another, slowly and steadily, each footfall landing on a step and making that step flare warm amber for a moment before settling back to a dim glow.
+
+Around the first third: he begins to move. His first step lands solidly, the staircase lights up one step ahead of him in response, and a low pulse of light travels up the stairs toward the city.
+
+At the moment of the first sung line: he pauses mid-climb, half-turns his head toward the city above — only a shift of the hood and shoulders, the face never shown — then continues climbing.
+
+Shortly after: a second, fainter silhouette appears far below him on the stairs, walking up the same steps — a ghost of someone from long ago, semi-transparent, half a step behind, following the same path. It stays faint, never becoming solid, never overtaking him.
+
+By the end: the city gate is noticeably closer and larger, more windows lit than before, and the sky has warmed a little further, the last stars fading. Two small figures on the vast staircase, one solid, one ghost.
+
+Camera: very slowly pushing in and tilting up along the stairs, following the climb, no cuts. Keep the whole frame calm and uncluttered.
+
+Color: warm dusk gradient sky (amber fading to deep plum), near-black city silhouette, the only bright element is the glowing staircase and the lit windows. Restrained, no neon.
+
+STRICT: absolutely no text of any kind in the frame — no subtitles, captions, letters, numbers, words, labels, logos, watermarks, speech bubbles, game HUD. Subtitles are added later in post, so the image must stay completely free of typography.
+
+Negative: photorealistic, 3D render, CGI, live action, film grain, lens flare, bokeh, depth of field blur, anime, cartoon eyes, realistic human face, subtitle, caption, lower third, text overlay, typography, letters, numbers, watermark, logo, HUD, UI, oversaturated neon, pure white background, cropped, frame border.

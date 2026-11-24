@@ -1,0 +1,43 @@
+== 找已死的小弟留下的文件
+docs:
+total 105
+drwxrwxrwx 1 WangLC None     0 Nov 10 10:29 .
+drwxrwxrwx 1 WangLC None  4096 Nov 10 10:29 ..
+-rwxrwxrwx 1 WangLC None 71933 Nov 10 09:40 METHODOLOGY.md
+-rwxrwxrwx 1 WangLC None 29811 Nov 10 09:55 RESEARCH.md
+drwxrwxrwx 1 WangLC None     0 Nov 10 10:29 notes
+
+docs/notes:
+total 0
+drwxrwxrwx 1 WangLC None 0 Nov 10 10:29 .
+drwxrwxrwx 1 WangLC None 0 Nov 10 10:29 ..
+
+== film
+film/data/build_data.mjs
+film/data/timeline.js
+film/index.html
+film/src/core.js
+film/src/main.js
+film/src/scenes.js
+
+== analysis 新文件
+-rwxrwxrwx 1 WangLC None     9261 Nov 10 09:56 align_lyrics2.py
+-rwxrwxrwx 1 WangLC None     6165 Nov 10 09:48 analyze_real.py
+-rwxrwxrwx 1 WangLC None     1300 Nov 10 10:08 build_data.log
+-rwxrwxrwx 1 WangLC None     1246 Nov 10 09:54 check_align.txt
+-rwxrwxrwx 1 WangLC None        0 Nov 10 10:32 deadwork.txt
+-rwxrwxrwx 1 WangLC None    16539 Nov 10 09:52 features_real.json
+-rwxrwxrwx 1 WangLC None      295 Nov 10 09:52 fonts.txt
+-rwxrwxrwx 1 WangLC None      477 Nov 10 09:53 inspect.txt
+-rwxrwxrwx 1 WangLC None      398 Nov 10 09:57 ls.txt
+-rwxrwxrwx 1 WangLC None      967 Nov 10 09:58 ls2.txt
+-rwxrwxrwx 1 WangLC None      586 Nov 10 10:00 ls3.txt
+-rwxrwxrwx 1 WangLC None      927 Nov 10 10:01 ls4.txt
+-rwxrwxrwx 1 WangLC None 13489230 Nov 10 09:50 og_22050.wav
+-rwxrwxrwx 1 WangLC None       59 Nov 10 10:25 ping.md
+-rwxrwxrwx 1 WangLC None      230 Nov 10 09:52 run1.log
+-rwxrwxrwx 1 WangLC None     1354 Nov 10 10:27 sec_probe.txt
+-rwxrwxrwx 1 WangLC None     1584 Nov 10 10:03 sections.txt
+-rwxrwxrwx 1 WangLC None     1622 Nov 10 10:23 state.txt
+-rwxrwxrwx 1 WangLC None     1952 Nov 10 10:26 tl_probe.txt
+drwxrwxrwx 1 WangLC None        0 Nov 10 10:04 tools_e

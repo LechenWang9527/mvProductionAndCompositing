@@ -1,0 +1,7 @@
+styles 30 techniques 15 rules 6 avoid 5 recs 3
+bad sections/fields: none
+dup ids: none
+sections covered 23 /23 -> all
+md style rows 34 md bytes 35523 md lines 373
+md ids not in json: none
+json ids not in md: none

@@ -1,0 +1,21 @@
+The provided image is the first frame of this shot - keep it exactly: the same night, the same long stone road turned to a flat black sheet of water, the same crowd of small solid black hooded silhouettes standing on the water, the same floating amber lanterns and their reflections, the same stone lantern burning on the right, the same city of warm windows on the left, the same bare tree and the same mountain ridge. Same 8-bit pixel look, same palette, same camera height, same framing. The shot must begin exactly on this image.
+
+The big flame burning in the middle of the water slowly shrinks and dims into a small quiet lantern, and as it dims it reveals a figure standing behind it.
+
+The figure is an old, thin man in a long blue-grey cloak, slightly stooped, and his face must read unmistakably as the classic portrait of the Tang poet Du Fu: a soft dark cloth headwrap tied over the hair, a narrow gaunt bony face, high cheekbones, deep hollow eye sockets with tired sorrowful eyes, two long thin drooping eyebrows, and a long sparse wispy beard hanging down in a few separate strands past his chin. Only a dozen large pixels for the face, but a face you recognise at once as Du Fu, not a generic old man. He turns his head slowly and looks straight at the traveller, and his beard and the loose end of his headwrap stir a little in the night air.
+
+The crowd of black silhouettes sinks back into the water and disappears, and the water becomes ordinary stone pavement again.
+
+The old man opens his hand and holds up a single old iron key. Then another key drops onto the ring beside it, and another, and another - keys keep landing on the ring one after another, faster and faster, until a long heavy bunch of dozens of old iron keys hangs down from his hand all the way to the ground. Every key is a place he once had to leave.
+
+At the end of that bunch of keys hangs a small worn wooden board, and beside the board hangs a short string of copper coins. The coins start to multiply by themselves - one more, two more, five more - the string of coins growing longer and heavier, the wooden board sinking lower, the whole bunch swinging under the weight. He looks up at it, tired.
+
+Then a cold wind comes down the road. Far away at the end of the road, a small thatched hut stands alone, its roof made of dry straw. The wind hits it and the straw begins to tear away: first a few strands, then whole clumps flying off sideways, then the roof peels open and the bare wooden frame underneath is exposed, the hut leaning and shaking while straw streams away across the dark sky.
+
+Near the end, the old man stands in the foreground holding the heavy bunch of keys, watching his hut come apart in the distance, the flying straw passing between him and the camera.
+
+The traveller must always stay the largest, brightest, heaviest thing in the frame. The old man is the second largest. The hut and the memories are further back. The camera only glides forward very slowly and gently - no shake, no rotation, no fast zoom.
+
+Everything is built from big visible square pixels with stair-stepped edges; flat solid colors only; no smooth gradients, no soft glow, no blur, no fine detail. Never resolve into smooth 3D or a photograph.
+
+No text, no letters, no numbers, no captions, no signs, no writing, no watermark, no logo, no UI.

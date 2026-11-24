@@ -1,0 +1,23 @@
+This is a cutscene from an old 8-bit video game, not a film and not a 3D render.
+
+The entire picture must be built out of big visible square pixels, like a screenshot of a NES game blown up on a screen. The image is effectively only about 256 pixels wide and 144 pixels tall, so every edge is stair-stepped and every pixel is a large flat square. Every roof tile, every window light, every lantern is a cluster of large blocks — there is no fine detail anywhere. Flat solid colors only, a very small palette: near black, deep indigo, dark brown, dull red, amber, pale cream. No smooth gradients, no soft edges, no blending, no fading glow — light is always a hard flat shape of amber.
+
+The shot continues directly from the previous one: a tiny traveller in a dark red hooded cloak, seen from behind, is walking to the right along a long stone road at the foot of a mountain, a vast ancient Chinese city of warm windows and red lanterns glowing behind him on the left, and a single tall stone lantern burning ahead of him on the right. Chinese architecture only: curved flying eaves, tiled roofs, pagodas, crenellated walls, red paper lanterns.
+
+The camera stops sliding and settles. The traveller walks the last few steps and comes to a halt right beside the tall stone lantern.
+
+Then the lantern's light grows: the warm amber halo around it widens out across the paving stones of the road, pushing back the darkness in a hard-edged circle.
+
+Where that light lands, far away up the slope, one small lantern switches on in the dark. Then another one beyond it. Then another, and another — a chain of small warm lanterns lighting up one after another, receding uphill toward the gate of the great city, until a whole path of scattered amber lights stretches from where the traveller stands all the way up the mountainside. Each lantern is a tiny hard square of amber, and each one has a small dark shape standing quietly beneath it, faint and distant.
+
+The traveller stands still at the beginning of that path of lights and lifts his head to look up along it.
+
+The camera then begins to glide slowly forward and slightly upward along the path of lanterns, the traveller falling behind and growing smaller, the lights passing on both sides.
+
+Near the end, the closest lantern fills more and more of the frame, its flame a large hard-edged amber shape, until the warm light floods the whole screen.
+
+The camera only ever glides forward slowly; no shake, no rotation, no fast zoom.
+
+Keep the chunky pixel look perfectly consistent from first frame to last. Never resolve into smooth 3D, never become photographic or painterly.
+
+No text, no letters, no numbers, no captions, no signs, no shop boards, no banners with characters, no watermark, no logo, no UI, no bars.

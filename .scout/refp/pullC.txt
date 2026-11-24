@@ -1,0 +1,38 @@
+===== O11 | 浮生若梦 | series=O | still=1 | "30 年代 WPA 丝网海报：六色不透明平涂油墨、分色渐变、轻微套印错位，印在棉浆纸上。1936–39 年联邦艺术计划的海报就是这部片同年代的美国平面语言，也和" =====
+1936–39 年 WPA 联邦艺术计划的丝网海报。六色不透明油墨从浅到深套印，后印的版要在不该盖住的浅色形（云、太阳、高光）处镂空：奶油 #F0E2C0 给光和云，赭 #E0A842、朱红 #C84A2A 给天空和暖色面，青 #22686E 给水和阴影，主角专用色（如 #D97757，只用在故事围绕的那个主角身上），最后印深棕描边 #322018。阴影是深一色叠印，不用灰。大面积用分色渐变：两色 2–3 级粗台阶，中间一级是两色叠印。每版套偏 1–3 像素，模版边缘游移，刮板拖痕、漏印，平涂上都有暖色棉浆纸纹（±5%）。人物占画面高度二分之一到三分之二：大块面、月牙形暗面、棕色描边、脸有表情。留一条粗体大写标题，用用户的语言。慢推，一版一版弹出来。避免：网点、平滑渐变、干净的矢量平涂。
+
+---
+
+===== O18 | 失去的周末 | series=O | still=1 | "画面是打出来的：等宽字符落在 pica 网格上，灰阶靠字符疏密和叠打，色带墨色不匀。唐抱着打字机去当铺，于是整条街由打字机打出；Clawd 用橙色色带打。" =====
+所有画面都用打字机字符打出来：等宽粗体字逐个敲，落在固定网格上，格宽约画幅宽 1/150、格高是格宽两倍。85%–95% 的格子都要打字，只有最亮的光留纸白。灰阶靠字键分级（浅 . : -，中 = + o，深 X # M），暗部约占三成，用 M# 这样的叠打。形体靠边界清楚的字块和剪影读出。每种材质重复自己的字键（如竖向结构 I H，砖缝 _|，水 ~）。招牌或说明要打得能读。色带墨色不匀：半边缺墨，几个键总是偏高或偏低。纸 #EBE6DA，墨 #1D1C21；只有故事围绕的那个主角用红橙色带 #D4704F 打，至少占画面高度三分之一，影子仍是黑的。硬侧光投出边缘清楚的密集长影。画面在第一秒内打完，然后停住。对标 Paul Smith 的打字机画。避免：稀疏空白、看不出形的横向字条。
+
+---
+
+===== O41 | 雾都孤儿 | series=O | still=1 | "维多利亚玩具纸剧场：手工上色的石印卡纸人物留着剪刀白边，景片分层插在滑杆上，镀金台口下的烛光脚灯把影子投上景片。《雾都孤儿》是歌舞片，正好搬上维多利亚家庭小舞台" =====
+维多利亚玩具纸剧场（Pollock's 式）。一切都是印出来的卡纸：黑色石印轮廓约画面宽的 1/400，每张剪纸一侧有稀疏蜡笔排线；手工上色是沉稳旧色：深红 #C8262C 和暗金 #E0AB36 用在台口和帷幔（金色不能是亮黄），蓝 #2F5A9A 给服装；布景、天空、水和肤色用发灰的棕、灰和奶油卡纸 #F4ECD6。每个人物和景片留一圈剪刀白边（约画面宽的 1/200）。景片是平行的 2.5D 层，层间视差，层内无透视。烛光脚灯把剪纸影子放大约一倍半投到后面景片上，柔边，随烛火闪动。镀金台口、红帷幔和画出来的包厢观众框住舞台，台口宽占画面八到九成。镜头：慢推、横移，近景微震；结尾拉远露出暗房间。避免：鲜艳矢量色、真 3D 纵深、柔和摄影光、没有剪边的人物。
+
+---
+
+===== O19 | 黄金时代 | series=O | still=1 | "1946 年画报的新闻摄影跨页：铜版纸上的粗黑网点、中缝折痕、叠印的图片说明。深焦里拆光的 B-17 排到地平线；Clawd 单独印在专色橙版上，是唯一的颜色。" =====
+每一帧当成 1946 年画报的新闻摄影跨页。先把场景按照片渲染成灰调（3D 或手绘都行）：低角度太阳、长影子、深焦，近处和地平线一样清楚。照片满版跨过两页，竖向中缝折痕从中间穿过，带一点阴影。再印成 45° 黑色网点，间距约画幅宽 1/250，米白铜版纸 #ECE6D8，墨 #1A1A1A，略有扩墨。从第一镜起，在安静的区域叠印一小块黑色标题和图说。只有故事围绕的那个主角走专色橙版（如 #D97757），换一个网角，错版 2–3 像素，黑版只留在它最深的暗部；主角至少占画面高度四分之一。镜头：走进全景，推进一个细节，再拉远，照片缩成一本摊开的杂志。对标摄影师 Gregg Toland、《生活》杂志战后摄影专题。避免：中缝切过主角，网点粗到照片碎掉。
+
+---
+
+===== L25 | 浮世绘 | series=L | still=1 | "旅人走向远山，每个镜头都是一幅版画；巨浪是高潮，结尾是远山与整幅画轴拉远。" =====
+Edo-period woodblock prints brought to life: flat colour blocks, carved ink lines, bokashi skies, paper you can feel, and a camera that moves over the print like an unrolling handscroll. References (grammar only): Hokusai's *Thirty-six Views* (one constant subject placed differently each time; bold geometric cropping); Hiroshige's *Fifty-three Stations* and *Hundred Famous Views* (small figures, rain lines, extreme f
+[colour] - **A pigment set, not a colour wheel**: 6–9 flat hues, each printed from its own block, over the paper ground. No gradients except bokashi, no shading on forms. - **Sumi key line** over everything; **paper is the white** (no white pigment for foam, snow, mist, blank sky). - **One dominant hue famil
+[type] - **Subtitle = a horizontal cartouche**: a cream slip with a thick + thin ink border and a small red seal at the left; Shippori Mincho (500) in sumi, centred near the bottom. It "prints" in with the reveal mask and fades out. Hold ≥ max(1.8 s, speech + 0.6 s). It covers the bottom ~150 px: keep ground lines and figures
+[pitfall] • Bokashi from `fillRect` strips leaves vertical seams → build it per pixel. • Too much speckle or fibre makes dark areas look like sandpaper or scratched film → specks α ≈ 0.3, fibres α ≈ 0.09. • A perspective grid for fields looks digital → parallel, slanted, flat layering. • Pine clusters drawn as half-discs look like parasols → flat pads with needle fans. • Offset curves self-intersect at tight bends → build inner lines from the gentle side of the contour; force control points x-monotonic. • Breaking out of the print must escape **both** the sheet clip and the frame clip. • A seal drawn with `multiply` vanishes on dark ground → `source-over` there.
+
+===== L33 | 瑞士动态排版 | series=L | still=1 | "一张音乐会海报按瑞士设计的五条规则自己排版，第五条是只打破一条。" =====
+International Typographic Style in motion: a modular grid, one typeface, one signal colour, and movement as exact as a printing press. References (grammar only): 1950s–70s Zurich posters (Müller-Brockmann, Hofmann, Gerstner, Crouwel) for the grid, flush-left type, scale contrast and "designing programmes"; modern identity systems in motion (Experimental Jetset, Pentagram) for snaps on the beat. Never copy a specific 
+[colour] - **Paper, ink, greys, and one signal colour.** Only one thing carries the signal colour; that makes it the protagonist. It is the only thing allowed to be inexact. - Overprint is allowed: black type on the signal colour. - The signal colour can be red, orange, ultramarine or green; choose it for th
+[type] - **One family for the whole film**, an OFL neo-grotesque (Archivo, Inter, Schibsted Grotesk, Instrument Sans…), several weights. Letter-spacing ~−2 % at ≥ 90 px. Headlines can be lowercase. Load every weight with `document.fonts.load` before drawing. - **Flush left, ragged right**; everything on a grid line; big white
+[pitfall] • Too many thin columns look like a chart → fewer, wider modules. • A "better" composition that isn't obviously better → one strong diagonal with long/short rhythm, a larger signal element, bleeds, type over colour. Merely tilting is not enough. • Rotating and labelling at once reads as noise → rotate, hold, then add labels. • Merged bars show seams after rotation → overdraw 1 px. • Elements that share the camera matrix leak into other shots → draw them only when on screen. • Canvas `letterSpacing` affects `measureText` → measure after setting the font. • Onsets that fall between frames flicker → put visual onsets on whole frames. • Whisper splits or merges words and pads the first word → al
+
+===== L14 | 爆炸图拆解 | series=L | still=1 | "开源键盘的一半在一次环绕中逐层拆开，看到主控再合拢，标上真实尺寸。" =====
+A real product, built from its own engineering files (CAD, PCB layout, bill of materials), lit like a studio packshot and taken apart in front of the camera: the layers lift on one axis, the camera travels between them, every part is named with the numbers its files contain, and it closes again into one object. References (grammar only): hardware-launch exploded films (layer stagger, orbit timing), repair-guide teard
+[colour] - The product brings its own colours; the frame around it is neutral and dark, so the product is always the brightest, most saturated thing. - Interface ink is one warm white at two strengths (names at full, specs at about 60 %), plus **one accent** reserved for measured things: dimension lines, lab
+[type] - Names: a clean sans at medium weight in the film's script (28–32 px; Noto Sans SC 500 in our demo). Specs and numbers: a monospaced face (15–22 px; JetBrains Mono) so digits line up and read as measurement. A neutral grotesque (Inter) for Latin running text. - Label structure is fixed: a two-digit index in the accent
+[pitfall] • **Invented numbers.** A size that no file gives. Fix: measure it from the CAD and say "measured" in the facts file, or leave it out. • **Mixed-up revisions.** Plates, cases and boards from different versions of a project. Fix: check hole positions and stack heights across the files (they must coincide), and pin the commit. • **Panelised boards.** Layout files may hold a panel with breakaway tabs. Fix: take the outline from a plate or case of the same revision, or flood-fill from an interior point. • **Zero-length edges.** Duplicate outline points give zero normals → NaN → black squares after bloom. Fix: clean outlines, repair zero normals, scan frames for one-frame black tiles. • **Oversho
+

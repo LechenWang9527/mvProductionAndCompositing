@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>woodcut test</title>
+<style>html,body{margin:0;background:#d9cfb8}canvas{display:block}</style></head>
+<body>
+<canvas id="c" width="1200" height="700"></canvas>
+<script src="../data/timeline.js"></script>
+<script src="../src/core.js"></script>
+<script>
+(async () => {
+  await document.fonts.load('900 100px "Noto Serif SC"', '杜甫');
+  await document.fonts.load('900 100px "Noto Sans SC"', '杜甫');
+  await document.fonts.ready;
+  const K = window.K, ctx = K.ctx;
+  ctx.fillStyle = '#d9cfb8'; ctx.fillRect(0, 0, 1200, 700);
+
+  // 1. 直接 fillText 测字体本身能不能出字
+  K.setFont(120, 'serif', 900);
+  ctx.fillStyle = '#000';
+  ctx.fillText('杜甫', 40, 160);
+
+  // 2. 原始 woodcut 调用
+  const w1 = K.woodcutText('杜甫', 40, 360, 160, [
+    { angle: 15, spacing: 7, color: '#17130f', alpha: 0.95 },
+  ], { fam: 'serif' });
+  ctx.fillStyle = '#a8402c';
+  ctx.font = '20px monospace';
+  ctx.fillText('woodcut returned w=' + w1, 40, 420);
+
+  // 3. 手动复现：测 measure 与 canvas 尺寸
+  const tw = K.measure('杜甫', 160, 'serif', 900);
+  ctx.fillText('measure.serif900=' + tw, 40, 450);
+  const tw2 = K.measure('杜甫', 160, 'sans', 900);
+  ctx.fillText('measure.sans900=' + tw2, 40, 480);
+
+  // 4. 不做 source-in，只画排线 tile，看 tile 本身是否有内容
+  const tile = K.hatchTile(15, 7, 300, 200, '#17130f', 0.95, 3);
+  ctx.drawImage(tile, 600, 60, 300, 200);
+  ctx.strokeStyle = '#a8402c'; ctx.strokeRect(600, 60, 300, 200);
+
+  // 5. 完整链路手搓：小 canvas + fillText + source-in + 排线
+  const c2 = document.createElement('canvas');
+  c2.width = 400; c2.height = 260;
+  const g2 = c2.getContext('2d');
+  g2.fillStyle = '#000';
+  g2.font = '900 200px "Noto Serif SC", serif';
+  g2.textBaseline = 'alphabetic';
+  g2.fillText('杜甫', 0, 200);
+  // 采样：确认字形真的画上了
+  const px = g2.getImageData(0, 0, 400, 260).data;
+  let ink = 0;
+  for (let i = 3; i < px.length; i += 4) if (px[i] > 128) ink++;
+  ctx.fillText('glyph ink px=' + ink, 40, 510);
+  g2.globalCompositeOperation = 'source-in';
+  g2.drawImage(K.hatchTile(15, 7, 400, 260, '#17130f', 1, 3), 0, 0);
+  ctx.drawImage(c2, 600, 300);
+  ctx.strokeStyle = '#a8402c'; ctx.strokeRect(600, 300, 400, 260);
+
+  window.__READY__ = true;
+  document.title = 'READY ink=' + ink + ' w=' + w1;
+})();
+</script>
+</body></html>

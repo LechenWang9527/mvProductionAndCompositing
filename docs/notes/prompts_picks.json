@@ -1,0 +1,599 @@
+{
+  "generated": "2026-11-10",
+  "source": "E:/新建文件夹/实习/MV/ref_prompts (skills/code-animation-prompts)",
+  "stats": {
+    "total_entries": 341,
+    "with_still": 196,
+    "without_still": 145,
+    "with_code_fence": 45,
+    "missing_md": 0,
+    "b6_in_catalog": 0,
+    "per_series": {
+      "AG": { "count": 26, "code": 26, "still": 26, "avg_md_bytes": 2206 },
+      "M": { "count": 40, "code": 0, "still": 1, "avg_md_bytes": 624 },
+      "K": { "count": 38, "code": 0, "still": 3, "avg_md_bytes": 205 },
+      "Z": { "count": 15, "code": 1, "still": 1, "avg_md_bytes": 516 },
+      "H": { "count": 12, "code": 0, "still": 1, "avg_md_bytes": 506 },
+      "L": { "count": 59, "code": 3, "still": 59, "avg_md_bytes": 13397 },
+      "V": { "count": 15, "code": 15, "still": 0, "avg_md_bytes": 7980 },
+      "X": { "count": 31, "code": 0, "still": 0, "avg_md_bytes": 3086 },
+      "R": { "count": 7, "code": 0, "still": 7, "avg_md_bytes": 819 },
+      "O": { "count": 98, "code": 0, "still": 98, "avg_md_bytes": 3232 }
+    },
+    "per_prefix": {
+      "A": { "count": 5, "code": 5, "still": 5 },
+      "B": { "count": 5, "code": 5, "still": 5 },
+      "C": { "count": 4, "code": 4, "still": 4 },
+      "D": { "count": 4, "code": 4, "still": 4 },
+      "E": { "count": 3, "code": 3, "still": 3 },
+      "F": { "count": 3, "code": 3, "still": 3 },
+      "G": { "count": 2, "code": 2, "still": 2 },
+      "H": { "count": 12, "code": 0, "still": 1 },
+      "K": { "count": 38, "code": 0, "still": 3 },
+      "L": { "count": 59, "code": 3, "still": 59 },
+      "M": { "count": 40, "code": 0, "still": 1 },
+      "O": { "count": 98, "code": 0, "still": 98 },
+      "R": { "count": 7, "code": 0, "still": 7 },
+      "V": { "count": 15, "code": 15, "still": 0 },
+      "X": { "count": 31, "code": 0, "still": 0 },
+      "Z": { "count": 15, "code": 1, "still": 1 }
+    },
+    "empty_name_entries": ["M14", "M15", "M16", "M17", "M26", "M35", "M39", "M40"],
+    "md_bytes": { "min": 81, "max": 20877, "mean": 4200, "lines_min": 8, "lines_max": 171 },
+    "mismatches_vs_brief": [
+      "references/, scripts/, assets/library/ 实际在 skills/code-animation-prompts/ 下，不在仓库根",
+      "prompts/one-click-import.md 在 ref_prompts/prompts/，不在 skills/…/prompts/",
+      "根 scripts/ 只有 build_catalog.py / build_visuals.py / install_skill.py / validate_repo.py",
+      "demo/ 与 engine/ 目录不存在，L20 的 import './engine/impasto.js' 与 woodcutFilter 无法运行",
+      "8 条 M 条目 name 为空字符串",
+      "K 平均 205 B / M 平均 624 B，是词表不是提示词；参数只能取自 O 系列与 L 系列",
+      "145 条无静帧的分布是 M39+K35+Z14+X31+V15+H11+A–G0，不是随机缺失",
+      "O 目录 196 个文件（98 md + 98 jpg）与全库 196 张静帧是巧合撞车"
+    ]
+  },
+  "styles": [
+    {
+      "id": "L30",
+      "name": "木刻版画",
+      "series": "L",
+      "palette": ["ancient", "system"],
+      "visual": "黑是木头、白是刀刻出来的，明暗全靠刀痕密度",
+      "sections": ["01 dufu", "06 war", "22 finale"],
+      "prompt": [
+        "全图只有黑/白/纸三值；刀宽三档（1080p）：轮廓与白分界线 1.2–2 px、排线 2–8 px、大刻与光道 10–22 px",
+        "排线方向跟形体、线宽跟明暗：亮处刀宽到快并成白，暗处不刻；每刀 30–160 px，钝进尖出、带崩口",
+        "人物 = 黑剪影 + 一圈白刀分界线 + 只在受光边缘加排线；脸刻成白形，只留几笔黑五官",
+        "只允许一块专色，且只填在白刻掉的地方（朱砂 #C23A22 / 普鲁士蓝 / 赭石）",
+        "字幕是铅字排在纸边：IM Fell English 40–44 px，0.1 s 印上、0.15 s 淡出，停留 ≥ max(1.8 s, 台词+0.6 s)"
+      ],
+      "pitfall": "刀痕太短太匀 → 排成人字纹/灯芯绒；白刀刻在白底上直接消失；给每个面都加排线 → 变毛皮；纸边不能动，动了就穿帮"
+    },
+    {
+      "id": "O3",
+      "name": "西线无战事 · 珂勒惠支木刻",
+      "series": "O",
+      "palette": ["ancient"],
+      "visual": "六七成实黑，脸刻成白形，大片裁切，悲痛感",
+      "sections": ["06 war", "01 dufu"],
+      "prompt": [
+        "实黑占 60–70%；形体之间用白刀分开，刀宽 = 画面宽 1/300–1/150",
+        "墨 #17130F 印在 #E8DFCA 纸上；纹理只有木纹条 + 缺墨斑点（±5%）",
+        "脸刻白、只留几笔黑五官；手要大；人物占满画面并被画框裁切",
+        "专色 #D97757 只给主角，平铺在身体/衣服上，刀痕照样压过，黑仍 ≥ 60%",
+        "光只从一个开口进来（窗、云缝）；脚下地面留不刻的黑"
+      ],
+      "pitfall": "灰雾灰调等于死；排刀排成等距条纹就假；加血就廉价；动作要安静（呼吸、一个小手势）配慢摇慢推"
+    },
+    {
+      "id": "L31",
+      "name": "铜版画",
+      "series": "L",
+      "palette": ["ancient", "system"],
+      "visual": "线密度就是明暗，一张版自己刻出来再薄罩水彩",
+      "sections": ["02 dufu-son", "07 ledger", "14 laocao"],
+      "prompt": [
+        "只有纸和墨两值，全部调子靠线密度；平行/交叉线线距约画面宽 1/400，暗处线更粗，柔和过渡用点刻",
+        "颜色只准透明薄罩（矿物/土色，最多一个强色），绝不上字、绝不上纸边",
+        "字是版的一部分：Bodoni Moda 大写 44–56 px、标签 15–19 px、学名斜体、手记用 Pinyon Script",
+        "字母要逐字「刻」出来而不是打上去；重复的晕影用 union 路径 nonzero 填充，避免气泡"
+      ],
+      "pitfall": "线等宽 → 看着像钢笔（要涨线、收腰）；重叠处不做遮挡会互相穿透（用 excl 逐环相减而不是 even-odd）；雕刀斜切 > 15° 像戳"
+    },
+    {
+      "id": "O64",
+      "name": "沉默的羔羊 · 手工上色博物图版",
+      "series": "O",
+      "palette": ["ancient", "marpol"],
+      "visual": "细排线 + 点刻的铜版，线内薄罩水彩，编号图注压在泛黄纸上",
+      "sections": ["07 ledger", "14 laocao", "02 dufu-son"],
+      "prompt": [
+        "暖黑褐刻线，线距约画面宽 1/400，暗部加粗，点刻做柔和过渡，物下有排线投影",
+        "纸 #EFE3C4、赭褐 #5A3A22、铁锈红 #B4431E、黄 #E6AD24、灰紫 #7D6F8E",
+        "版式：一张大图占版面高六成 + 四周 3–6 个编号小图各占 1/5 高 + 上方拉开字距的小型大写标题 + 下方编号图注 + 压印斜边框",
+        "一帧只让一样东西动（虫、叶、手），再匀速慢推到关键细节"
+      ],
+      "pitfall": "平涂水彩盖住线 → 变插画；主体缩成小晕影；颜色刺眼；天空不要画实，留纸色或几道稀疏横线"
+    },
+    {
+      "id": "L28",
+      "name": "Risograph 丝网印刷",
+      "series": "L",
+      "palette": ["marpol", "system"],
+      "visual": "2–3 个半透明专色套印在暖纸上，永远差那么一点没对齐",
+      "sections": ["09 hook-marpol", "10 biwu", "13 hook-marpol", "21 hook-marpol"],
+      "prompt": [
+        "最多 2–3 个半透明专色 + 纸；纸是暖白 #F4EEE2，绝不是纯白；除阶梯网点外不准渐变",
+        "至少有一个色能单独托住剪影；其余颜色由叠印/淡版产生",
+        "标题用两块版套印出可见偏移（riso double-hit）；标题 Bricolage Grotesque 800、说明 Jost 500–700",
+        "网点用稳定的混合哈希，禁用 fract(p*vec2(233.34,851.73))（1080p 会画竖条纹）"
+      ],
+      "pitfall": "三块网点挤在一起 = 泥（两块版 + 一个淡版）；逐帧随机错版会闪且撑大文件（每镜固定偏移，重拍踢一下）；JPEG 4:2:0 会把饱和点抹花，导出走 PNG → yuv444 → -tune grain"
+    },
+    {
+      "id": "O40",
+      "name": "炎热的夜晚 · 三色 Riso",
+      "series": "O",
+      "palette": ["marpol", "terminal"],
+      "visual": "橙红占六成、蓝剪影、荧光粉只描边；光是没墨的地方",
+      "sections": ["09 hook-marpol", "06 war"],
+      "prompt": [
+        "橙红 #EC5032 占约 60%（带竖直流痕）、深蓝 #162C76 给剪影与阴影、荧光粉 #FF48B0 只做轮廓光与光晕、纸 #F7F2E7",
+        "各色不同网角，点径约画面宽 1/300，版间错位 2–4 px；有墨粒、针孔、轻微逐帧抖动",
+        "光 = 没墨：光束、灯、被照亮的地面露出纸白，外圈补一道粉",
+        "蓝剪影底下把橙挖掉印纯蓝，只有最暗处两色叠成近黑"
+      ],
+      "pitfall": "蓝占满画面；加第四种墨；平滑渐变；套印太准（要 2–4 px 的错）；手持跟拍 + 一次反打近景 + 一次缓推就够，别乱加机位"
+    },
+    {
+      "id": "L29",
+      "name": "复古半调案卷",
+      "series": "L",
+      "palette": ["marpol", "system"],
+      "visual": "米色档案纸、几版平网、带错位阴影的大标题、砸下来的橡皮章",
+      "sections": ["07 ledger", "15 wuhan", "16 gaoxiaofan", "17 gary", "18 chuanyong", "19 allen", "20 xiaoma"],
+      "prompt": [
+        "纸底 + 一个深墨（藏青/黑褐/深绿，承担所有轮廓、正文、字幕条）+ 4–5 个平涂专色，其中一个专做错位阴影",
+        "大标题 Noto Serif SC 900、100–230 px、左对齐贴边，错位阴影 +8/+8 px 用 multiply",
+        "数字用 Bagel Fat One；橡皮章要「砸」不要淡入；网点擦除必须盖满格子的对角线",
+        "时间窗元素在 t < t0 时必须显式 opacity: 0，不能靠不透明度自然为 0"
+      ],
+      "pitfall": "字体没 load 完就排版 → 用回退字体算位置，字叠字（预载 + font-display: block）；给文字和网点加抖动会糊成一团；clip-path id 是全局的，每个数字要唯一"
+    },
+    {
+      "id": "O19",
+      "name": "黄金时代 · 1946 画报半调跨页",
+      "series": "O",
+      "palette": ["marpol", "system"],
+      "visual": "先拍成灰照片再打成 45° 粗网点，中间一道折痕，主角是唯一彩色",
+      "sections": ["15 wuhan", "06 war"],
+      "prompt": [
+        "先渲成灰照片：低太阳、长影、深焦（近处和地平线一样清楚）",
+        "打 45° 黑网点，间距约画面宽 1/250；米白铜版纸 #ECE6D8、墨 #1A1A1A，略有扩墨",
+        "照片满版跨两页，竖向中缝折痕从中间穿过，带一点阴影",
+        "主角走专色橙版 #D97757、换网角、错版 2–3 px、黑版只留最深处，至少占画高 1/4",
+        "安静区域叠印一小块黑标题与图说"
+      ],
+      "pitfall": "中缝压过主角；网点粗到照片碎掉；主角没有独立网角就「融」进灰照片里"
+    },
+    {
+      "id": "O22",
+      "name": "国王班底 · 木活字凸版",
+      "series": "O",
+      "palette": ["marpol"],
+      "visual": "米黄纸上红蓝黑三块版，实地有木纹，套色 2–4 px 对不齐",
+      "sections": ["00 hook", "03 hook", "04 liubang", "09 hook-marpol"],
+      "prompt": [
+        "纸 #EEE3C7；蓝 #20488C 管天空/水/大暗部、红 #C82C28 管暖面与条纹、黑 #1E1B1E 管轮廓与字",
+        "每色一版、错位 2–4 px；实地挖空下层，只有网点处叠印；实地要有木纹、缺墨针孔、边缘挤墨",
+        "中间调走粗网点（约画面宽 1/200），各版网角不同，网点总面积不超过画面 1/3",
+        "人物像麻胶版：粗黑轮廓 + 刻刀白线 + 月牙阴影",
+        "一到两行粗木活字短句写在图内横幅/招牌上，字高约画面 1/10，带错位投影"
+      ],
+      "pitfall": "用碎灰调代替大块实地；套色准得像电脑；画面被图占满没有字的位置（保持约七成图）"
+    },
+    {
+      "id": "O10",
+      "name": "左拉传 · 报纸活字 + 1890s 线刻",
+      "series": "O",
+      "palette": ["marpol", "system"],
+      "visual": "木活字大标题砸下留印，密排铅字正文，人物用排线画",
+      "sections": ["06 war", "07 ledger", "12 no-complaint"],
+      "prompt": [
+        "文字先排成清晰墨版再「印」：约 1 px 模糊 + 噪声阈值切边，做出油墨外扩、字边毛糙、局部缺墨、淡淡的背面镜像透字",
+        "版面：报头 + 通栏木活字大标题占画高 1/6 + 3–6 栏小字正文（字高约 1/80）夹一幅大线刻",
+        "线刻线宽约画宽 1/1000、间距约 1/400，顺形体走，交叉排线只用在暗部",
+        "暖黑 #17130F 印新闻纸 #E8E0CC；主角单独一块强调色版套印偏 1–2 px",
+        "动起来：活字块砸下、回弹、留下印迹；一个重复的机械动作"
+      ],
+      "pitfall": "干净的数码字体；平滑灰调；多出第二种彩色；标题太大把版面撑爆（严格 1/6）"
+    },
+    {
+      "id": "O11",
+      "name": "浮生若梦 · WPA 丝网海报",
+      "series": "O",
+      "palette": ["ancient", "marpol"],
+      "visual": "六色不透明油墨由浅到深压，后版给前版的浅色形镂空",
+      "sections": ["22 finale", "10 biwu"],
+      "prompt": [
+        "六色不透明油墨从浅到深套印，后版必须在前版的浅色形（云、太阳、高光）处镂空",
+        "奶油 #F0E2C0 给光与云、赭 #E0A842、朱红 #C84A2A、青 #22686E、深棕描边 #322018，加一个主角专色",
+        "阴影 = 深一色叠印，不用灰；大面积用分色渐变：两色 2–3 级粗台阶，中间一级是两色叠印",
+        "每版套偏 1–3 px，模版边缘游移、刮板拖痕、漏印，平涂上有暖色棉浆纸纹 ±5%",
+        "人物占画高 1/2–2/3：大块面、月牙暗面、棕色描边、脸有表情"
+      ],
+      "pitfall": "打网点（这是丝网不是胶印）；平滑渐变；矢量平涂太干净；一版一版弹出来时不要全同时出现"
+    },
+    {
+      "id": "O41",
+      "name": "雾都孤儿 · 维多利亚玩具纸剧场",
+      "series": "O",
+      "palette": ["ancient", "marpol"],
+      "visual": "卡纸人物带剪刀白边，插在滑杆上，脚灯把影子投到后景",
+      "sections": ["10 biwu", "11 ppt", "22 finale"],
+      "prompt": [
+        "黑色石印轮廓约画宽 1/400；每张剪纸一侧有稀疏蜡笔排线",
+        "深红 #C8262C + 暗金 #E0AB36（金色不能是亮黄）给台口帷幔、蓝 #2F5A9A 给服装、布景/天空/水/肤色用发灰的棕灰奶油 #F4ECD6",
+        "每个形象留一圈剪刀白边约 1/200",
+        "景片是平行 2.5D 层：层间视差、层内无透视",
+        "脚灯把剪纸影子放大 1.5 倍柔边投到后景，随烛火闪；镀金台口 + 红帷幔 + 画出来的包厢观众框住舞台（台口占宽 8–9 成）"
+      ],
+      "pitfall": "鲜艳矢量色；真 3D 纵深；柔和摄影光；人物没有剪边；金色用亮黄就变廉价"
+    },
+    {
+      "id": "O18",
+      "name": "失去的周末 · 打字机字符画",
+      "series": "O",
+      "palette": ["terminal", "system"],
+      "visual": "整幅画是一格一格打出来的，灰阶靠字键疏密和叠打",
+      "sections": ["07 ledger", "12 no-complaint", "14 laocao"],
+      "prompt": [
+        "格宽约画宽 1/150，格高 = 2 倍格宽；85–95% 格子都要打，只有最亮的光留纸白",
+        "灰阶靠字键分级：浅 ' . : -'、中 '= + o'、深 'X # M'；暗部约三成，用 M# 叠打",
+        "每种材质重复自己的字键：竖向结构 I H、砖缝 _|、水 ~",
+        "纸 #EBE6DA、墨 #1D1C21；主角用红橙色带 #D4704F 打，至少占画高 1/3",
+        "第一秒内打完然后停住"
+      ],
+      "pitfall": "空白太多看不出形；横向字条糊成一片；招牌打出来不可读；色带墨色太均匀就不像打字机"
+    },
+    {
+      "id": "L36",
+      "name": "蓝图 / 工程制图",
+      "series": "L",
+      "palette": ["system"],
+      "visual": "蓝晒纸上的白线自己画出来，批注会动，唯一一次红印章是判决",
+      "sections": ["08 wind", "11 ppt", "22 finale"],
+      "prompt": [
+        "只有蓝和白：蓝只在明度上变（涂层/污渍/折痕），白只在粗细和软硬上变，绝不换色相",
+        "白线主轮廓约画宽 1/600；光笔尖从左到右写出字来",
+        "唯一一个非蓝颜色只用一次：印章墨（红最经典，绿 APPROVED / 黑 VOID），承担判决",
+        "手写字 Architects Daughter、标题栏字段 B612、签名 Allura",
+        "字幕做成「图注」压在独立 overlay 上（预乘 alpha），别画进墨层"
+      ],
+      "pitfall": "主体画到纸边 → 一拉远露出桌子；向上爆炸撞标题栏（要横向炸，长的零件压扁）；被自己阴影压黑（那块把阴影通道清零）"
+    },
+    {
+      "id": "O30",
+      "name": "桂河大桥 · 青晒总布置图",
+      "series": "O",
+      "palette": ["system"],
+      "visual": "铺满画面的普鲁士蓝图纸，白线密到发狠，红铅笔改",
+      "sections": ["07 ledger", "11 ppt", "22 finale"],
+      "prompt": [
+        "普鲁士蓝 #143874 斑驳、曝光不匀、边缘过曝发绿，有折痕与水渍",
+        "白线 #ECF4FF 锐利但要是「印」的：轮廓约画宽 1/600、剖面线与尺寸线减半、弱光处断续、带几像素青晕",
+        "用制图语法把主体画密：立面、剖面、详图圈、尺寸链、虚线、单线工程字、标题栏",
+        "批注和动作用红铅笔 #D63426，写中文",
+        "唯一手绘上色的主角放大到 ≥ 画高 1/5，不透明水粉，一种暖色分几个深浅；其余全图不能有暖色"
+      ],
+      "pitfall": "霓虹发光；干净的数码蓝；空荡的图纸（线不够密就露馅）；拉远露出绘图桌时桌面要画，不能是黑"
+    },
+    {
+      "id": "O70",
+      "name": "泰坦尼克号 · 蓝图显影成 3D",
+      "series": "O",
+      "palette": ["system", "ancient"],
+      "visual": "立面图滑动变焦立起透视，色彩从主角往外显影成金时刻",
+      "sections": ["22 finale"],
+      "prompt": [
+        "蓝图只占开头 1–2 s、不超过全片 15%",
+        "普鲁士蓝 #12306B → #244D8F，白棱线约画宽 1/800，被挡线画虚线，人物地形用等高线",
+        "滑动变焦让立面立成透视，再从主角往外显出全彩；显影边是带暖光的软边，幽灵线 1 s 内淡掉",
+        "之后金时刻 3D：低太阳、琥珀高光 #F2B860、深暖阴影 #3A2530、水面碎金、薄雾、浅景深、轻泛光、细颗粒",
+        "一个不间断运镜：蓝图段推近立起，之后低掠、升起环绕、下降平分剩余时间"
+      ],
+      "pitfall": "在图上停太久；硬切；平而干净的 CG 光；显影边太硬像遮罩动画"
+    },
+    {
+      "id": "X17",
+      "name": "蓝图（产品规格页）",
+      "series": "X",
+      "palette": ["system"],
+      "visual": "白线稿 + 尺寸线 + 编号气泡 + 标题栏，像把产品摊在绘图桌上",
+      "sections": ["11 ppt", "07 ledger"],
+      "prompt": [
+        "白线稿压在蓝色纸底上，尺寸线带箭头与数字，零件用带圈编号气泡引出",
+        "右下角标题栏（图名/比例/日期/图号）固定不动",
+        "线宽三档：轮廓 / 尺寸线 / 虚线中心线",
+        "文字层单列 overlay，避免被线条穿过"
+      ],
+      "pitfall": "库里只有英文一句话（3 KB），没有 hex 与尺寸——具体参数必须从 O30 / L36 借"
+    },
+    {
+      "id": "L16",
+      "name": "档案灯箱",
+      "series": "L",
+      "palette": ["system"],
+      "visual": "冷白灯箱上摊着原始档案，放大镜压下去里面活了起来",
+      "sections": ["05 you-too", "07 ledger", "15 wuhan"],
+      "prompt": [
+        "中性冷白灯箱 + 档案自身色调，不要给档案重新调色",
+        "一个信号色（如信号橙）只给标记、读数、锚点、判决，绝不铺在图片背后",
+        "等宽体 IBM Plex Mono 17–34 px 做编号/日期/读数（读数 74–120 px）；无衬线 21–36 px 做标签；衬线 60–76 px 只给标题",
+        "放大镜内部不超过 1.5 屏幕像素 / 扫描像素；放大镜要「落」在物件上，不要滑过空桌"
+      ],
+      "pitfall": "放大过头糊成马赛克；用一个深度图推近含人物的照片会把人撕开（要分层）；标签滚出画外没被读到；复古调色乱入"
+    },
+    {
+      "id": "O88",
+      "name": "聚焦 · 缩微胶片阅读机",
+      "series": "O",
+      "palette": ["terminal"],
+      "visual": "报纸网点被压成低反差磷光绿，扫描带缓缓滚过",
+      "sections": ["07 ledger", "15 wuhan", "09 hook-marpol"],
+      "prompt": [
+        "四色网角 15°/75°/0°/45°、网点约画宽 1/250、套色错 1 px",
+        "整幅压成低反差磷光绿：片基 #1b2320、帧间隙 #0c110f、高光不超过 #a0dcaf",
+        "每 3 px 一条扫描线；每 4 s 滚过一道淡扫描带；一块柔和灯斑；玻璃上有灰和一根头发",
+        "换场让胶片横向滑过暗色帧间隙 0.5 s；圆角遮光罩只压外圈 5%",
+        "主角保留原色（#D97757）但同样打网点、同样低反差"
+      ],
+      "pitfall": "做成了报纸版面（不要报头与文字栏）；彩色漏出绿罩；硬切；扫描带太亮变成闪光"
+    },
+    {
+      "id": "L39",
+      "name": "ASCII / CRT 终端",
+      "series": "L",
+      "palette": ["terminal"],
+      "visual": "屏幕上每个像素都是一个真字符，单磷光，字幕就是终端输出",
+      "sections": ["12 no-complaint", "07 ledger", "13 hook-marpol"],
+      "prompt": [
+        "一切都是单等宽网格上的真字符；一个磷光色扛全部（琥珀/绿/白），走自己的亮度梯度",
+        "最多再加一个柔和第二色，只给一样东西，只在一次重拍上打开",
+        "字幕 = 底部 LOG 条：暗分隔线 + 反白标签 + 提示符 + 大写行约 45 px，逐词跟人声打",
+        "LOG 条要活在缩放网格之外；停留 ≥ max(1.8 s, 台词+0.6 s)",
+        "反白必须用黑色字形图集挖字，不能用 destination-out"
+      ],
+      "pitfall": "destination-out 只改 alpha，上传后变全黑；负片没对齐网格会漂过几百列（格心是 (j+.5)·2cw 不是 (j+1)·cw）；阈值太松每个暗像素都变字符"
+    },
+    {
+      "id": "X14",
+      "name": "CRT 终端",
+      "series": "X",
+      "palette": ["terminal"],
+      "visual": "绿磷光老终端：命令自己打、日志滚、进度条爬、点阵 banner 发光",
+      "sections": ["12 no-complaint", "11 ppt"],
+      "prompt": [
+        "绿磷光单色，命令逐字自动打出，日志向上滚动，进度条填充，大块点阵字母 banner 给名字与数字",
+        "3 px 一条扫描线 + 轻微辉光；屏幕外框有塑料弧度和反光",
+        "行高严格等宽网格，中文用等宽中文字体（Noto Sans Mono CJK）"
+      ],
+      "pitfall": "用系统字体冒充终端字，行高不齐；辉光过强把字糊掉；中文标点占半格导致错位"
+    },
+    {
+      "id": "E3",
+      "name": "字符画",
+      "series": "AG",
+      "palette": ["terminal"],
+      "visual": "整屏字符，字密就是明暗（库内自带可运行 Canvas2D 代码）",
+      "sections": ["07 ledger", "12 no-complaint", "22 finale"],
+      "prompt": [
+        "字符集 ' .,:;-=+*#%@'；格宽 cs = max(7, round(min(w,h)/26))、列数 floor(w/(cs*.62))、行数 floor(h/cs)",
+        "明暗来自叠动同心环 v = .5+.5*sin(d*22 - t*2.4) 乘 exp(-d*1.6)，再加一个游走光斑的高斯",
+        "跳过最暗档；透明度 .35+v*.65；颜色 rgba(255,179,71,α)"
+      ],
+      "pitfall": "字符太小移动端糊成噪点；全屏动会晕（要留静止锚点）；字距用 .62 比例，别用 1.0 会挤"
+    },
+    {
+      "id": "L33",
+      "name": "瑞士动态排版",
+      "series": "L",
+      "palette": ["system"],
+      "visual": "模块网格 + 一个字族 + 一个信号色，切点像印刷机一样精确",
+      "sections": ["00 hook", "11 ppt", "22 finale"],
+      "prompt": [
+        "纸/墨/灰 + 一个信号色；全片只有一样东西拿这个颜色，也只有它允许不精确",
+        "允许叠印：信号色上压黑字",
+        "全片只用一个字族（Archivo / Inter / Schibsted Grotesk / Instrument Sans）；≥ 90 px 时字距 −2%",
+        "画之前用 document.fonts.load 把每个字重都加载完；左对齐右不齐，所有元素落在网格线上",
+        "切点落在整帧上（onsets 不要落在两帧之间）"
+      ],
+      "pitfall": "细栏太多像图表；只是倾斜不叫构图（要一条强对角线 + 长短节奏）；旋转和标注同时进行会读成噪声；canvas letterSpacing 影响 measureText，设完字体再量"
+    },
+    {
+      "id": "H5",
+      "name": "Broadside",
+      "series": "H",
+      "palette": ["marpol"],
+      "visual": "工业报纸海报：奶油 + 墨 + 火橙",
+      "sections": ["09 hook-marpol", "06 war"],
+      "prompt": [
+        "粗黑报头 + 通栏标题 + 多栏密排 + 火橙做唯一强调",
+        "纸是奶油色，油墨要有轻微扩边与缺墨",
+        "搭配 O22 的墨色体系（#EEE3C7 / #1E1B1E / #C82C28）补足层次"
+      ],
+      "pitfall": "库里只有一句话描述、无静帧无参数——必须从 O22/O10 借具体数值，否则会做成普通复古海报"
+    },
+    {
+      "id": "H1",
+      "name": "Biennale Yellow",
+      "series": "H",
+      "palette": ["ancient", "system"],
+      "visual": "暖米黄纸底 + 日黄大光晕 + 衬线大标题 + 靛蓝墨 + 发丝线",
+      "sections": ["00 hook", "22 finale"],
+      "prompt": [
+        "暖米黄纸底、太阳黄的大光晕、衬线大标题、靛蓝墨、发丝级分隔线",
+        "留白要大，标题可压到边缘",
+        "光晕用径向渐变叠 multiply，避免纯白发光"
+      ],
+      "pitfall": "唯一有静帧的 H 条目，但正文没有参数；光晕过曝会盖住中文笔画"
+    },
+    {
+      "id": "O60",
+      "name": "末代皇帝 · 工笔重彩",
+      "series": "O",
+      "palette": ["ancient"],
+      "visual": "绢本铁线描 + 石青石绿朱砂泥金 + 界画宫殿，千人跪拜",
+      "sections": ["01 dufu", "04 liubang", "08 wind"],
+      "prompt": [
+        "每个形由远到近画：平涂底色 → 分染（沿下缘和被遮处加深）→ 均匀铁线描（深褐，线宽约画宽 1/900）→ 提金提白",
+        "最后全画面叠三成浓度暖赭罩染，线仍要清楚",
+        "朱砂 #C23A22、石青 #2C5A9A、石绿 #3A8A6A、藤黄 #E8B830、泥金 #CAA04A",
+        "地面与天空是中明度暖赭绢色，不要近白；不画投影和眩光；建筑用界画，瓦片一片片画",
+        "一点透视、左右对称，大人物在前，身后深远规整"
+      ],
+      "pitfall": "复制粘贴人物；不分染的平涂；写意水墨串味；海报式饱和色；绢纹别超过 ±3%"
+    },
+    {
+      "id": "L25",
+      "name": "浮世绘",
+      "series": "L",
+      "palette": ["ancient"],
+      "visual": "6–9 块平涂色各印一版，墨线压最上，纸白就是白",
+      "sections": ["08 wind", "01 dufu", "10 biwu"],
+      "prompt": [
+        "颜料套色而不是色轮：6–9 个平涂色各自一版压在纸底上，除 bokashi 外不渐变、形体不画阴影",
+        "墨线（sumi）压在所有颜色之上；纸白就是白，不用白颜料画浪花、雪、雾",
+        "字幕做成横长条画题：奶油签 + 粗细双线框 + 左侧小红印，Shippori Mincho 500，压在底部约 150 px",
+        "字幕随遮罩「印」出来再淡出，停留 ≥ max(1.8 s, 台词+0.6 s)"
+      ],
+      "pitfall": "bokashi 用 fillRect 条带会有竖缝（要逐像素建）；撒点/纤维太多像砂纸（点 α≈0.3、纤维 α≈0.09）；用透视网格画田野立刻变数码"
+    },
+    {
+      "id": "L14",
+      "name": "爆炸图拆解",
+      "series": "L",
+      "palette": ["system"],
+      "visual": "真实产品沿一根轴拆开，每个零件标着它文件里真实的尺寸",
+      "sections": ["11 ppt", "07 ledger", "22 finale"],
+      "prompt": [
+        "产品来自它自己的文件（CAD / PCB / BOM），零件沿一根轴分层升起，镜头在层间穿行",
+        "四周是暗中性环境，产品永远是画面里最亮最饱和的东西",
+        "界面墨 = 一个暖白两个浓度 + 一个强调色只给被测量的东西（尺寸线、标签）",
+        "名称 Noto Sans SC 500 28–32 px、规格 JetBrains Mono 15–22 px；标签结构固定为「两位序号 + 名称」"
+      ],
+      "pitfall": "编造数字（必须来自文件，否则别写）；混用不同版本零件；零长度边 → 零法线 → NaN → bloom 后黑方块（清理轮廓并扫帧检查）"
+    },
+    {
+      "id": "F1",
+      "name": "图表生长",
+      "series": "AG",
+      "palette": ["system", "terminal"],
+      "visual": "柱子一根根长出来，数字在跳，最后连成一条线",
+      "sections": ["07 ledger", "16 gaoxiaofan", "17 gary", "18 chuanyong", "19 allen", "20 xiaoma"],
+      "prompt": [
+        "柱状按 e = eOut((tm - .2 - i*.25)/.8) 一根根错开长出（0.25 s 间隔）",
+        "柱顶数字 = round(v*e) 跟着跳；折线用最后一段小数插值补到当前进度",
+        "末根柱子换强调色；网格线极细、标签灰",
+        "关键：错峰，不要整屏一起涨"
+      ],
+      "pitfall": "缓动全同步 → 像 PPT 模板；数字与柱高不同步；小屏字号 < 9 px 看不见"
+    },
+    {
+      "id": "A3",
+      "name": "大字冲击",
+      "series": "AG",
+      "palette": ["marpol", "terminal"],
+      "visual": "一个词一个词砸进画面，跟着节拍",
+      "sections": ["00 hook", "03 hook", "22 finale"],
+      "prompt": [
+        "每个词一个 [文本, x, y, 字号, 强调?] 四元组，按拍子逐个砸入",
+        "落地用 eBack 过冲再回弹；砸下的瞬间给 1–2 帧位移残影",
+        "同一屏最多 3–5 个词，位置先排好再砸，避免互相压",
+        "字号按语义分级（主词到画宽 1/3），强调词只换色不换字重"
+      ],
+      "pitfall": "词没排位就砸会互相压；全部同时出现就没有冲击；字号过大中文笔画糊成一团"
+    }
+  ],
+  "techniques": [
+    {
+      "name": "半调网点 halftone screen",
+      "canvas": "45° 网格 step = min(w,h)/250，点径 r = step*0.62*sqrt(1-lum)；亮部点缩到消失。第二版换网角（15/75/0/45）与颜色、整体错 1–3 px 即套印。"
+    },
+    {
+      "name": "双版错位套印 misregistration",
+      "canvas": "同层画两次：先 c.translate(2,3) 用 multiply 画专色版，再 source-over 用黑版压上。偏移每镜固定，只在重拍踢一下。"
+    },
+    {
+      "name": "遮罩擦除 mask wipe",
+      "canvas": "c.save(); c.beginPath(); c.arc(cx,cy,R*eOut((t-t0)/.28),0,TAU); c.clip(); draw(); c.restore()。反向擦除用 destination-out，且只在离屏 canvas 上做。"
+    },
+    {
+      "name": "油墨外扩 ink spread",
+      "canvas": "离屏 canvas 上 filter='blur(1px)' 画清晰层 → getImageData 后按噪声场加 ±90 到 alpha 再阈值 128 切边，得到毛边与缺墨。"
+    },
+    {
+      "name": "字符场采样 ASCII field",
+      "canvas": "CH=' .,:;-=+*#%@'；cs=max(7,min(w,h)/26)、cols=floor(w/(cs*.62))、rows=floor(h/cs)；每格按亮度取字符，跳过 0 档。"
+    },
+    {
+      "name": "等值线 marching squares",
+      "canvas": "四角与阈值比较成 4 位 idx（a>lv?8:0 | b>lv?4:0 | e>lv?2:0 | d>lv?1:0），按 16 项 case 表连线；每级不同 lineWidth，主线加粗换色即成图纸。"
+    },
+    {
+      "name": "图表生长 stagger + eOut",
+      "canvas": "e = eOut((tm-.2-i*.25)/.8)；柱高乘 e、数字 = round(v*e)；折线用最后一段小数插值补到当前进度。"
+    },
+    {
+      "name": "描边生长 dash reveal",
+      "canvas": "预计算 pathLen；c.setLineDash([L*e, L]) 后一次 stroke 即可「画出来」，倒放即擦掉，比逐点 lineTo 便宜。"
+    },
+    {
+      "name": "纸张颗粒 paper grain",
+      "canvas": "createPattern(paperTex(w,h,dpr,base,seed),'repeat') + globalAlpha .5 + 'multiply' 铺满；同一场景共用一张，只挪 offset。paperTex 见 _公共函数.js。"
+    },
+    {
+      "name": "故障三件套 glitch",
+      "canvas": "'lighter' 下红/青两次 fillText 偏移 ±dx 做色散；burst 时用 drawImage(c.canvas, …) 自切 7 条横带位移；再叠每 3 px 一条 rgba(0,0,0,.22) 扫描线。burst 用时间窗不用概率。"
+    },
+    {
+      "name": "打字机时间轴 typewriter timeline",
+      "canvas": "预计算 [[t,str],…] 序列（type .17 s/字、del .07 s/字），播放时只做一次索引查找 → 完全确定性；光标用 since<.45 || floor(t*1.8)%2===0 闪。"
+    },
+    {
+      "name": "拍二抖动 boil on twos",
+      "canvas": "角色与道具用 tq = floor(t*12)/12（12 fps），镜头与粒子用 t（24 fps）；只抖角色不抖文字与网点。"
+    },
+    {
+      "name": "视差分层 parallax layers",
+      "canvas": "每层位移 off = t*(6+i*10)*m/300，层内不做透视；用 shadowColor + shadowBlur 10 + shadowOffsetY -3 造剪纸投影。"
+    },
+    {
+      "name": "确定性随机 seeded rng",
+      "canvas": "mulberry32：a=(a+0x6D2B79F5)>>>0; t=Math.imul(t^(t>>>15),t|1); t^=t+Math.imul(t^(t>>>7),t|61); return ((t^(t>>>14))>>>0)/4294967296。禁用 Math.random()。"
+    },
+    {
+      "name": "刀痕飞白 taper stroke",
+      "canvas": "沿一刀 8 段采样，每段 lineWidth = wid*(1-u)*(0.8+r()*0.4) 并把端点抖 ±1.2 px；刀宽分三档（轮廓/排线/大刻）不可混用。"
+    }
+  ],
+  "export_rules": [
+    "只有一个时钟：window.renderAt = async (t) => {…}，t 是秒，动画/粒子/相机/字幕全部按这一个时刻求值",
+    "?export=1 必须停机：不启动 requestAnimationFrame、不设计时器循环、停掉 CSS 自播放动画",
+    "随机必须可复现：粒子启动时固定种子，或直接由索引 + 时间算出",
+    "异步资源在 renderAt 返回前就绪（字体、图片、纹理、JSON）",
+    "尺寸三合一：Canvas 像素尺寸 = CSS 视口 = 输出尺寸，不带播放器控件",
+    "导出命令固定：python scripts/render_video.py ./index.html --output ./output/video.mp4 --duration 12 --fps 30 --width 1920 --height 1080；尺寸正偶数、帧数 = ceil(duration×fps)、先导短段；依赖 playwright+chromium+ffmpeg；资源放 HTML 同目录或子目录；默认无声、输出已存在不覆盖"
+  ],
+  "avoid": [
+    { "id": "L20/V5/V10", "why": "依赖未随库发布的 engine（demo/、engine/ 目录不存在），import 直接失败；逐帧重绘导出不可行" },
+    { "id": "O95/O96", "why": "raymarching / 体积渲染，Playwright 逐帧截图耗时不可接受且不保证确定性" },
+    { "id": "X5/X19/O44", "why": "本质是剪辑真实素材，没有素材就只剩空壳" },
+    { "id": "M 全系列 / K 全系列", "why": "平均 624 B / 205 B，只有词条没有参数；M 有 8 条空名、39 条无静帧" },
+    { "id": "R6/O92", "why": "依赖大量细节物件或建模；R6 的大红日霓虹与 ancient 宣纸墨朱砂同段打架" }
+  ],
+  "recommendations": [
+    "按四套调色板 × 三种植物质感建风格池（ancient: L30/O3/O60/L31；marpol: O22/O40/L28/H5；system: L36/O30/L16/L33；terminal: L39/X14/E3），跨池借必须换墨色",
+    "0.9 秒一拍的密度靠同风格内换机位，不要换风格；真正需要换风格的只有 hook、07 ledger、22 finale",
+    "先拿 A–G 的 26 段代码当骨架（统一签名 (c,w,h,t,s,dpr) + _公共函数.js），再往上贴 O/L 的 hex 与线宽，最后加 L30/L29 的字幕规则"
+  ]
+}

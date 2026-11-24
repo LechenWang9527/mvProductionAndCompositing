@@ -1,0 +1,29 @@
+[03:08:15] serve http://127.0.0.1:49668/index.html?export=1 → E:/新建文件夹/实习/MV/out/film_v1.mp4  1920x1080@60 crf20
+[03:08:15] range 0.00 → 305.88s  frames=18353
+[03:08:15] canvas 1920x1080 css 1920x1080
+[03:08:15] ffmpeg -hide_banner -loglevel error -y -f image2pipe -framerate 60 -i - -ss 0 -t 305.88 -i E:/新建文件夹/实习/MV/The OGs 视频音轨.mp3 -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -x264-params keyint=120:min-keyint=60:scenecut=0 -movflags +faststart -c:a aac -b:a 192k -shortest E:/新建文件夹/实习/MV/out/film_v1.mp4
+[03:08:15] frame 1/18353  t=0.00  56.0ms/f  eta 17m8s  png 0MB
+[03:08:25] frame 121/18353  t=2.00  76.4ms/f  eta 23m14s  png 14MB
+[03:08:34] frame 241/18353  t=4.00  75.6ms/f  eta 22m49s  png 36MB
+[03:08:43] frame 361/18353  t=6.00  77.3ms/f  eta 23m11s  png 61MB
+[03:08:52] frame 481/18353  t=8.00  76.8ms/f  eta 22m53s  png 84MB
+[03:08:59] frame 601/18353  t=10.00  72.9ms/f  eta 21m33s  png 99MB
+[03:09:08] frame 721/18353  t=12.00  72.5ms/f  eta 21m19s  png 116MB
+[03:09:17] frame 841/18353  t=14.00  73.7ms/f  eta 21m31s  png 141MB
+[03:09:31] frame 961/18353  t=16.00  79.2ms/f  eta 22m57s  png 171MB
+[03:09:40] frame 1081/18353  t=18.00  78.6ms/f  eta 22m37s  png 196MB
+[03:09:49] frame 1201/18353  t=20.00  78.3ms/f  eta 22m23s  png 223MB
+[03:10:03] frame 1321/18353  t=22.00  81.3ms/f  eta 23m5s  png 255MB
+[03:10:18] frame 1441/18353  t=24.00  85.2ms/f  eta 24m0s  png 288MB
+[03:10:31] frame 1561/18353  t=26.00  87.1ms/f  eta 24m23s  png 319MB
+[03:10:44] frame 1681/18353  t=28.00  88.6ms/f  eta 24m37s  png 342MB
+[03:11:03] frame 1801/18353  t=30.00  92.8ms/f  eta 25m37s  png 373MB
+[03:14:20] frame 1921/18353  t=32.00  190.0ms/f  eta 52m2s  png 623MB
+[03:16:23] frame 2041/18353  t=34.00  239.0ms/f  eta 64m58s  png 914MB
+[03:18:02] frame 2161/18353  t=36.00  271.6ms/f  eta 73m18s  png 1206MB
+[03:20:06] frame 2281/18353  t=38.00  311.6ms/f  eta 83m29s  png 1500MB
+[03:22:14] frame 2401/18353  t=40.00  349.3ms/f  eta 92m52s  png 1793MB
+[03:24:41] frame 2521/18353  t=42.00  390.8ms/f  eta 103m7s  png 2087MB
+[03:27:46] frame 2641/18353  t=44.00  443.2ms/f  eta 116m3s  png 2380MB
+[03:29:51] frame 2761/18353  t=46.00  469.2ms/f  eta 121m56s  png 2673MB
+[03:32:00] frame 2881/18353  t=48.00  494.5ms/f  eta 127m30s  png 2967MB

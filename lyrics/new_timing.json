@@ -1,0 +1,1281 @@
+{
+  "version": "PE_Annual_Party_20261124_Official",
+  "source_lrc": "lyrics/PE_Annual_Party_音频.lrc",
+  "source_video": "source_updates_20261124/PE_过来人MP4_字幕.mp4",
+  "duration": 274.21,
+  "line_count": 159,
+  "lines": [
+    {
+      "idx": 1,
+      "timeStr": "00:02.04",
+      "start": 2.04,
+      "text": "我是过来人",
+      "end": 3.46,
+      "section": "00_hook1_过来人(古代引子)"
+    },
+    {
+      "idx": 2,
+      "timeStr": "00:03.46",
+      "start": 3.46,
+      "text": "一千年前揣着跟你一样的心",
+      "end": 6.39,
+      "section": "00_hook1_过来人(古代引子)"
+    },
+    {
+      "idx": 3,
+      "timeStr": "00:06.39",
+      "start": 6.39,
+      "text": "你熬的夜 你咽的话",
+      "end": 7.8,
+      "section": "00_hook1_过来人(古代引子)"
+    },
+    {
+      "idx": 4,
+      "timeStr": "00:07.80",
+      "start": 7.8,
+      "text": "你没赢的仗 我都有份",
+      "end": 9.86,
+      "section": "00_hook1_过来人(古代引子)"
+    },
+    {
+      "idx": 5,
+      "timeStr": "00:09.86",
+      "start": 9.86,
+      "text": "我不是来教你",
+      "end": 11.16,
+      "section": "00_hook1_过来人(古代引子)"
+    },
+    {
+      "idx": 6,
+      "timeStr": "00:11.16",
+      "start": 11.16,
+      "text": "我是来陪你走这一程",
+      "end": 12.89,
+      "section": "00_hook1_过来人(古代引子)"
+    },
+    {
+      "idx": 7,
+      "timeStr": "00:12.89",
+      "start": 12.89,
+      "text": "你不是一个人",
+      "end": 14.44,
+      "section": "00_hook1_过来人(古代引子)"
+    },
+    {
+      "idx": 8,
+      "timeStr": "00:14.44",
+      "start": 14.44,
+      "text": "前面有我留的灯",
+      "end": 16.93,
+      "section": "00_hook1_过来人(古代引子)"
+    },
+    {
+      "idx": 9,
+      "timeStr": "00:16.93",
+      "start": 16.93,
+      "text": "我是杜甫",
+      "end": 18.09,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 10,
+      "timeStr": "00:18.09",
+      "start": 18.09,
+      "text": "一辈子都在搬家",
+      "end": 19.75,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 11,
+      "timeStr": "00:19.75",
+      "start": 19.75,
+      "text": "四十岁还在长安租房",
+      "end": 21.35,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 12,
+      "timeStr": "00:21.35",
+      "start": 21.35,
+      "text": "房东一开口就是涨价",
+      "end": 23.38,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 13,
+      "timeStr": "00:23.38",
+      "start": 23.38,
+      "text": "后来总算有了茅屋",
+      "end": 25.04,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 14,
+      "timeStr": "00:25.04",
+      "start": 25.04,
+      "text": "秋风一来屋子都快散架",
+      "end": 27.44,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 15,
+      "timeStr": "00:27.44",
+      "start": 27.44,
+      "text": "我写安得广厦千万间",
+      "end": 29.39,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 16,
+      "timeStr": "00:29.39",
+      "start": 29.39,
+      "text": "说白了 就是想有个家",
+      "end": 31.17,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 17,
+      "timeStr": "00:31.17",
+      "start": 31.17,
+      "text": "你也一样吧",
+      "end": 32.16,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 18,
+      "timeStr": "00:32.16",
+      "start": 32.16,
+      "text": "钥匙串上挂的全是别人的锁",
+      "end": 34.42,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 19,
+      "timeStr": "00:34.42",
+      "start": 34.42,
+      "text": "工牌挂在脖子上",
+      "end": 36.01,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 20,
+      "timeStr": "00:36.01",
+      "start": 36.01,
+      "text": "一天不摘心就一天不落",
+      "end": 37.98,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 21,
+      "timeStr": "00:37.98",
+      "start": 37.98,
+      "text": "房贷 学费 爸妈的体检单",
+      "end": 40.23,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 22,
+      "timeStr": "00:40.23",
+      "start": 40.23,
+      "text": "你一样一样往购物车里搁",
+      "end": 42.16,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 23,
+      "timeStr": "00:42.16",
+      "start": 42.16,
+      "text": "付完钱一看",
+      "end": 43.42,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 24,
+      "timeStr": "00:43.42",
+      "start": 43.42,
+      "text": "没一样是给你自己的",
+      "end": 45.03,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 25,
+      "timeStr": "00:45.03",
+      "start": 45.03,
+      "text": "你也没觉得错",
+      "end": 46.31,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 26,
+      "timeStr": "00:46.31",
+      "start": 46.31,
+      "text": "我儿子出生那天",
+      "end": 47.66,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 27,
+      "timeStr": "00:47.66",
+      "start": 47.66,
+      "text": "我还在长安低头求人办事",
+      "end": 49.81,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 28,
+      "timeStr": "00:49.81",
+      "start": 49.81,
+      "text": "你凌晨两点那碗泡面",
+      "end": 51.33,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 29,
+      "timeStr": "00:51.33",
+      "start": 51.33,
+      "text": "我也吃过 一样的日子",
+      "end": 53.54,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 30,
+      "timeStr": "00:53.54",
+      "start": 53.54,
+      "text": "我不是来教你的 我就是想说",
+      "end": 56.84,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 31,
+      "timeStr": "00:56.84",
+      "start": 56.84,
+      "text": "这些事儿我也一件一件经历过",
+      "end": 60.15,
+      "section": "01_dufu_杜甫(古代)"
+    },
+    {
+      "idx": 32,
+      "timeStr": "01:00.15",
+      "start": 60.15,
+      "text": "我是过来人",
+      "end": 61.7,
+      "section": "02_hook2_过来人(承前)"
+    },
+    {
+      "idx": 33,
+      "timeStr": "01:01.70",
+      "start": 61.7,
+      "text": "一千年前揣着跟你一样的心",
+      "end": 64.74,
+      "section": "02_hook2_过来人(承前)"
+    },
+    {
+      "idx": 34,
+      "timeStr": "01:04.74",
+      "start": 64.74,
+      "text": "你熬的夜你咽的话",
+      "end": 66.41,
+      "section": "02_hook2_过来人(承前)"
+    },
+    {
+      "idx": 35,
+      "timeStr": "01:06.41",
+      "start": 66.41,
+      "text": "你没赢的仗我都有份",
+      "end": 67.98,
+      "section": "02_hook2_过来人(承前)"
+    },
+    {
+      "idx": 36,
+      "timeStr": "01:07.98",
+      "start": 67.98,
+      "text": "我不是来教你",
+      "end": 69.29,
+      "section": "02_hook2_过来人(承前)"
+    },
+    {
+      "idx": 37,
+      "timeStr": "01:09.29",
+      "start": 69.29,
+      "text": "我是来陪你走这一程",
+      "end": 71.22,
+      "section": "02_hook2_过来人(承前)"
+    },
+    {
+      "idx": 38,
+      "timeStr": "01:11.22",
+      "start": 71.22,
+      "text": "你不是一个人",
+      "end": 72.64,
+      "section": "02_hook2_过来人(承前)"
+    },
+    {
+      "idx": 39,
+      "timeStr": "01:12.64",
+      "start": 72.64,
+      "text": "前面有我留的灯",
+      "end": 75.13,
+      "section": "02_hook2_过来人(承前)"
+    },
+    {
+      "idx": 40,
+      "timeStr": "01:15.13",
+      "start": 75.13,
+      "text": "我是必武",
+      "end": 76.23,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 41,
+      "timeStr": "01:16.23",
+      "start": 76.23,
+      "text": "进单位转岗过三次",
+      "end": 77.4,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 42,
+      "timeStr": "01:17.40",
+      "start": 77.4,
+      "text": "第一次四十岁",
+      "end": 78.86,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 43,
+      "timeStr": "01:18.86",
+      "start": 78.86,
+      "text": "一心一意来到工艺",
+      "end": 80.44,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 44,
+      "timeStr": "01:20.44",
+      "start": 80.44,
+      "text": "靠Failure code过日子",
+      "end": 82.2,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 45,
+      "timeStr": "01:22.20",
+      "start": 82.2,
+      "text": "假期没了 头发没了",
+      "end": 83.9,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 46,
+      "timeStr": "01:23.90",
+      "start": 83.9,
+      "text": "周末的时间一天比一天短",
+      "end": 85.7,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 47,
+      "timeStr": "01:25.70",
+      "start": 85.7,
+      "text": "我给自己起了个名",
+      "end": 86.99,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 48,
+      "timeStr": "01:26.99",
+      "start": 86.99,
+      "text": "叫Give me five",
+      "end": 88.32,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 49,
+      "timeStr": "01:28.32",
+      "start": 88.32,
+      "text": "总得自嗨",
+      "end": 89.4,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 50,
+      "timeStr": "01:29.40",
+      "start": 89.4,
+      "text": "你也一样吧",
+      "end": 90.41,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 51,
+      "timeStr": "01:30.41",
+      "start": 90.41,
+      "text": "三十五页的PPT",
+      "end": 91.55,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 52,
+      "timeStr": "01:31.55",
+      "start": 91.55,
+      "text": "投上去无人喝彩",
+      "end": 93.09,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 53,
+      "timeStr": "01:33.09",
+      "start": 93.09,
+      "text": "优化 这两个字",
+      "end": 94.07,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 54,
+      "timeStr": "01:34.07",
+      "start": 94.07,
+      "text": "听到老板提出的时候",
+      "end": 95.71,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 55,
+      "timeStr": "01:35.71",
+      "start": 95.71,
+      "text": "都不敢问方向",
+      "end": 96.74,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 56,
+      "timeStr": "01:36.74",
+      "start": 96.74,
+      "text": "我也有句话",
+      "end": 97.93,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 57,
+      "timeStr": "01:37.93",
+      "start": 97.93,
+      "text": "十年没说出口",
+      "end": 99.01,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 58,
+      "timeStr": "01:39.01",
+      "start": 99.01,
+      "text": "写成了VBB 他也听不到",
+      "end": 100.38,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 59,
+      "timeStr": "01:40.38",
+      "start": 100.38,
+      "text": "什么是Work with fun",
+      "end": 101.65,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 60,
+      "timeStr": "01:41.65",
+      "start": 101.65,
+      "text": "QM报告里是不是",
+      "end": 102.72,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 61,
+      "timeStr": "01:42.72",
+      "start": 102.72,
+      "text": "我的Code永远也跑不掉",
+      "end": 104.51,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 62,
+      "timeStr": "01:44.51",
+      "start": 104.51,
+      "text": "我没怼过谁",
+      "end": 105.47,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 63,
+      "timeStr": "01:45.47",
+      "start": 105.47,
+      "text": "我只是没让他们看见我无奈",
+      "end": 107.32,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 64,
+      "timeStr": "01:47.32",
+      "start": 107.32,
+      "text": "没有报表 我就自己导",
+      "end": 109.22,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 65,
+      "timeStr": "01:49.22",
+      "start": 109.22,
+      "text": "也无白天也无夜",
+      "end": 111.27,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 66,
+      "timeStr": "01:51.27",
+      "start": 111.27,
+      "text": "不是勤奋",
+      "end": 112.57,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 67,
+      "timeStr": "01:52.57",
+      "start": 112.57,
+      "text": "是一个工艺人执着的坚持",
+      "end": 115.27,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 68,
+      "timeStr": "01:55.27",
+      "start": 115.27,
+      "text": "我不是来教你的 我就是想说",
+      "end": 118.64,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 69,
+      "timeStr": "01:58.64",
+      "start": 118.64,
+      "text": "这些事儿我也一件一件经历过",
+      "end": 121.9,
+      "section": "03_biwu_必武(现代)"
+    },
+    {
+      "idx": 70,
+      "timeStr": "02:01.90",
+      "start": 121.9,
+      "text": "我是过来人",
+      "end": 123.33,
+      "section": "04_hook3_过来人(一进马牌)"
+    },
+    {
+      "idx": 71,
+      "timeStr": "02:03.33",
+      "start": 123.33,
+      "text": "一进马牌揣着跟你一样的心",
+      "end": 126.54,
+      "section": "04_hook3_过来人(一进马牌)"
+    },
+    {
+      "idx": 72,
+      "timeStr": "02:06.54",
+      "start": 126.54,
+      "text": "你熬的夜 你咽的话",
+      "end": 128.03,
+      "section": "04_hook3_过来人(一进马牌)"
+    },
+    {
+      "idx": 73,
+      "timeStr": "02:08.03",
+      "start": 128.03,
+      "text": "你没赢的仗 我都有份",
+      "end": 129.85,
+      "section": "04_hook3_过来人(一进马牌)"
+    },
+    {
+      "idx": 74,
+      "timeStr": "02:09.85",
+      "start": 129.85,
+      "text": "我不是来教你",
+      "end": 131.26,
+      "section": "04_hook3_过来人(一进马牌)"
+    },
+    {
+      "idx": 75,
+      "timeStr": "02:11.26",
+      "start": 131.26,
+      "text": "我是来陪你走这一程",
+      "end": 133,
+      "section": "04_hook3_过来人(一进马牌)"
+    },
+    {
+      "idx": 76,
+      "timeStr": "02:13.00",
+      "start": 133,
+      "text": "你不是一个人",
+      "end": 134.49,
+      "section": "04_hook3_过来人(一进马牌)"
+    },
+    {
+      "idx": 77,
+      "timeStr": "02:14.49",
+      "start": 134.49,
+      "text": "未来有我留的灯",
+      "end": 136.77,
+      "section": "04_hook3_过来人(一进马牌)"
+    },
+    {
+      "idx": 78,
+      "timeStr": "02:16.77",
+      "start": 136.77,
+      "text": "我是刘邦",
+      "end": 137.95,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 79,
+      "timeStr": "02:17.95",
+      "start": 137.95,
+      "text": "四十七岁还在当亭长",
+      "end": 139.76,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 80,
+      "timeStr": "02:19.76",
+      "start": 139.76,
+      "text": "说白了就是个基层公务员",
+      "end": 142.22,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 81,
+      "timeStr": "02:22.22",
+      "start": 142.22,
+      "text": "管十里地月底领点粮",
+      "end": 144.22,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 82,
+      "timeStr": "02:24.22",
+      "start": 144.22,
+      "text": "我爹当着一桌亲戚的面说",
+      "end": 146.19,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 83,
+      "timeStr": "02:26.19",
+      "start": 146.19,
+      "text": "你这辈子就这样了",
+      "end": 147.85,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 84,
+      "timeStr": "02:27.85",
+      "start": 147.85,
+      "text": "我没顶嘴",
+      "end": 148.66,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 85,
+      "timeStr": "02:28.66",
+      "start": 148.66,
+      "text": "我倒了杯酒说",
+      "end": 150.28,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 86,
+      "timeStr": "02:30.28",
+      "start": 150.28,
+      "text": "爹 牌还没发完",
+      "end": 151.59,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 87,
+      "timeStr": "02:31.59",
+      "start": 151.59,
+      "text": "你也一样吧",
+      "end": 152.56,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 88,
+      "timeStr": "02:32.56",
+      "start": 152.56,
+      "text": "同学群里有人上市",
+      "end": 153.8,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 89,
+      "timeStr": "02:33.80",
+      "start": 153.8,
+      "text": "有人换了新的车 新的牌",
+      "end": 155.19,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 90,
+      "timeStr": "02:35.19",
+      "start": 155.19,
+      "text": "你点了个赞",
+      "end": 156.17,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 91,
+      "timeStr": "02:36.17",
+      "start": 156.17,
+      "text": "把手机扣在桌上",
+      "end": 157.61,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 92,
+      "timeStr": "02:37.61",
+      "start": 157.61,
+      "text": "半天没翻",
+      "end": 158.34,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 93,
+      "timeStr": "02:38.34",
+      "start": 158.34,
+      "text": "我打了七年仗",
+      "end": 159.56,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 94,
+      "timeStr": "02:39.56",
+      "start": 159.56,
+      "text": "输了六年",
+      "end": 160.46,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 95,
+      "timeStr": "02:40.46",
+      "start": 160.46,
+      "text": "可没人记得我输过多少场",
+      "end": 162.41,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 96,
+      "timeStr": "02:42.41",
+      "start": 162.41,
+      "text": "因为最后一场",
+      "end": 163.47,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 97,
+      "timeStr": "02:43.47",
+      "start": 163.47,
+      "text": "赢的人叫刘邦",
+      "end": 165.81,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 98,
+      "timeStr": "02:45.81",
+      "start": 165.81,
+      "text": "你现在跑的每一单",
+      "end": 167.8,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 99,
+      "timeStr": "02:47.80",
+      "start": 167.8,
+      "text": "熬的每个秋冬春夏",
+      "end": 168.92,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 100,
+      "timeStr": "02:48.92",
+      "start": 168.92,
+      "text": "老天都在记账",
+      "end": 170.13,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 101,
+      "timeStr": "02:50.13",
+      "start": 170.13,
+      "text": "我不敢说你一定赢",
+      "end": 171.45,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 102,
+      "timeStr": "02:51.45",
+      "start": 171.45,
+      "text": "我只是说没到最后一场",
+      "end": 172.97,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 103,
+      "timeStr": "02:52.97",
+      "start": 172.97,
+      "text": "别下场",
+      "end": 173.19,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 104,
+      "timeStr": "02:53.19",
+      "start": 173.19,
+      "text": "大风起兮云飞扬",
+      "end": 175.08,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 105,
+      "timeStr": "02:55.08",
+      "start": 175.08,
+      "text": "我六十岁才唱",
+      "end": 177,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 106,
+      "timeStr": "02:57.00",
+      "start": 177,
+      "text": "我不是来教你的 我就是想说",
+      "end": 180.15,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 107,
+      "timeStr": "03:00.15",
+      "start": 180.15,
+      "text": "这些事儿 我也一件一件经历过",
+      "end": 183.48,
+      "section": "05_liubang_刘邦(古代)"
+    },
+    {
+      "idx": 108,
+      "timeStr": "03:03.48",
+      "start": 183.48,
+      "text": "我是老曹",
+      "end": 184.89,
+      "section": "06_laocao_老曹(现代)"
+    },
+    {
+      "idx": 109,
+      "timeStr": "03:04.89",
+      "start": 184.89,
+      "text": "其实我 真不老",
+      "end": 185.93,
+      "section": "06_laocao_老曹(现代)"
+    },
+    {
+      "idx": 110,
+      "timeStr": "03:05.93",
+      "start": 185.93,
+      "text": "大家叫我曹教授",
+      "end": 187.44,
+      "section": "06_laocao_老曹(现代)"
+    },
+    {
+      "idx": 111,
+      "timeStr": "03:07.44",
+      "start": 187.44,
+      "text": "现在想想，努力没有白费",
+      "end": 189.46,
+      "section": "06_laocao_老曹(现代)"
+    },
+    {
+      "idx": 112,
+      "timeStr": "03:09.46",
+      "start": 189.46,
+      "text": "教授打的胶 必属精品",
+      "end": 191.46,
+      "section": "06_laocao_老曹(现代)"
+    },
+    {
+      "idx": 113,
+      "timeStr": "03:11.46",
+      "start": 191.46,
+      "text": "我是吴晗",
+      "end": 192.45,
+      "section": "07_wuhan_吴晗(现代)"
+    },
+    {
+      "idx": 114,
+      "timeStr": "03:12.45",
+      "start": 192.45,
+      "text": "来自大陆班",
+      "end": 193.35,
+      "section": "07_wuhan_吴晗(现代)"
+    },
+    {
+      "idx": 115,
+      "timeStr": "03:13.35",
+      "start": 193.35,
+      "text": "埋头学了三年",
+      "end": 194.67,
+      "section": "07_wuhan_吴晗(现代)"
+    },
+    {
+      "idx": 116,
+      "timeStr": "03:14.67",
+      "start": 194.67,
+      "text": "硫化的苦我吃过",
+      "end": 196.24,
+      "section": "07_wuhan_吴晗(现代)"
+    },
+    {
+      "idx": 117,
+      "timeStr": "03:16.24",
+      "start": 196.24,
+      "text": "活先干着 四期爬坡有我",
+      "end": 198.52,
+      "section": "07_wuhan_吴晗(现代)"
+    },
+    {
+      "idx": 118,
+      "timeStr": "03:18.52",
+      "start": 198.52,
+      "text": "我是高小凡",
+      "end": 199.83,
+      "section": "08_gaoxiaofan_高小凡(现代)"
+    },
+    {
+      "idx": 119,
+      "timeStr": "03:19.83",
+      "start": 199.83,
+      "text": "胎面胎侧常破边",
+      "end": 201.23,
+      "section": "08_gaoxiaofan_高小凡(现代)"
+    },
+    {
+      "idx": 120,
+      "timeStr": "03:21.23",
+      "start": 201.23,
+      "text": "前方还有缺胶等我填",
+      "end": 202.54,
+      "section": "08_gaoxiaofan_高小凡(现代)"
+    },
+    {
+      "idx": 121,
+      "timeStr": "03:22.54",
+      "start": 202.54,
+      "text": "我的甜 叫挑战 叫做改善",
+      "end": 204.91,
+      "section": "08_gaoxiaofan_高小凡(现代)"
+    },
+    {
+      "idx": 122,
+      "timeStr": "03:24.91",
+      "start": 204.91,
+      "text": "叫一心向前",
+      "end": 206,
+      "section": "08_gaoxiaofan_高小凡(现代)"
+    },
+    {
+      "idx": 123,
+      "timeStr": "03:26.00",
+      "start": 206,
+      "text": "我是Gary",
+      "end": 207.17,
+      "section": "09_gary_Gary(现代)"
+    },
+    {
+      "idx": 124,
+      "timeStr": "03:27.17",
+      "start": 207.17,
+      "text": "永远二十岁",
+      "end": 208.04,
+      "section": "09_gary_Gary(现代)"
+    },
+    {
+      "idx": 125,
+      "timeStr": "03:28.04",
+      "start": 208.04,
+      "text": "我经历所有工序  转战四期",
+      "end": 210.12,
+      "section": "09_gary_Gary(现代)"
+    },
+    {
+      "idx": 126,
+      "timeStr": "03:30.12",
+      "start": 210.12,
+      "text": "是我想趁着还年轻",
+      "end": 211.4,
+      "section": "09_gary_Gary(现代)"
+    },
+    {
+      "idx": 127,
+      "timeStr": "03:31.40",
+      "start": 211.4,
+      "text": "把自己变得更全面",
+      "end": 213.18,
+      "section": "09_gary_Gary(现代)"
+    },
+    {
+      "idx": 128,
+      "timeStr": "03:33.18",
+      "start": 213.18,
+      "text": "我是传勇",
+      "end": 214.32,
+      "section": "10_chuanyong_传勇(现代)"
+    },
+    {
+      "idx": 129,
+      "timeStr": "03:34.32",
+      "start": 214.32,
+      "text": "我也闯过几个岗",
+      "end": 215.69,
+      "section": "10_chuanyong_传勇(现代)"
+    },
+    {
+      "idx": 130,
+      "timeStr": "03:35.69",
+      "start": 215.69,
+      "text": "系统难题肩上扛",
+      "end": 217.14,
+      "section": "10_chuanyong_传勇(现代)"
+    },
+    {
+      "idx": 131,
+      "timeStr": "03:37.14",
+      "start": 217.14,
+      "text": "再用数据来护航",
+      "end": 218.48,
+      "section": "10_chuanyong_传勇(现代)"
+    },
+    {
+      "idx": 132,
+      "timeStr": "03:38.48",
+      "start": 218.48,
+      "text": "才明白制造工艺大有文章",
+      "end": 220.48,
+      "section": "10_chuanyong_传勇(现代)"
+    },
+    {
+      "idx": 133,
+      "timeStr": "03:40.48",
+      "start": 220.48,
+      "text": "现在他们叫我数据分析小王子",
+      "end": 223.79,
+      "section": "10_chuanyong_传勇(现代)"
+    },
+    {
+      "idx": 134,
+      "timeStr": "03:43.79",
+      "start": 223.79,
+      "text": "未来的路上 我要追寻着光",
+      "end": 227.73,
+      "section": "10_chuanyong_传勇(现代)"
+    },
+    {
+      "idx": 135,
+      "timeStr": "03:47.73",
+      "start": 227.73,
+      "text": "我是Allen Ma",
+      "end": 228.85,
+      "section": "11_allen_Allen_Ma(现代)"
+    },
+    {
+      "idx": 136,
+      "timeStr": "03:48.85",
+      "start": 228.85,
+      "text": "我年纪轻轻",
+      "end": 229.93,
+      "section": "11_allen_Allen_Ma(现代)"
+    },
+    {
+      "idx": 137,
+      "timeStr": "03:49.93",
+      "start": 229.93,
+      "text": "埋头在数据上",
+      "end": 231.33,
+      "section": "11_allen_Allen_Ma(现代)"
+    },
+    {
+      "idx": 138,
+      "timeStr": "03:51.33",
+      "start": 231.33,
+      "text": "回头看 就想跟你说一句",
+      "end": 233.2,
+      "section": "11_allen_Allen_Ma(现代)"
+    },
+    {
+      "idx": 139,
+      "timeStr": "03:53.20",
+      "start": 233.2,
+      "text": "你的困惑我来扛",
+      "end": 234.81,
+      "section": "11_allen_Allen_Ma(现代)"
+    },
+    {
+      "idx": 140,
+      "timeStr": "03:54.81",
+      "start": 234.81,
+      "text": "我也叫小马",
+      "end": 236.14,
+      "section": "12_xiaoma_小马(现代)"
+    },
+    {
+      "idx": 141,
+      "timeStr": "03:56.14",
+      "start": 236.14,
+      "text": "做了好几个AI",
+      "end": 237.48,
+      "section": "12_xiaoma_小马(现代)"
+    },
+    {
+      "idx": 142,
+      "timeStr": "03:57.48",
+      "start": 237.48,
+      "text": "该来的会来",
+      "end": 239.1,
+      "section": "12_xiaoma_小马(现代)"
+    },
+    {
+      "idx": 143,
+      "timeStr": "03:59.10",
+      "start": 239.1,
+      "text": "工艺未来处处都是 Punchline",
+      "end": 241.97,
+      "section": "12_xiaoma_小马(现代)"
+    },
+    {
+      "idx": 144,
+      "timeStr": "04:01.97",
+      "start": 241.97,
+      "text": "我是过来人",
+      "end": 243.55,
+      "section": "13_hook4_过来人(收尾前奏)"
+    },
+    {
+      "idx": 145,
+      "timeStr": "04:03.55",
+      "start": 243.55,
+      "text": "一进马牌揣着跟你一样的心",
+      "end": 246.49,
+      "section": "13_hook4_过来人(收尾前奏)"
+    },
+    {
+      "idx": 146,
+      "timeStr": "04:06.49",
+      "start": 246.49,
+      "text": "你熬的夜 你咽的话",
+      "end": 248.03,
+      "section": "13_hook4_过来人(收尾前奏)"
+    },
+    {
+      "idx": 147,
+      "timeStr": "04:08.03",
+      "start": 248.03,
+      "text": "你没赢的仗 我都有份",
+      "end": 249.81,
+      "section": "13_hook4_过来人(收尾前奏)"
+    },
+    {
+      "idx": 148,
+      "timeStr": "04:09.81",
+      "start": 249.81,
+      "text": "我不是来教你",
+      "end": 251.1,
+      "section": "13_hook4_过来人(收尾前奏)"
+    },
+    {
+      "idx": 149,
+      "timeStr": "04:11.10",
+      "start": 251.1,
+      "text": "我是来陪你走这一程",
+      "end": 252.95,
+      "section": "13_hook4_过来人(收尾前奏)"
+    },
+    {
+      "idx": 150,
+      "timeStr": "04:12.95",
+      "start": 252.95,
+      "text": "你不是一个人",
+      "end": 254.49,
+      "section": "13_hook4_过来人(收尾前奏)"
+    },
+    {
+      "idx": 151,
+      "timeStr": "04:14.49",
+      "start": 254.49,
+      "text": "前面有我留的灯",
+      "end": 257,
+      "section": "13_hook4_过来人(收尾前奏)"
+    },
+    {
+      "idx": 152,
+      "timeStr": "04:17.00",
+      "start": 257,
+      "text": "我是工艺人",
+      "end": 258.19,
+      "section": "14_finale_工艺人大合唱(收尾)"
+    },
+    {
+      "idx": 153,
+      "timeStr": "04:18.19",
+      "start": 258.19,
+      "text": "站在卓越路上追着共同的梦",
+      "end": 260.36,
+      "section": "14_finale_工艺人大合唱(收尾)"
+    },
+    {
+      "idx": 154,
+      "timeStr": "04:20.36",
+      "start": 260.36,
+      "text": "新的标准新的优化",
+      "end": 262.72,
+      "section": "14_finale_工艺人大合唱(收尾)"
+    },
+    {
+      "idx": 155,
+      "timeStr": "04:22.72",
+      "start": 262.72,
+      "text": "新的成果我们都有份",
+      "end": 264.65,
+      "section": "14_finale_工艺人大合唱(收尾)"
+    },
+    {
+      "idx": 156,
+      "timeStr": "04:24.65",
+      "start": 264.65,
+      "text": "我不是来等待",
+      "end": 265.92,
+      "section": "14_finale_工艺人大合唱(收尾)"
+    },
+    {
+      "idx": 157,
+      "timeStr": "04:25.92",
+      "start": 265.92,
+      "text": "我是与你一起创造可能",
+      "end": 267.68,
+      "section": "14_finale_工艺人大合唱(收尾)"
+    },
+    {
+      "idx": 158,
+      "timeStr": "04:27.68",
+      "start": 267.68,
+      "text": "你不是一个人",
+      "end": 269.23,
+      "section": "14_finale_工艺人大合唱(收尾)"
+    },
+    {
+      "idx": 159,
+      "timeStr": "04:29.23",
+      "start": 269.23,
+      "text": "未来有我留的灯",
+      "end": 274.21,
+      "section": "14_finale_工艺人大合唱(收尾)"
+    }
+  ]
+}

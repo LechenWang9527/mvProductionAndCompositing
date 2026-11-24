@@ -1,0 +1,41 @@
+  function hud(t, pal, opts) {
+    const o = opts || {};
+    const m = 64;
+    ctx.save();
+    // 顶：左品牌 + 中时间码 + 右状态
+    text('THE OGS · 过来人档案系统', m, m + 6, { size: 22, fam: 'mono', color: pal.dim, letterSpacing: 2 });
+    const tc = fmtTC(t);
+    text(tc, W - m, m + 6, { size: 22, fam: 'mono', color: pal.dim, align: 'right', letterSpacing: 2 });
+    // 分段进度
+    const sec = sectionAt(t);
+    const p = inv(sec.start, sec.end, t);
+    const bw = 420;
+    ctx.globalAlpha = 0.9;
+    ctx.fillStyle = pal.line;
+    ctx.fillRect(W / 2 - bw / 2, m - 4, bw, 2);
+    ctx.fillStyle = pal.accent;
+    ctx.fillRect(W / 2 - bw / 2, m - 4, bw * p, 2);
+    text(`${String(sec.index + 1).padStart(2, '0')} / ${String(SECTIONS.length).padStart(2, '0')}  ${sec.name.toUpperCase()}`,
+      W / 2, m + 26, { size: 18, fam: 'mono', color: pal.dim, align: 'center', letterSpacing: 3 });
+
+    // 底：滚动日志（每拍换一条假记录，营造"系统在跑"）
+    const bi = beatInfo(t);
+    const recs = ['\u5df2\u5f52\u6863', 'LOCK', 'SYNC', 'READ', 'WRITE', 'INDEX', 'SCAN', 'OK'];
+    const log = [];
+    for (let i = 0; i < 6; i++) {
+      const n = bi.n - i;
+      const r = recs[Math.abs(n * 7) % recs.length];
+      log.push(`#${String(1000 + n).padStart(5, '0')} ${r}`);
+    }
+    ctx.globalAlpha = 0.55;
+    text(log.join('    '), m, H - m, { size: 17, fam: 'mono', color: pal.dim, letterSpacing: 1 });
+    ctx.restore();
+    if (o.rules !== false) {
+      ctx.save();
+      ctx.globalAlpha = 0.5;
+      ctx.fillStyle = pal.line;
+      ctx.fillRect(m, m + 40, W - 2 * m, 1);
+      ctx.fillRect(m, H - m - 34, W - 2 * m, 1);
+      ctx.restore();
+    }
+  }

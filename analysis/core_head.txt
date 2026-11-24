@@ -1,0 +1,80 @@
+// film/src/core.js —— 《The OGs》MV 渲染核心
+// 约定：画面是 window.renderAt(t) 的纯函数；无跨帧状态；随机数由种子决定。
+// 设计：全片是「一台跑了一千年的工单档案系统」。人物=记录，段落=视图切换。
+
+(function () {
+  const W = 1920, H = 1080;
+
+  // ---------- 调色板：颜色 = 状态 ----------
+  const PAL = {
+    system: {                 // 系统底色（冷黑 + 暖白字）
+      bg: '#07080a', ink: '#e9e4d6', dim: '#8b8577', line: '#2a2b2e',
+      accent: '#c8a24a', hot: '#f2c300', err: '#d4553d',
+    },
+    ancient: {                // 古代段：宣纸 + 墨 + 朱砂（木刻版画）
+      bg: '#d9cfb8', ink: '#17130f', dim: '#6b5f4c', line: '#a99a80',
+      accent: '#a8402c', hot: '#6d1f14', err: '#a8402c',
+    },
+    terminal: {               // 终端段：磷光绿 + 琥珀
+      bg: '#05080a', ink: '#cdf3dd', dim: '#4e6b60', line: '#16302a',
+      accent: '#5ef2a0', hot: '#f5c542', err: '#ff6b4a',
+    },
+    marpol: {                 // 马牌段：炭黑 + 马牌黄
+      bg: '#0b0b0c', ink: '#f2efe6', dim: '#7d7a72', line: '#26262a',
+      accent: '#ffcc00', hot: '#ffffff', err: '#ff5a3c',
+    },
+  };
+
+  // ---------- 字体分工 ----------
+  // mono = 系统/代码/编号；serif = 人物说的话（歌词）；sans = 界面/现代名字
+  const FONT = {
+    mono: '"Cascadia Mono","Consolas","DejaVu Sans Mono",monospace',
+    serif: '"Noto Serif SC","Source Han Serif SC","SimSun",serif',
+    sans: '"Noto Sans SC","Microsoft YaHei","Segoe UI",sans-serif',
+  };
+
+  const cv = document.getElementById('c');
+  cv.width = W; cv.height = H;
+  const ctx = cv.getContext('2d');
+  ctx.textBaseline = 'alphabetic';
+
+  // ---------- 工具 ----------
+  const clamp = (x, a, b) => Math.min(b, Math.max(a, x));
+  const lerp = (a, b, t) => a + (b - a) * t;
+  const inv = (a, b, x) => clamp((x - a) / (b - a || 1e-9), 0, 1);
+  const ease = {
+    out: (x) => 1 - Math.pow(1 - x, 3),
+    in: (x) => x * x * x,
+    io: (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2),
+    expo: (x) => (x >= 1 ? 1 : 1 - Math.pow(2, -10 * x)),
+    back: (x) => 1 + 2.2 * Math.pow(x - 1, 3) + 1.2 * Math.pow(x - 1, 2),
+  };
+
+  // 确定性伪随机（同一 t 永远同一结果）
+  function rnd(seed) {
+    let s = seed >>> 0;
+    return function () {
+      s = (s * 1664525 + 1013904223) >>> 0;
+      return s / 4294967296;
+    };
+  }
+  function hash(n) {
+    const x = Math.sin(n * 127.1 + 311.7) * 43758.5453;
+    return x - Math.floor(x);
+  }
+
+  // ---------- 纹理：程序化生成一次，之后复用 ----------
+  const texCache = {};
+  function makeCanvas(w, h) {
+    const c = document.createElement('canvas');
+    c.width = w; c.height = h;
+    return c;
+  }
+
+  // 木刻排线：不同角度、不同粗细的刻痕，用来给剪影"上墨"
+  function hatchTile(angleDeg, spacing, w, h, color, alpha, jitter) {
+    const key = `h${angleDeg}_${spacing}_${w}_${h}_${color}_${alpha}_${jitter}`;
+    if (texCache[key]) return texCache[key];
+    const c = makeCanvas(w, h);
+    const g = c.getContext('2d');
+    g.strokeStyle = color;

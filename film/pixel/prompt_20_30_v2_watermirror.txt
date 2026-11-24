@@ -1,0 +1,27 @@
+This is a cutscene from an old 8-bit video game, not a film and not a 3D render.
+
+The entire picture must be built out of big visible square pixels, like a screenshot of a NES game blown up on a screen. The image is effectively only about 256 pixels wide and 144 pixels tall, so every edge is stair-stepped and every pixel is a large flat square. Every roof tile, every window light, every lantern is a cluster of large blocks — there is no fine detail anywhere. Flat solid colors only, a very small palette: near black, deep indigo, dark brown, dull red, amber, pale cream. No smooth gradients, no soft edges, no blending, no fading glow — light is always a hard flat shape of amber.
+
+Along the very top of the frame runs a single dark blue-green ridge of pixel mountains, low and quiet, never taller than a quarter of the picture. Everything below it is the road and the dark.
+
+The shot continues from the previous one: a tiny traveller in a dark red hooded cloak, seen from behind, is walking to the right along a long stone road; behind him on the left a vast ancient Chinese city of warm windows and red lanterns glows on the mountainside, and ahead of him on the right a single tall stone lantern burns. Chinese architecture only: curved flying eaves, tiled roofs, pagodas, crenellated walls, red paper lanterns.
+
+The camera settles and stops. The traveller walks the last few steps and stops beside the tall stone lantern.
+
+The lantern's light drops onto the road, and where it lands the paving stones stop being stone: the whole surface of the road turns into a flat still sheet of black water. In that black water his own dark shape and the hundreds of city lights are reflected upside down, perfectly mirrored, a second city hanging beneath the real one.
+
+He takes one step forward. His foot rests on the water without sinking, and a single ring of pale amber light spreads out from his heel in a hard-edged circle.
+
+He keeps walking slowly, rightward, and each step sends out another ring. The rings travel outward across the black water and, one after another, the reflections they pass over brighten: small lanterns begin to rise up out of the water, each one a tiny hard amber square floating at head height, and beside each floating lantern a small black silhouette of a person stands up out of the water, hooded, motionless, seen from behind.
+
+More and more of them rise as the rings spread — a slow procession of small dark figures standing on the black water beneath floating amber lanterns, all facing the same way, all silent, while the traveller keeps walking among them in the foreground, large and clear.
+
+Far ahead, the rings reach the foot of the great gate of the city, and a chain of lanterns running up the gate tower lights up one after another, and their reflections light up in the water at the same instant.
+
+Near the end, the nearest floating lantern drifts toward the camera and its flame grows into a large hard-edged amber shape that fills more and more of the frame, until the warm light floods the whole screen.
+
+The traveller stays large in the foreground the entire time — he is always the brightest, heaviest thing on screen; the floating lanterns and standing silhouettes are smaller and further back. The camera only glides forward very slowly and gently; no shake, no rotation, no fast zoom.
+
+Keep the chunky pixel look perfectly consistent from first frame to last. Never resolve into smooth 3D, never become photographic or painterly.
+
+No text, no letters, no numbers, no captions, no signs, no shop boards, no banners with characters, no watermark, no logo, no UI, no bars.

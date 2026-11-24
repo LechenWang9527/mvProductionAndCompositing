@@ -1,0 +1,5 @@
+[flash] film_v3.mp4: 18352 frames @ 60 fps (305.9 s), first frame at song time +0.000 s (no mv_start tag: assumed 0)
+  general: 34 frames with a large-area luminance transition; worst 1 s window = 1.5 flashes (window starting 29.35 s song time (file 29.35 s)) -> PASS (limit 3)
+  red:     0 frames with a large-area saturated-red transition; worst 1 s window = 0.0 flashes (window starting 0.00 s song time (file 0.00 s)) -> PASS (limit 3)
+  hard frame changes (mean abs diff > 0.12): 29; busiest second has 1 (from 29.98 s song time (file 29.98 s))
+  single-frame pops: none

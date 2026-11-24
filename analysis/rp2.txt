@@ -1,0 +1,6 @@
+[03:27:46] frame 2641/18353  t=44.00  443.2ms/f  eta 116m3s  png 2380MB
+[03:29:51] frame 2761/18353  t=46.00  469.2ms/f  eta 121m56s  png 2673MB-rwxrwxrwx 1 WangLC None  5491153 Nov 10 10:47 out/_trial_engine.mp4
+-rwxrwxrwx 1 WangLC None   237505 Nov 10 09:23 out/bench_cpu.mp4
+-rwxrwxrwx 1 WangLC None   238267 Nov 10 09:23 out/bench_gpu.mp4
+-rwxrwxrwx 1 WangLC None  2883632 Nov 10 10:08 out/demo.mp4
+-rwxrwxrwx 1 WangLC None        0 Nov 10 11:08 out/film_v1.mp4

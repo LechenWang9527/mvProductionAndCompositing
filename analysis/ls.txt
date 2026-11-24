@@ -1,0 +1,31 @@
+== 实习
+MV
+相关材料
+== MV 顶层
+AGENTS.md
+The OGs 自动识别.lrc
+The OGs 自动识别.srt
+The OGs 视频音轨.mp3
+analysis
+bench
+docs
+lyrics
+mv_engine
+out
+ref_mv
+ref_prompts
+== 新建文件夹 顶层
+Book
+CC Switch.lnk
+ChatGPT.lnk
+Clash Verge
+DeepSeek Harness.lnk
+IntelliJ IDEA.lnk
+Visual Studio Code.lnk
+唱歌
+大学文件
+实习
+小说
+日常及材料
+飞书.lnk
+== 素材相关搜索

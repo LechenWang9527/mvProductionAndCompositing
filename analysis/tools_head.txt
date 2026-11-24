@@ -1,0 +1,60 @@
+# 工具盘点：中文歌词 MV 项目（实测版）
+
+> 面向本仓库：纯程序化 Canvas 渲染 + 逐帧导出；Windows / Node 26 / Python 3.12 / RTX 3050 6GB；
+> 无系统 ffmpeg，只有 `ref_mv/node_modules/ffmpeg-static` 与 `imageio-ffmpeg`。
+>
+> **证据层在 [`docs/notes/tools_trials.md`](notes/tools_trials.md)**：每条结论都能在那里找到命令、原始输出与耗时。
+> 本文件只给结论、推荐、失败记录、接线建议和坑。
+>
+> 判决口径：
+> - **能用** = 本机跑过并产出正确文件
+> - **能用但要改造** = 装得上/跑得动，但要补胶水或它的定位与本项目不同
+> - **不能用** = 实测失败、或依赖付费服务、或形态不匹配（如必须人点 UI）
+> - **未实测** = 没跑完，本文不编造数据
+
+---
+
+## ① 四类结论表
+
+### A. 歌词 MV / 卡点 / 可视化项目
+
+| 名称 | 链接 | 能干什么 | 实测结果 | 判决 |
+|---|---|---|---|---|
+| **本仓库 `mv_engine`**（对照组） | 本地 `mv_engine/render.mjs` | Chrome 逐帧取 canvas → NVENC 编码 | `300 frames @ 30fps`，`render 17.97s = 16.69 fps · 59.9 ms/frame`，输出 5.24MB 720p30；`canvas draw cost: 1.5 ms/frame` | **能用**（本项目基线，最快） |
+| **Remotion 4.0.542** | https://github.com/remotion-dev/remotion | React 组件即帧，CLI 批量渲染；中文字幕、spring 动画 | 装 `@remotion/cli@4 react@19 react-dom@19` = 242 包/252M；`remotion browser ensure` 下 131.1MB headless shell；渲 300 帧 = **31s（9.7fps）**，718,585 bytes h264 1280x720；抽帧确认「第一行 中文歌词」正常 | **能用但要改造**①入口必须 `registerRoot`；②必须重定向 TMP；③速度不如现有引擎 |
+| **ialakey/music-video-generator**（7★ MIT） | https://github.com/ialakey/music-video-generator | 音频编辑片模板：封面+模糊背景+频谱+进度条，6 种 visualizer 6 种 preset，RGB 帧走 stdin 喂 ffmpeg | 系统 Python 直接跑（仅需 numpy+pillow）；`render` 6s 720p30 = **28s，180 帧，6.7MB**，h264+aac 校验通过；`still` 单帧 23s / 2.46MB | **能用但要改造**：无 .lrc 解析、无逐句歌词、无中文断句；6.4fps 偏慢 |
+| **motion-canvas 3.17.2**（20k★ MIT） | https://github.com/motion-canvas/motion-canvas | 代码驱动动画（信号/时间轴），`@motion-canvas/ffmpeg` 导出 | `npm i @motion-canvas/{core,2d,ffmpeg,vite-plugin}` = 74 包/37s，`247M` node_modules，版本 3.17.2 | **能用但要改造**：**端到端出片未实测**；本质仍是 vite 页面 + headless 截图 |
+| **dotslashgabut/immersive-audio-player**（19★） | https://github.com/dotslashgabut/immersive-audio-player-lyric-video-maker | 浏览器端歌词 MV App：`.lrc`(含 Enhanced/Karaoke)/`.srt`/`.vtt` 导入导出，ffmpeg.wasm 或 WebCodecs 逐帧，H.264/VP9/AV1，歌单批渲 | 读源码：`utils/ffmpegRenderer.ts`（`@ffmpeg/ffmpeg` wasm 逐帧）、`utils/canvasRenderer.ts`（`drawCanvasFrame(ctx,w,h,time,lyrics,...)`）、`utils/lyricVisibility.ts`、`utils/parsers.ts` | **不能用（作为引擎）**：纯交互式 App，要人点 UI 导出，无 CLI |
+| **chrimage/ai-lyric-video-generator**（14★） | https://github.com/chrimage/ai-lyric-video-generator | 用 AI 生成概念图 + 歌词视频 | `pyproject` 依赖 `google-genai>=1.7.0`、moviepy、yt-dlp | **不能用**：付费 Gemini API |
+| **wwwtyro/canvas-video-generator**（Unlicense） | https://github.com/wwwtyro/canvas-video-generator | canvas 逐帧 → POST `/addFrame` → 服务端 ffmpeg 拼接 | `npm i` = 422 包/40s；`node index.js --help` 正常，Node 26 无报错；端口默认 3172 | **能用但要改造**：**完整出片未实测**；2016 年依赖、无歌词逻辑，只值得抄架构 |
+
+> 小结：**没有一个现成项目能直接产出「中文逐句歌词 MV」**。最接近的是 immersive-audio-player，
+> 但它是给人点的 App。真正的路线是「现有 `mv_engine` + 借鉴 immersive 的 `drawCanvasFrame` 布局思路」。
+
+### B. 音频分析
+
+| 名称 | 链接 / 版本 | 能干什么 | 实测结果 | 判决 |
+|---|---|---|---|---|
+| **librosa 1.0.0**（+numpy 2.2.6 / numba 0.68.1 / scipy 1.18.1） | https://github.com/librosa/librosa | BPM、`beat_track`、`onset_detect`、`onset_strength`、chroma、HPSS、piptrack 音高 | venv 367M；`import 4.54s`；306s 音频全流程 **29.59s**：`onset_strength 3.60s`（13174 帧 @43.066fps）、`beat_track 5.40s → tempo=[129.199] beats=647`、`onset_detect 3.32s onsets=1214`、`piptrack 10s: 3.68s`、`hpss 16.73s`、`chroma 0.61s` | **能用**（唯一跑通的完整音频库） |
+| **项目自带 numpy 分析器** | 本地 `analysis/analyze_real.py` | 频谱通量 onset + 自相关 BPM + 穷举相位 beat 网格 + RMS 段落 | `features_real.json`：`bpm 64.6`、`329 beats`、`914 onsets`、`dur 305.876`；拍点对 onset 的 60ms 命中率 **35.56%**（librosa 只有 1.23–1.85%） | **能用**（且对齐质量更好，别急着换） |
+| **aubio** | https://github.com/aubio/aubio | onset/BPM/音高，轻量 C 库 | `pip install --only-binary=:all: aubio -i 清华源` → `ERROR: Could not find a version that satisfies the requirement aubio (from versions: none)`；`import aubio` → `ModuleNotFoundError` | **不能用**：无 py3.12 win wheel |
+| **madmom** | https://github.com/CPJKU/madmom | RNN/DBN 级 beat & downbeat 检测（质量通常最好） | 二进制轮 no versions；退回 sdist → `ModuleNotFoundError: No module named 'Cython'`，`error: subprocess-exited-with-error` | **不能用**：无 wheel + sdist 构建链断 |
+| **demucs**（htdemucs） | https://github.com/facebookresearch/demucs（10k★ MIT） | 4-stem 人声/鼓/贝斯/其他分离 | torch 2.5.1+cu121 就位（`cuda True`、`vram 6.00GB`），但 `demucs MISSING`、`torchaudio MISSING`；试装被 kill | **未实测**（前置条件已备：GPU+torch 可用，htdemucs 权重仅 ~80MB） |
+| **audio-separator**（python-audio-separator） | https://github.com/nomadkaraoke/python-audio-separator（1.5k★ MIT） | ONNX 版 UVR 人声分离，CPU 也能跑 | 未开始 | **未实测** |
+
+> 关键实测结论（半速问题）：`start_bpm` 先验决定 librosa 给 64.6 还是 129.2——
+> `start_bpm=60/64.6/80 → 64.60`、`start_bpm=100/120/140 → 129.20`，而两者在 onset 包络上的
+> 拟合分几乎相同（`64.60 fit=1.9786` vs `129.20 fit=1.9508`）。
+> **librosa 不会替你判定"哪一半是正拍"。**
+
+### C. 本地 / 云端 AI 出图
+
+| 名称 | 链接 / 版本 | 能干什么 | 实测结果 | 判决 |
+|---|---|---|---|---|
+| **torch 2.5.1+cu121**（基建） | https://pytorch.org | GPU 推理底座 | `cuda_avail True`；`vram_GB 6.44`；`alloc_ok` 到 5120MB；`fp16_matmul_2048 x50: 0.26s -> 3.3 TFLOPS` | **能用** |
+| **SD1.5 fp16 权重**（获取） | `hf-mirror.com/stable-diffusion-v1-5/...` | 出图底座 | HF 直连 20s **0 字节**；hf-mirror **2.27–3.40 MB/s**；已下 `unet fp16 1,719,125,304 bytes (418s)`、`text_encoder 246MB (61s)`、`vae 167MB (41s)`，合计 2.6G | **可能用**（权重能拿到） |
+| **SD1.5 推理（6GB）** | diffusers | 512/768 fp16 出图 | 装到 `diffusers 0.42.1 / transformers 5.22.2 / accelerate 1.15.0` 后 **import 即崩**：`AttributeError: module 'torch' has no attribute 'accelerator'`（diffusers 0.42 要求 torch≥2.6，本机 2.5.1）；已回退 `diffusers==0.31.0 / transformers==4.46.3` 重装 | **未实测**（版本坑已定位） |
+| **SDXL / Flux（6GB）** | — | 高分辨率出图 | 未下载（unet 级 5GB+，10–30 分钟起步） | **未实测**；按 6.44GB 显存与 fp16 3.3 TFLOPS 推算：SDXL 1024 必 OOM 除非 `enable_sequential_cpu_offload`，速度会掉到分钟级——不值得 |
+| **ComfyUI** | https://github.com/comfyanonymous/ComfyUI | 节点式出图工作流 | 全盘 find：**机器上没有任何 ComfyUI / stable-diffusion / sd-webui 目录** | **未实测**（要从零装，成本高） |
+| **不用 AI 出图的替代（推荐）** | 本项目已具备 | 纯 Canvas：渐变/噪点/粒子/three.js/裁切已有素材 | `mv_engine` 实测 **16.69 fps** 720p30，canvas 绘制仅 1.5ms/帧 | **能用**（本项目实际路线） |
+

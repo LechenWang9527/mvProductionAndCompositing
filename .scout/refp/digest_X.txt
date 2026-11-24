@@ -1,0 +1,31 @@
+X1|手绘||讲解、记录||still=0|code=0
+X2|品牌动态图形||频道片头||still=0|code=0
+X3|沙画||回忆、情绪，感受讲解很合适||still=0|code=0
+X4|歌词 MV||金句、配乐段||still=0|code=0
+X5|卡点素材剪辑||快剪||still=0|code=0
+X6|界面形变||演示工具||still=0|code=0
+X7|英雄漫画||热血、转折||still=0|code=0
+X8|手账剪贴本||记录这三个月||still=0|code=0
+X9|撕纸拼贴||回忆、拼凑||still=0|code=0
+X10|粒子||氛围||still=0|code=0
+X11|翻牌显示板||机场那种翻牌，适合标题和数字||still=0|code=0
+X12|霓虹灯牌||金句||still=0|code=0
+X13|16-bit 街机||游戏感||still=0|code=0
+X14|CRT 终端||讲代码、讲 AI||still=0|code=0
+X15|热敏小票||清单、"算一笔账"||still=0|code=0
+X16|地铁线路图||讲一路怎么走过来的，适合 04 段||still=0|code=0
+X17|蓝图||讲结构||still=0|code=0
+X18|漫画书||分格讲故事||still=0|code=0
+X19|纪录片||认真讲一件事||still=0|code=0
+X20|博物馆展览||把东西一件件摆出来讲||still=0|code=0
+X21|突发新闻||快讯开场||still=0|code=0
+X22|侦探线索板||把线索连起来，科普推理||still=0|code=0
+X23|绘本||温暖地讲故事||still=0|code=0
+X24|RPG 任务||学习像做任务||still=0|code=0
+X25|天气预报||用天气讲情绪，感受讲解很合适||still=0|code=0
+X26|电视购物||讽刺卖课的，06 段可以试||still=0|code=0
+X27|体育直播||解说感||still=0|code=0
+X28|组装说明书||讲步骤，宜家说明书那种||still=0|code=0
+X29|白板讲课||讲道理||still=0|code=0
+X30|电影预告片||下期预告、频道预告，11 段可以试||still=0|code=0
+X31|数学证明讲课||一步步推出结论||still=0|code=0

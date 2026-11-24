@@ -1,0 +1,25 @@
+===== X4 | 歌词 MV | series=X | still=0 | "" =====
+An educational music video that reads like a technical explainer set to a song: a dark grid, a section label in the corner, one diagram per lyric line, and the sung line at the bottom. The engine makes the instrumental; the lyrics are on screen, not sung.
+
+Reference frames from the original: `<skill>/docs/styles/lyric.jpg`.
+
+===== X5 | 卡点素材剪辑 | series=X | still=0 | "" =====
+A high-end, minimal promo cut to a song: a hook that lands word by word on a light stage, the product UI, then real clips on a dark stage as a scanned wall, a 3D carousel, and a phone next to a campaign panel, with stats on push cuts and every cut on a beat.
+
+Reference frames from the original: `<skill>/docs/styles/beat.jpg`.
+
+===== X14 | CRT 终端 | series=X | still=0 | "" =====
+A green phosphor terminal on an old CRT: commands type themselves out, logs scroll, progress bars fill, and big block-letter banners glow for the name and the numbers.
+
+===== X15 | 热敏小票 | series=X | still=0 | "" =====
+A thermal receipt printer on a teal desk: every scene prints a fresh slip that rises out of the printer, gets stamped, and is torn off. Works in 16:9 and 9:16.
+
+===== X17 | 蓝图 | series=X | still=0 | "" =====
+A cyanotype engineering drawing: white linework on blueprint blue, dimension lines, numbered balloons, and a title block, as if the product were being specified on a drafting table.
+
+===== X20 | 博物馆展览 | series=X | still=0 | "" =====
+A piece that plays like a nighttime museum special-exhibit walkthrough: a single visitor moves room to room through a pitch-dark gallery where each "diorama" is picked out by one hanging spotlight, a low-poly artifact on a pedestal, a cream museum wall-label, and a docent's caption bar typing out commentary along the bottom. The overall feeling is hushed, reverent, and slightly theatrical — closer to an after-hours exhibit tour than a tech product demo, wi
+
+===== X16 | 地铁线路图 | series=X | still=0 | "" =====
+A transit map and station signage: coloured lines are drawn across cream paper, stations light up one by one, a train runs the line, and the ending is the terminus sign.
+

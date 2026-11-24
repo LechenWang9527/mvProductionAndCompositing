@@ -1,0 +1,11 @@
+total 1429
+drwxrwxrwx 1 WangLC None   4096 Nov 10 12:15 .
+drwxrwxrwx 1 WangLC None   4096 Nov 10 12:15 ..
+-rwxrwxrwx 1 WangLC None 208790 Nov 10 12:15 f101.jpg
+-rwxrwxrwx 1 WangLC None 358282 Nov 10 12:15 f133.jpg
+-rwxrwxrwx 1 WangLC None  74057 Nov 10 12:15 f16.jpg
+-rwxrwxrwx 1 WangLC None 144490 Nov 10 12:15 f163.jpg
+-rwxrwxrwx 1 WangLC None 226840 Nov 10 12:15 f218.jpg
+-rwxrwxrwx 1 WangLC None 147471 Nov 10 12:15 f270.jpg
+-rwxrwxrwx 1 WangLC None  50439 Nov 10 12:15 f297.jpg
+-rwxrwxrwx 1 WangLC None 239916 Nov 10 12:15 f45.jpg

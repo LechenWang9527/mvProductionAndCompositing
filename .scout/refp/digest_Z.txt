@@ -1,0 +1,15 @@
+Z1|水墨|水墨晕染，留白，竹林 / ink wash, negative space|||still=0|code=0
+Z2|工笔|细腻笔触，色彩鲜艳，牡丹 / gongbi, fine brushwork|||still=0|code=0
+Z3|写意|大笔挥洒，意到笔不到 / xieyi, expressive brush|||still=0|code=0
+Z4|山水|壮丽山景，流水，古亭 / shan shui, mountains, pavilions|||still=0|code=0
+Z5|剪纸|红纸镂空，民间纹样 / Chinese paper cutting|||still=1|code=1
+Z6|年画|红灯笼，对联，喜庆 / New Year woodblock print|||still=0|code=0
+Z7|皮影|镂空剪影，光后面演，关节能动 / shadow puppetry（动起来见 M12）|||still=0|code=0
+Z8|敦煌|壁画色，飞天，矿物颜料 / Dunhuang mural|||still=0|code=0
+Z9|青花|白底蓝花，瓷器纹样 / blue and white porcelain|||still=0|code=0
+Z10|木版画|木刻线条，套色 / woodblock print|||still=0|code=0
+Z11|京剧脸谱|脸谱纹样，浓烈色块 / Peking opera mask|||still=0|code=0
+Z12|书法|毛笔字一笔笔写出来 / calligraphy stroke animation|||still=0|code=0
+Z13|水墨漫画|毛笔线条加水墨晕染的漫画 / ink-brush comic|||still=0|code=0
+Z14|彩铅手绘|彩铅排线，纸张纹理 / colored pencil on textured paper|||still=0|code=0
+Z15|温暖水彩科普卡|柔和水彩晕染，友好易懂的造型，适合做科普卡片 / warm friendly watercolor educational card|||still=0|code=0

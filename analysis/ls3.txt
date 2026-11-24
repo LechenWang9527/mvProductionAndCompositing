@@ -1,0 +1,16 @@
+== prompts
+one-click-import.md
+== docs
+INSTALL.md
+STYLES.md
+images
+source-manifest.json
+== 找 STYLES
+E:/新建文件夹/实习/MV/ref_prompts/docs/images/style-gallery.png
+E:/新建文件夹/实习/MV/ref_prompts/docs/images/style-picker.png
+E:/新建文件夹/实习/MV/ref_prompts/docs/STYLES.md
+== 图片数
+E:/新建文件夹/实习/MV/ref_prompts/docs/images/hero.png
+E:/新建文件夹/实习/MV/ref_prompts/docs/images/picker-search.png
+E:/新建文件夹/实习/MV/ref_prompts/docs/images/style-gallery.png
+E:/新建文件夹/实习/MV/ref_prompts/docs/images/style-picker.png

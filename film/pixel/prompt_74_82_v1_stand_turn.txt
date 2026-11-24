@@ -1,0 +1,10 @@
+The provided image is the first frame of this shot — keep it exactly: the traveller in the dark red hooded cloak and Du Fu in the grey-blue cloak still squatting on the stone road, the last amber memory dots fading out in the night sky above, dark ridgeline behind.
+
+Old 8-bit video game cutscene, not a film, not a 3D render, not an illustration. Effectively only 256 pixels wide and 144 pixels tall. Every edge stair-stepped, every pixel a large flat square. Tiny palette only: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, amber #d98a30, pale cream #e8dcc0. No gradients, no bloom. No text, no letters, no numbers anywhere. Locked camera: only a very slow push in, never pan, never shake.
+
+THE STAGE NEVER CHANGES: the stone-paved road, the dark ridgeline of the mountains and the night sky stay behind everything for the whole shot.
+
+0.0–1.0  The last amber dots die out. The traveller sets his cup down on the stones and pushes himself up until he is standing.
+1.0–2.3  He stands straight, turns his head and looks back down the long road he came from; his red cloak hangs still.
+2.3–4.3  Du Fu stands up as well and comes to stand beside him; both of them look back the same way, their backs half turned to us.
+4.3–8.0  On the road behind them, a long line of silent black silhouettes walks toward the camera and out of frame, one after another: a porter with a shoulder pole, a scholar with a book bundle on his back, a labourer with a sack, a woman carrying a child, an old man leaning on a stick. They are pure black silhouettes — no faces, no features, no colour inside them — and they are backlit, rimmed by warm amber light from behind so they read as dark shapes against the lamplight.

@@ -1,0 +1,17 @@
+16-bit pixel art, SNES-era RPG cutscene, crisp integer-scaled pixels, hard pixel edges, no anti-aliasing, limited 32-color palette, visible ordered dithering. Night scene. Deep indigo sky (#0d1233) with sparse twinkling pixel stars, a few 1-2 pixel specks.
+
+Center-bottom: one tiny lone traveler silhouette seen from behind, roughly sprite-sized, built from sparse pixel clusters — a small hunched figure with a bedroll on his back, hood up, face never visible. He stands at the very start of a thin road of pale light that runs from the bottom edge of frame and narrows into the far horizon. The road surface is made of broken pixel tiles, lighting up one tile at a time in sequence, like a path being switched on.
+
+Far horizon: a distant city skyline built of dense pixel blocks, a few windows just beginning to glow warm amber (#ffb454). The road leads toward it.
+
+Camera: extremely slow dolly-in toward the horizon, barely perceptible, 2D parallax layers — star field nearly static, city drifting slowly, foreground road tiles moving fastest. Now and then one or two pixel embers rise from the road and float up out of frame.
+
+Color: dominant deep indigo #0d1233 and near-black #06070f; the only warm color is the amber #ffb454 of road light and distant windows, used very sparingly. Everything else stays cold.
+
+Mood: quiet, solitary, faintly hopeful. A person standing still for a moment before starting a long walk at night.
+
+Timing inside the clip: the first half stays almost empty — only stars and the first few road tiles lit. Around the middle, the ground and low hills fade in and the distant city lights begin to switch on. Near the end, a soft warm haze grows in the sky and the traveler's cloak shifts once in the wind, camera lifts very slightly.
+
+Texture: subtle CRT scanlines, very faint chromatic edge, no bloom, no overexposure. Absolutely no text.
+
+Negative: photorealistic, 3D render, CGI, smooth gradient, anti-aliasing, vector art, gaussian blur, depth of field, lens flare, bokeh, text, letters, numbers, watermark, signature, logo, HUD, UI, subtitles, anime, realistic human face, plata, plastic look, oversaturated neon, pure white background, cropped, frame border.

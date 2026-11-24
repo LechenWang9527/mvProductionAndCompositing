@@ -1,0 +1,12 @@
+H1|Biennale Yellow|暖羊皮纸底，太阳黄光晕，衬线大标题，靛蓝墨色，细线|||still=1|code=0
+H2|BlockFrame|新粗野主义，粗黑边框，硬投影，糖果色点缀|||still=0|code=0
+H3|Blue Professional|羊皮纸底，钴蓝主色，Space Grotesk 标题|||still=0|code=0
+H4|Bold Poster|倾斜的花体大字，奶油底红色强调，杂志封面感|||still=0|code=0
+H5|Broadside|工业报纸海报，奶油色配墨色，火橙色点缀|||still=0|code=0
+H6|Capsule|胶囊形状，奶油纸，糖果配色，Bodoni 衬线标题|||still=0|code=0
+H7|Cartesian|极简留白，暖羊皮纸，墨色标题，灰褐点缀，细线|||still=0|code=0
+H8|Cobalt Grid|羊皮纸加钴蓝网格，Newsreader 标题|||still=0|code=0
+H9|Coral|全大写 Bebas Neue 标题，奶油底珊瑚色|||still=0|code=0
+H10|Creative Mode|奶油底，饱和糖果色，Archivo Black 大字|||still=0|code=0
+H11|Daisy Days|阳光花园粉彩，3px 炭灰描边，硬投影，圆体字|||still=0|code=0
+H12|Editorial Forest|绿、粉、奶油的杂志配色，衬线标题，细线|||still=0|code=0

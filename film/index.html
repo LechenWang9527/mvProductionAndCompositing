@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>The OGs — MV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+  html, body { margin: 0; padding: 0; background: #000; height: 100%; overflow: hidden; }
+  #wrap { position: absolute; inset: 0; display: grid; place-items: center; }
+  canvas#c { width: 1920px; height: 1080px; display: block; background: #000; }
+  /* 浏览态：等比缩放铺满窗口；导出态：1:1 像素 */
+  body.browse #c { width: min(100vw, calc(100vh * 16 / 9)); height: auto; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="c" width="1920" height="1080"></canvas></div>
+<script src="data/timeline.js"></script>
+<script src="data/shots.js"></script>
+<script src="src/core.js"></script>
+<script src="src/photo.js"></script>
+<script src="src/ui.js"></script>
+<script src="src/scenes.js"></script>
+<script src="src/layouts.js"></script>
+<script src="src/layouts2.js"></script>
+<script src="src/layouts3.js"></script>
+<script src="src/layouts4.js"></script>
+<script src="src/subtitles.js"></script>
+<script src="src/dufu_sequence.js"></script>
+<script src="src/chorus_sequence.js"></script>
+<script src="src/ancient_bridge.js"></script>
+<script src="src/prelude_sequence.js"></script>
+<script src="src/liubang_sequence.js"></script>
+<script src="src/shotfilm.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>

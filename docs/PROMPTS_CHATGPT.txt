@@ -1,0 +1,55 @@
+CHATGPT 专用提示词 —— 一条一条复制，粘进 ChatGPT 的对话框就行
+
+第 0 步：先把下面【总纲】那一段单独发一次，让 ChatGPT 记住整组的调子。
+第 1 步起：每次复制一整条（从 Shot like 开始到结尾），粘进去回车。
+
+不要只复制半条，也不要自己改词；ChatGPT 有时会自作聪明美化，
+出歪了照着《HOW_TO_CHATGPT.md》最后那张「出歪了怎么办」的表发中文就行。
+
+
+==============================================================================
+【总纲】先单独发这一段（只发一次）
+==============================================================================
+接下来我会分几次给你发照片描述，请把它们当成同一组工业档案照片来拍。统一要求：真实的纪实摄影照片，50mm 镜头、f/4、只用现场光、低调；低饱和暖灰 + 旧纸暖调；轻胶片颗粒；左上侧逆光、硬阴影；哑光纸质感；中性色偏、不调色；平视、全画面清晰。每张都不要出现：文字、字母、数字、水印、logo、边框、暗角、UI 界面、人脸、人手、卡通或 3D 渲染感。收到我的一段描述就出图的，请严格按描述拍，不要自己改写、不要写成风格标签堆砌、不要在图里加任何文字。出完不要给我解释，直接给图就行。
+
+
+==============================================================================
+P01 ｜ 木纹旧桌面，俯拍 ｜ 镜头 #25 ｜ 16:9
+==============================================================================
+Shot like a real documentary photograph on a 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, matte printed-paper texture, slight dust and scratches, neutral colour cast, no colour grading, eye level, sharp throughout, restrained industrial archive mood. Landscape 16:9 composition. overhead flat top-down view of an empty old workbench surface, worn dark walnut planks with deep grain lines, one faint coffee ring stain, fine scratches and a little sawdust, no objects, no phone, no hands, thin warm raking side light from the left edge, hard shadow in one corner, muted warm grey, matte, paper grain, slight dust, neutral color, no grading. Realistic photograph — not an illustration, not a 3D render, not CGI. The image must contain no text, no letters, no numbers, no watermark, no logo, no border, no frame, no UI, no vignette. Plain photographic image only.
+
+==============================================================================
+P02 ｜ 轮胎断面 / 胎面特写 ｜ 镜头 #62 ｜ 16:9
+==============================================================================
+Shot like a real documentary photograph on a 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, matte printed-paper texture, slight dust and scratches, neutral colour cast, no colour grading, eye level, sharp throughout, restrained industrial archive mood. Landscape 16:9 composition. macro side view of a cut truck tire section standing on a workshop floor, layered rubber, steel belt edges and bead wire visible in cross section, tread blocks in sharp relief with one chipped missing rubber notch, dust in the grooves, hard side light from upper left raking across the cut face, deep shadow behind, muted warm grey and dull black rubber, matte, paper grain, no text, no logo. Realistic photograph — not an illustration, not a 3D render, not CGI. The image must contain no text, no letters, no numbers, no watermark, no logo, no border, no frame, no UI, no vignette. Plain photographic image only.
+
+==============================================================================
+P03 ｜ 胶料 / 密炼机 / 混炼车间 ｜ 镜头 #57 ｜ 16:9
+==============================================================================
+Shot like a real documentary photograph on a 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, matte printed-paper texture, slight dust and scratches, neutral colour cast, no colour grading, eye level, sharp throughout, restrained industrial archive mood. Landscape 16:9 composition. interior of an old rubber mixing workshop, a massive internal mixer with caked carbon black on its door, open sacks of compound and stacked black rubber bales in the foreground, dust hanging in the air, hard side-backlight from upper left through a dusty high window, long shadows across a stained concrete floor, muted warm grey with dull black rubber, matte, paper grain, no people, no text, no logo. Realistic photograph — not an illustration, not a 3D render, not CGI. The image must contain no text, no letters, no numbers, no watermark, no logo, no border, no frame, no UI, no vignette. Plain photographic image only.
+
+==============================================================================
+P04 ｜ 轮胎产线 / 车间纵深 ｜ 镜头 #66 ｜ 16:9
+==============================================================================
+Shot like a real documentary photograph on a 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, matte printed-paper texture, slight dust and scratches, neutral colour cast, no colour grading, eye level, sharp throughout, restrained industrial archive mood. Landscape 16:9 composition. one-point perspective down a tire curing production line, rows of tire molds and green tires receding into the far end, overhead ducts and rail structure, haze and dust in the air, long hard shadows across the concrete floor, side-backlight from upper left cutting through the haze, machine silhouettes nearly black, muted warm grey, matte, paper grain, neutral color, no people, no text, no logo. Realistic photograph — not an illustration, not a 3D render, not CGI. The image must contain no text, no letters, no numbers, no watermark, no logo, no border, no frame, no UI, no vignette. Plain photographic image only.
+
+==============================================================================
+P05 ｜ 厂区道路与路灯，黄昏 ｜ 镜头 #83 ｜ 16:9
+==============================================================================
+Shot like a real documentary photograph on a 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, matte printed-paper texture, slight dust and scratches, neutral colour cast, no colour grading, eye level, sharp throughout, restrained industrial archive mood. Landscape 16:9 composition. empty factory access road at late dusk, asphalt with patched repairs and a worn white lane line, a row of street lamps just switched on, low warm grey sky with soft haze, distant plant silhouette without detail, hard side light from upper left casting long shadows across the road, muted warm grey with one warm lamp glow, matte, paper grain, neutral color, no cars, no people, no text, no logo. Realistic photograph — not an illustration, not a 3D render, not CGI. The image must contain no text, no letters, no numbers, no watermark, no logo, no border, no frame, no UI, no vignette. Plain photographic image only.
+
+==============================================================================
+P06 ｜ 旧纸 / 档案纸纸纹特写 ｜ 镜头 #6 ｜ 3:4
+==============================================================================
+Shot like a real documentary photograph on a 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, matte printed-paper texture, slight dust and scratches, neutral colour cast, no colour grading, eye level, sharp throughout, restrained industrial archive mood. Vertical 3:4 composition. extreme close-up of aged handmade archive paper, uneven torn edges, visible fibers and chain lines, faint foxing stains and water marks, one soft crease, muted warm grey beige tone, raking side light from upper left revealing the tooth of the paper, no printing, no writing, no stamp, no ink, blank sheet, matte, paper grain, slight dust, neutral color, no grading. Realistic photograph — not an illustration, not a 3D render, not CGI. The image must contain no text, no letters, no numbers, no watermark, no logo, no border, no frame, no UI, no vignette. Plain photographic image only.
+
+==============================================================================
+P07 ｜ 空白工牌 / 挂绳工牌 ｜ 镜头 #37 ｜ 16:9
+==============================================================================
+Shot like a real documentary photograph on a 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, matte printed-paper texture, slight dust and scratches, neutral colour cast, no colour grading, eye level, sharp throughout, restrained industrial archive mood. Landscape 16:9 composition. three blank employee badges with dark lanyards laid on a worn metal workbench, blank white photo windows empty, no printing, no letters, no numbers, scuffed plastic holders with cracked edges, hard side light from upper left casting crisp shadows, muted warm grey with dull black lanyards, matte, paper grain, slight dust, neutral color, no people, no text. Realistic photograph — not an illustration, not a 3D render, not CGI. The image must contain no text, no letters, no numbers, no watermark, no logo, no border, no frame, no UI, no vignette. Plain photographic image only.
+
+==============================================================================
+P08 ｜ 德国马牌 Continental 标识实物 / 招牌 ｜ 镜头 #35 ｜ 16:9
+==============================================================================
+Shot like a real documentary photograph on a 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, matte printed-paper texture, slight dust and scratches, neutral colour cast, no colour grading, eye level, sharp throughout, restrained industrial archive mood. Landscape 16:9 composition. a weathered Continental tire brand sign mounted on a rough factory wall, raised lettering and the running horse emblem in dull yellow and black, paint worn at the edges with rust streaks below, hard side light from upper left casting the sign's own shadow on the wall, muted warm grey wall, matte surface, paper grain, neutral color, slightly off-center framing, tribute purpose, no other text. Realistic photograph — not an illustration, not a 3D render, not CGI. Only the sign itself may carry the brand lettering; no other text, no watermark, no border, no UI, no vignette.
+

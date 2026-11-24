@@ -1,0 +1,10 @@
+The provided image is the first frame of this shot — keep it exactly: Du Fu and the traveller standing side by side on the stone road seen from behind, black silhouettes of passers-by behind them, dark ridgeline and night sky beyond.
+
+Old 8-bit video game cutscene, not a film, not a 3D render, not an illustration. Effectively only 256 pixels wide and 144 pixels tall. Every edge stair-stepped, every pixel a large flat square. Tiny palette only: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, amber #d98a30, pale cream #e8dcc0. No gradients, no bloom. No text, no letters, no numbers anywhere. Locked camera: only a very slow push forward along the road, never pan, never shake.
+
+THE STAGE NEVER CHANGES: the stone-paved road, the dark ridgeline of the mountains and the night sky stay in frame for the whole shot; the road runs away from camera toward the horizon.
+
+0.0–2.0  Both men turn to face forward, down the road, away from the camera — we see their backs: Du Fu's grey-blue cloak on the left, the traveller's dark red hooded cloak on the right.
+2.0–4.0  They begin to walk forward together, side by side, away from us down the road, their cloaks swaying, long soft shadows ahead of them.
+4.0–6.0  Three or four more black silhouettes step onto the road from both sides and fall in beside them, walking the same direction: a porter with a pole, a woman with a child, an old man with a stick. All pure black silhouettes, rimmed in warm amber from the front.
+6.0–8.0  Far down the road ahead, one small amber lamp lights up at the horizon. It grows slowly brighter and larger until the whole far end of the road is glowing warm, and every walking figure is rimmed in light as they head toward it.

@@ -1,0 +1,11 @@
+The provided image is the first frame of this shot — keep it exactly: a solid wall of warm amber light filling the whole frame.
+
+Old 8-bit video game cutscene, not a film, not a 3D render, not an illustration. Effectively only 256 pixels wide and 144 pixels tall. Every edge stair-stepped, every pixel a large flat square. Tiny palette only: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, amber #d98a30, pale cream #e8dcc0. No gradients except the one light wipe described below. No text, no letters, no numbers anywhere. Locked camera: no pan, no shake, almost no movement.
+
+0.0–1.2  The amber light recedes to the right like a lamp being carried away, uncovering the room behind it: a low wooden table in a poor courtyard at night, an oil lamp on the table, and behind the table a man sitting alone.
+1.2–3.0  The man is LIU BANG: broad square face, thick dark eyebrows, short stiff beard, a faded reddish-brown robe, a plain dark headwrap. He is in his late forties — a heavier, tired, unimpressive face, NOT a handsome young hero, NOT an emperor in silk, no crown. He sits with a chipped clay cup of wine in one hand, looking straight at us.
+3.0–5.0  Beside him on the table: a small carved wooden tally tag on a cord (the badge of a village chief), a thin bundle of bamboo slips, and a small sack of grain leaning against the table leg. The room is cramped and cheap: mud wall, one hanging cloth, a wooden bench.
+5.0–7.0  Across the table sit four or five relatives and neighbours at a meal, their backs and shoulders to us, simple pixel figures: eating, drinking, not looking at him.
+7.0–10.0  An old man leans in from the right side of the table and points a finger straight at Liu Bang while the others laugh. Liu Bang does not answer; his face stays flat and still, his cup does not move.
+
+THE STAGE: this is still on the same road — the courtyard opens onto the stone road, and the dark ridgeline and the night sky are visible behind the low wall the whole time.

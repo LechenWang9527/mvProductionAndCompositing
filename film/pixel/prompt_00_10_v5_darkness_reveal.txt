@@ -1,0 +1,19 @@
+This is an opening cutscene from an old 8-bit video game, not a film and not a 3D render.
+
+The entire picture must be built out of big visible square pixels, like a screenshot of a NES game blown up on a screen. The image is effectively only about 256 pixels wide and 144 pixels tall, so every edge is stair-stepped and every pixel is a large flat square. Flat solid colors only, a very small palette: near black, deep indigo, dark brown, dull red, amber, pale cream. No smooth gradients, no soft edges, no blending, no fading glow — light is always a hard flat shape of amber.
+
+The first two and a half seconds are almost pure blackness. Nothing is readable. The whole city, the staircase, the walls — everything is swallowed by the dark and has NO silhouette, NO outline, NO visible shape at all. Only the few faintest dim stars in the upper sky hint that there is a night out there. The screen is essentially empty and black.
+
+Then a small point of warm amber light appears at the very bottom of the frame, at the foot of a long stone staircase. From that single point the light begins to spread slowly upward along the stairs, one step at a time, like warm paint being poured up the stone — each step is a hard flat amber bar, and the lit steps accumulate behind the spreading edge, step after step climbing toward the gate in the distance.
+
+As the light climbs higher, the dark mass above begins to be revealed, but only where the light reaches: first a low crenellated city wall with a row of small red paper lanterns switching on one by one along its top, then the curved flying eaves and dark tiled roofs of a lower tier of buildings behind the wall, then taller roof tiers stacked up the mountain, then pagodas, and finally at the top a great double-roofed gate tower with a wide arched opening.
+
+The reveal keeps growing outward and upward until the entire vast ancient Chinese city is visible as a sea of hundreds of warm amber windows and red lanterns against the deep indigo night sky — a huge glowing city where moments ago there was nothing but blackness. Chinese architecture only: curved flying eaves, tiled roofs, pagodas, crenellated walls, red paper lanterns. No European castle, no spires, no modern buildings.
+
+A tiny traveller in a dark red hooded cloak stands at the bottom of the stairs seen from behind, small against the huge staircase. He stays completely still at first, then near the end takes two slow steps up onto the lit stairs, cloak moving slightly.
+
+The camera stays locked and perfectly still the whole time: no pan, no zoom, no push in, no shake, no rotation. The only things that change are the light spreading and the traveller.
+
+Keep the chunky pixel look perfectly consistent from first frame to last. Never resolve into smooth 3D, never become photographic or painterly, never add fine detail, never blur.
+
+No text, no letters, no numbers, no captions, no watermark, no logo, no UI, no bars.

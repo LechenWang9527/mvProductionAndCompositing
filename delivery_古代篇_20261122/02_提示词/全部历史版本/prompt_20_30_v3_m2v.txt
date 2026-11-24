@@ -1,0 +1,17 @@
+Continue seamlessly from the reference video: same tiny traveller in the same dark red hooded cloak, same long stone road, same 8-bit pixel style, same palette, same night, same city behind him on the left, same fixed camera height. Keep the character's size, the camera direction and the visual language identical, so the two shots cut together as one continuous take.
+
+The traveller keeps walking to the right and stops beside the tall stone lantern that is already burning ahead of him.
+
+The lantern's light drops onto the road, and where it lands the paving stones stop being stone: the whole surface of the road turns into a flat still sheet of black water, and the hundreds of city lights behind him are reflected upside down in it, mirrored perfectly, a second city hanging beneath the real one.
+
+He takes one step forward, his foot rests on the water without sinking, and a single hard-edged ring of pale amber light spreads out from his heel.
+
+He keeps walking slowly to the right, and each step sends out another ring. The rings travel outward across the black water, and as each ring passes, small amber lanterns rise up out of the water and float at head height, and beside every floating lantern a small black silhouette of a hooded person stands up out of the water — hard solid black shapes with no faces and no detail, motionless, seen from behind, all facing the same way. More and more of them stand up as the rings spread, until a whole crowd of small black figures stands on the black water beneath floating amber lanterns, and the traveller walks slowly among them in the foreground, large and clear.
+
+Far ahead, the rings reach the gate of the city and a chain of lanterns up the gate tower lights up one after another, and their reflections light up in the water at the same moment.
+
+Near the end, the nearest floating lantern drifts toward the camera and its flame grows into a large hard-edged amber shape until warm light floods the screen.
+
+The traveller must always stay the largest, brightest, heaviest thing in the frame; the silhouettes and floating lanterns are smaller and further back. Everything is built from big visible square pixels with stair-stepped edges; flat solid colors only; no smooth gradients, no soft glow, no blur, no fine detail. Never resolve into smooth 3D or a photograph.
+
+No text, no letters, no numbers, no captions, no signs, no watermark, no logo, no UI.

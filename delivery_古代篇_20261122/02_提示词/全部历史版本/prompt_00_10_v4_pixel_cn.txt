@@ -1,0 +1,17 @@
+This is an opening cutscene from an old 8-bit video game, not a film and not a 3D render.
+
+The entire picture must be built out of big visible square pixels, like a screenshot of a NES game blown up on a screen. The image is effectively only about 256 pixels wide and 144 pixels tall, so every edge is stair-stepped and every pixel is a large flat square. Flat solid colors only. A very small palette: near black, deep indigo, dark brown, dull red, amber, pale cream. No smooth gradients anywhere, no soft edges, no shading that blends, no glow that fades out — light is always a hard flat shape of amber.
+
+Scene: a vast ancient Chinese city at night, built in layers up a mountain. Curved flying eaves, dark tiled roofs stacked in tiers, tall pagodas, a great double-roofed gate tower at the center with a wide arched opening, crenellated city walls running left and right, and many small red paper lanterns hanging along the walls and eaves. Chinese architecture only — no European castle, no spires, no modern buildings.
+
+The shot begins almost completely black: the long stone staircase in the foreground and the whole city above are nearly invisible in the dark, only the arched gate carries a faint amber edge.
+
+Then the staircase starts to light up. The very first step nearest the camera turns warm amber, then the step above it, then the next, a slow wave of hard amber light climbing the stairs one step at a time toward the gate. As the light climbs higher, small amber windows and red lanterns across the city switch on one by one — first a few scattered points, then more and more, row after row and tier after tier, until the entire layered city glows as a sea of warm square lights against the deep indigo night sky.
+
+A tiny traveller in a dark red hooded cloak stands at the bottom of the stairs, seen from behind, small against the huge staircase. He stays still at first, then takes two slow steps up onto the lit stairs, cloak moving slightly.
+
+The camera stays locked and still the whole time: no pan, no zoom, no push in, no shake, no rotation. The only thing that moves is the light and the traveller.
+
+Keep the chunky pixel look perfectly consistent from the first frame to the last. Never let the picture resolve into smooth 3D, never let it become photographic or painterly, never add fine detail, never blur. It must always look like a coarse low-resolution pixel drawing.
+
+No text, no letters, no numbers, no captions, no watermark, no logo, no UI, no bars.

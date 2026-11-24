@@ -1,0 +1,31 @@
+== entries with code fences outside AG/V ==
+Z5 剪纸 fences= 2 langs= js three= false canvas= false
+L10 工程方案比较墙 fences= 2 langs= json three= false canvas= false
+L20 油画厚涂 fences= 2 langs= js three= true canvas= false
+L37 彩色玻璃窗 fences= 2 langs=  three= true canvas= false
+
+== empty names ==
+M14 |series M | undefined
+M15 |series M | undefined
+M16 |series M | undefined
+M17 |series M | undefined
+M26 |series M | undefined
+M35 |series M | undefined
+M39 |series M | undefined
+M40 |series M | undefined
+
+entries mentioning prompt/{{}}: 110
+bytes: min 81 max 20877 mean 4200
+lines: min 8 max 171
+
+== bytes per series ==
+AG 26 entries 56KB avg 2206
+M 40 entries 24KB avg 624
+K 38 entries 8KB avg 205
+Z 15 entries 8KB avg 516
+H 12 entries 6KB avg 506
+L 59 entries 772KB avg 13397
+V 15 entries 117KB avg 7980
+X 31 entries 93KB avg 3086
+R 7 entries 6KB avg 819
+O 98 entries 309KB avg 3232

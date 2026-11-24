@@ -1,0 +1,177 @@
+{
+  "generated": "2026-11-10",
+  "revision": 3,
+  "project": "《The OGs · 过来人》MV — image2 出图提示词包（8 槽位）",
+  "doc": "docs/IMAGE_PROMPTS.md",
+  "readme_cn": "先读 §style_anchor，一字不改贴在每条 prompt 前；再按槽位取 prompt_en 批量出图；出图改名 P01.jpg…P08.jpg 放进 film/media/photos/。参考帧只定色调与留白位置，要生成的是帧里空着的那张照片，不是这一帧本身。",
+  "conventions": {
+    "output_dir": "film/media/photos/",
+    "filename": "P01.jpg … P08.jpg",
+    "manifest": "film/media/photos/manifest.json —— [{ \"id\": \"P01\", \"file\": \"P01.jpg\" }, …]，缺项自动退回纯图形版",
+    "resolution": "1920x1080 (16:9), sRGB, JPEG q92+；P06 为 1440x1920 (3:4)",
+    "seed": 20261110,
+    "reference_image": "P01 定稿作为其余 7 张的 image reference，强度 0.35–0.5；参考帧作 image reference 时强度 0.2–0.35",
+    "post_process": "程序侧统一 灰度 → 双色调 → 半调网点 → 纸纹；原图不要自带滤镜、暗角、边框、文字",
+    "batches": {
+      "batch1": ["P01", "P04", "P05", "P08"],
+      "batch2": ["P02", "P03", "P06", "P07"],
+      "note_cn": "先出第一批 4 张插片看色温，再出第二批；不要 8 张一起盲出。"
+    }
+  },
+  "refs": {
+    "dir": "docs/refs/",
+    "style_ref_dir": "docs/refs/style_ref/",
+    "slot_frames_dir": "docs/refs/slot_frames/",
+    "contact_sheet_style": "docs/refs/contact_sheet_style.jpg",
+    "contact_sheet_slots": "docs/refs/contact_sheet_slots.jpg",
+    "source": "out/film_v4.mp4（1920x1080 / 60fps，ffmpeg -ss 直抽）",
+    "rule_cn": "帧 ≠ 生成物：帧里的页头、横线、红条、页脚编号、大字、网格全是程序画的，一个都不要出现在出图里。只取三样——色调、光的来向、那块留白的位置与比例。",
+    "usage_cn": "先看 contact_sheet_style 定调，再看 contact_sheet_slots 找槽位与留白，出图时把对应帧当 image reference（0.2–0.35）。",
+    "caveat_cn": "成片实际版式与 film/docs/STORYBOARD.md 的文字描述有出入（#62 现在是柱状蓝图，#35 是大字版式），以帧为准。"
+  },
+  "style_anchor": "documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood",
+  "style_anchor_cn": "纪实摄影照片，50mm / f4，只用现场光，低调；低饱和暖灰 + 旧纸暖调；轻胶片颗粒；左上侧逆光、硬阴影，暗部压得住但不过死；哑光纸张质感、可见纸纹；少量浮尘与细划痕；中性色偏、不调色、不高反差；平视、全画面清晰；克制，像工业档案。是照片，不是插画/3D/CG。",
+  "style_rules": [
+    "风格块 style_anchor 一字不改，贴在每条 prompt 前面",
+    "seed 全部 20261110",
+    "先出 P01，选中最像样的一张作为其余 7 张的 image reference（0.35–0.5）",
+    "全部 50mm / f4 / 平视 / 左上侧逆光（P01 俯拍除外）",
+    "出图阶段不调色、不加暗角/边框/LUT —— 后期在程序侧统一处理"
+  ],
+  "negative": "text, letters, chinese characters, watermark, signature, caption, ui, screen, interface, chart, graph, face, portrait, person, hand, cartoon, illustration, anime, 3d render, cgi, octane, unreal engine, plastic look, glossy, neon color, saturated color, cyan magenta cast, pure white background, seamless studio backdrop, vignette, border, frame, polaroid, heavy sharpening, hdr, oversaturated, low resolution, blurry, motion blur, jpeg artifacts, duplicated objects, extra fingers",
+  "negative_cn": "文字/字母/中文、水印、签名、说明条、UI 与屏幕、图表、人脸人像、人手、卡通插画动漫、3D 与 CGI、塑料感高光、霓虹高饱和、纯白背景、无缝影棚背景、暗角、边框、拍立得、过度锐化、HDR、过饱和、低分辨率、模糊拖影、压缩伪影、重复物体、多余手指。",
+  "negative_exception": {
+    "P08": "允许出现品牌字母与马形标；其余 7 槽一律禁 logo 与文字。"
+  },
+  "slots": [
+    {
+      "id": "P01",
+      "shot": 25,
+      "shots": [25],
+      "title_cn": "木纹旧桌面，俯拍",
+      "ratio": "16:9",
+      "scene_cn": "空的老木工桌面，深胡桃木纹、划痕、少量木屑、一道浅杯渍圈；桌上没有手机、没有手。",
+      "usage": "整幅底图（cover 裁切铺满 1920x1080）",
+      "prompt_en": "documentary photograph, overhead flat top-down view of an empty old workbench surface, worn dark walnut planks with deep grain lines, one faint coffee ring stain, fine scratches and a little sawdust, no objects, no phone, no hands, thin warm raking side light from the left edge, hard shadow in one corner, muted warm grey, matte, paper grain, slight dust, neutral color, no grading",
+      "not_prompt_en": "top-down view of a scarred wooden factory desk, wide planks with old varnish worn through in patches, dark knots and a long crack filled with dust, low raking light from upper left revealing grain relief, deep shadow on the right side, no objects, no hands, muted warm grey, matte, paper grain, slight dust, neutral color, no grading",
+      "note_cn": "空桌面、纹理越烂越好；手机是程序画上去的，你画了就会变两部。桌面占满画幅、四周不留白边。",
+      "ref_frame": "refs/slot_frames/P01_shot25_phone_desktop.jpg"
+    },
+    {
+      "id": "P02",
+      "shot": 62,
+      "shots": [62, 63],
+      "title_cn": "轮胎断面 / 胎面特写",
+      "ratio": "16:9",
+      "scene_cn": "被切开的重载轮胎断面立在车间地上，看得见胶层、钢丝带束与胎圈钢丝；胎面沟里积灰，缺一块胶。",
+      "usage": "整幅底图，右侧留暗部给程序压字",
+      "prompt_en": "documentary photograph, macro side view of a cut truck tire section standing on a workshop floor, layered rubber, steel belt edges and bead wire visible in cross section, tread blocks in sharp relief with one chipped missing rubber notch, dust in the grooves, hard side light from upper left raking across the cut face, deep shadow behind, muted warm grey and dull black rubber, matte, paper grain, no text, no logo",
+      "not_prompt_en": "close-up of a worn truck tire standing upright on a workshop floor, tread blocks caked with dust and one chipped notch, sidewall cracked and faded, rim rusted, side light from upper left, hard shadow on the concrete, muted warm grey and dull black rubber, matte, paper grain, no text, no logo",
+      "note_cn": "要「能看见里面一层层」的剖面，不是滚圆的成品轮胎照；别拍太干净，干净了像渲染图。",
+      "ref_frame": "refs/slot_frames/P02_shot62_tire_section.jpg",
+      "ref_frame_alt": "refs/slot_frames/P02b_shot63_missing_rubber.jpg"
+    },
+    {
+      "id": "P03",
+      "shot": 57,
+      "shots": [57],
+      "title_cn": "胶料 / 密炼机 / 混炼车间",
+      "ratio": "16:9",
+      "scene_cn": "老混炼车间内景：巨大的密炼机、机门上糊着碳黑，前景敞开的胶料袋与黑色胶块，空气里有尘，地上有污渍。",
+      "usage": "底图（配方工程图与三个料仓压在上面）",
+      "prompt_en": "documentary photograph, interior of an old rubber mixing workshop, a massive internal mixer with caked carbon black on its door, open sacks of compound and stacked black rubber bales in the foreground, dust hanging in the air, hard side-backlight from upper left through a dusty high window, long shadows across a stained concrete floor, muted warm grey with dull black rubber, matte, paper grain, no people, no text, no logo",
+      "not_prompt_en": "interior of a compounding hall, an internal mixer and its charging door black with carbon black, a conveyor feeding rubber bales, dust in the beams of light from high windows, wet floor patches, muted warm grey and dull black compound, matte, paper grain, no people, no text, no logo",
+      "note_cn": "黑、脏、有粉尘，但机器结构要看得清；画面中上部的底要够暗够平，要给工程图留位置。",
+      "ref_frame": "refs/slot_frames/P03_shot57_compound_flow.jpg"
+    },
+    {
+      "id": "P04",
+      "shot": 66,
+      "shots": [66, 70],
+      "title_cn": "轮胎产线 / 车间纵深",
+      "ratio": "16:9",
+      "scene_cn": "硫化产线一点透视收向远处，成排模具与胎坯、上方管线轨道，空气里有雾与尘，地上一道长硬影，机器近乎黑剪影。",
+      "usage": "暗底（整幅，压暗后叠折线/节点）",
+      "prompt_en": "documentary photograph, one-point perspective down a tire curing production line, rows of tire molds and green tires receding into the far end, overhead ducts and rail structure, haze and dust in the air, long hard shadows across the concrete floor, side-backlight from upper left cutting through the haze, machine silhouettes nearly black, muted warm grey, matte, paper grain, neutral color, no people, no text, no logo",
+      "not_prompt_en": "side angle inside an old tire plant, a row of open curing presses with polished mold cavities, steam drifting from a just-opened press, hydraulic lines and gauges in shadow, backlight from a high dusty window at upper left, rim light along the machine edges, floor dark and wet, muted warm grey, matte, paper grain, no people, no text, no logo",
+      "note_cn": "越整齐越像渲染图；允许歪托盘、散落胎坯、掉漆的黄线。下半部要够暗，折线压上去才读得清。",
+      "ref_frame": "refs/slot_frames/P04_shot66_process_flow.jpg",
+      "ref_frame_alt": "refs/slot_frames/P04b_shot70_output_yield.jpg"
+    },
+    {
+      "id": "P05",
+      "shot": 83,
+      "shots": [83, 87],
+      "title_cn": "厂区道路与路灯，黄昏",
+      "ratio": "16:9",
+      "scene_cn": "空无一人的厂区道路，沥青有补丁与褪色白线，一侧几盏路灯刚亮，低矮暖灰天空，远处厂区剪影，路面长硬影。",
+      "usage": "整幅底图（大字与地平线压在图上）",
+      "prompt_en": "documentary photograph, empty factory access road at late dusk, asphalt with patched repairs and a worn white lane line, a row of street lamps just switched on, low warm grey sky with soft haze, distant plant silhouette without detail, hard side light from upper left casting long shadows across the road, muted warm grey with one warm lamp glow, matte, paper grain, neutral color, no cars, no people, no text, no logo",
+      "not_prompt_en": "a quiet industrial road after sunset, wet asphalt reflecting two warm street lamps, low fog, distant fence and a stack in silhouette, sky deep warm grey almost gone, no cars, no people, no text, no logo, long exposure feel but sharp, muted warm grey with warm lamp highlights, matte, paper grain, neutral color",
+      "note_cn": "路必须空，至少要有一盏亮着的灯；地平线落在画面 55–62% 高度；路名与字由程序打，画面里不许有招牌字。",
+      "ref_frame": "refs/slot_frames/P05_shot83_horizon.jpg",
+      "ref_frame_alt": "refs/slot_frames/P05b_shot87_last_lamp.jpg"
+    },
+    {
+      "id": "P06",
+      "shot": 6,
+      "shots": [6, 7, 8, 13, 20, 21, 22, 29, 30],
+      "title_cn": "旧纸 / 档案纸纸纹特写",
+      "ratio": "3:4",
+      "scene_cn": "手工旧纸极近特写，边缘毛糙、纤维与帘纹可见，淡淡霉斑与水痕，一道轻折痕；是一张空白纸，没有印刷、没有字、没有印章、没有墨。",
+      "usage": "古代木刻段当底纸（ancient 调色板，程序会再裁）",
+      "prompt_en": "documentary photograph, extreme close-up of aged handmade archive paper, uneven torn edges, visible fibers and chain lines, faint foxing stains and water marks, one soft crease, muted warm grey beige tone, raking side light from upper left revealing the tooth of the paper, no printing, no writing, no stamp, no ink, blank sheet, matte, paper grain, slight dust, neutral color, no grading",
+      "not_prompt_en": "extreme close-up of an old blank ledger page, laid paper with irregular deckle edges, pulp specks and long fibers, one water stain ring, a soft fold line catching the light, raking light from upper left, warm grey beige, blank, no writing, no stamp, matte, paper grain, slight dust, neutral color, no grading",
+      "note_cn": "一张什么字都没有的旧纸；木刻字、编号、红章全由程序画，这张只要纸的纤维。",
+      "ref_frame": "refs/slot_frames/P06_shot6_woodcut_paper.jpg"
+    },
+    {
+      "id": "P07",
+      "shot": 37,
+      "shots": [37, 52, 72],
+      "title_cn": "空白工牌 / 挂绳工牌",
+      "ratio": "16:9",
+      "scene_cn": "三张空白工牌摊在旧金属工作台上，照片窗是空的，塑料壳划痕裂边，深色挂绳；没有姓名、没有编号、没有印刷。",
+      "usage": "底图（姓名条与编号由程序叠上去）",
+      "prompt_en": "documentary photograph, three blank employee badges with dark lanyards laid on a worn metal workbench, blank white photo windows empty, no printing, no letters, no numbers, scuffed plastic holders with cracked edges, hard side light from upper left casting crisp shadows, muted warm grey with dull black lanyards, matte, paper grain, slight dust, neutral color, no people, no text",
+      "not_prompt_en": "two blank access badges hanging from a lanyard on a scuffed steel table, empty transparent photo window, unprinted card, scratched plastic sleeve, side light from upper left, sharp shadow, muted warm grey and dull black strap, matte, paper grain, slight dust, neutral color, no people, no text",
+      "note_cn": "空牌、空照片窗、真实塑料壳；牌面要留干净区域，程序要往上打姓名条与编号。",
+      "ref_frame": "refs/slot_frames/P07_shot37_blank_badges.jpg"
+    },
+    {
+      "id": "P08",
+      "shot": 35,
+      "shots": [35, 51, 78, 83],
+      "title_cn": "德国马牌 Continental 标识实物 / 招牌",
+      "ratio": "16:9",
+      "scene_cn": "一块旧掉的 Continental 轮胎招牌装在粗糙厂墙上，凸起的字与奔马标，暗黄与黑，边缘掉漆、下方锈痕；招牌的影子打在墙上。",
+      "usage": "角落贴片（占画面 35–55%，不是整幅背景）",
+      "prompt_en": "documentary photograph, a weathered Continental tire brand sign mounted on a rough factory wall, raised lettering and the running horse emblem in dull yellow and black, paint worn at the edges with rust streaks below, hard side light from upper left casting the sign's own shadow on the wall, muted warm grey wall, matte surface, paper grain, neutral color, slightly off-center framing, tribute purpose, no other text",
+      "not_prompt_en": "a single heavy truck tire standing upright in a dim workshop, its sidewall branding embossed and worn, dust in the tread, rim light from upper left, hard shadow across the floor, muted warm grey and dull black rubber, matte, paper grain, no people, no text overlay",
+      "note_cn": "一块「厂里真挂了二十年」的招牌，不是印刷好的 logo 贴纸；马牌黄会被程序压成双色调，原图别加饱和度。",
+      "legal": "trademark: Continental AG. 致敬 / 内部放映用途；公开放映、商用或上平台前请自行确认授权，或改用无字母的「磨损黄圆牌 + 马形剪影」版本。",
+      "ref_frame": "refs/slot_frames/P08_shot35_marpol_ground.jpg"
+    }
+  ],
+  "acceptance": [
+    "8 张全是照片质感，无插画/3D/CG 味",
+    "8 张都无文字、无 UI、无边框、无暗角（P08 允许品牌字）",
+    "P01 无手机无手，桌面占满画幅",
+    "P02 能看见断面分层，胎面有一块缺胶",
+    "P03 机器结构清楚、空气有尘、中上部够暗",
+    "P04 有纵深、下半部够暗，能压折线",
+    "P05 路空、有一盏亮灯、地平线在 55–62%",
+    "P06 是空白旧纸，纸纹清楚，一个字都没有",
+    "P07 三张空白工牌，牌面留干净区域",
+    "P08 招牌有旧痕与自己影子；版权已确认或已换无字母版本",
+    "8 张放一起看色温、颗粒、光向一致"
+  ],
+  "troubleshoot": [
+    { "symptom": "像插画 / 3D 渲染", "fix": "把 documentary photograph, available light only 提到最前，删掉 cinematic / concept art / octane" },
+    { "symptom": "颜色发艳、像手机直出", "fix": "加 desaturated, muted, low saturation, no color grading" },
+    { "symptom": "太亮太干净、没有旧感", "fix": "加 worn, scuffed, dusty, patched, faded paint, micro-scratch" },
+    { "symptom": "出现人脸 / 手 / 人影", "fix": "正向词末尾加 empty, no people, no figures" },
+    { "symptom": "暗部糊成黑块", "fix": "low key 换成 low key with open shadows, detail retained in shadow" },
+    { "symptom": "8 张色温不统一", "fix": "全部重跑同一 seed，P01 定稿做参考图，不要单张补跑" }
+  ]
+}

@@ -1,0 +1,89 @@
+    // 分段进度
+    const sec = sectionAt(t);
+    const p = inv(sec.start, sec.end, t);
+    const bw = 420;
+    ctx.globalAlpha = 0.9;
+    ctx.fillStyle = pal.line;
+    ctx.fillRect(W / 2 - bw / 2, m - 4, bw, 2);
+    ctx.fillStyle = pal.accent;
+    ctx.fillRect(W / 2 - bw / 2, m - 4, bw * p, 2);
+    text(`${String(sec.index + 1).padStart(2, '0')} / ${String(SECTIONS.length).padStart(2, '0')}  ${sec.name.toUpperCase()}`,
+      W / 2, m + 26, { size: 18, fam: 'mono', color: pal.dim, align: 'center', letterSpacing: 3 });
+
+    // 底：滚动日志（每拍换一条假记录，营造"系统在跑"）
+    const bi = beatInfo(t);
+    const recs = ['\u5df2\u5f52\u6863', 'LOCK', 'SYNC', 'READ', 'WRITE', 'INDEX', 'SCAN', 'OK'];
+    const log = [];
+    for (let i = 0; i < 6; i++) {
+      const n = bi.n - i;
+      const r = recs[Math.abs(n * 7) % recs.length];
+      log.push(`#${String(1000 + n).padStart(5, '0')} ${r}`);
+    }
+    ctx.globalAlpha = 0.55;
+    text(log.join('    '), m, H - m, { size: 17, fam: 'mono', color: pal.dim, letterSpacing: 1 });
+    ctx.restore();
+    if (o.rules !== false) {
+      ctx.save();
+      ctx.globalAlpha = 0.5;
+      ctx.fillStyle = pal.line;
+      ctx.fillRect(m, m + 40, W - 2 * m, 1);
+      ctx.fillRect(m, H - m - 34, W - 2 * m, 1);
+      ctx.restore();
+    }
+  }
+
+  function fmtTC(t) {
+    const s = Math.max(0, t);
+    const mm = Math.floor(s / 60);
+    const ss = Math.floor(s % 60);
+    const ff = Math.floor((s % 1) * 60);
+    return `${String(mm).padStart(2, '0')}:${String(ss).padStart(2, '0')}:${String(ff).padStart(2, '0')}`;
+  }
+
+  // 全片统一颗粒 + 轻微暗角（一层"胶片"把所有段粘在一起）
+  function finish(t, pal, opts) {
+    const o = opts || {};
+    ctx.save();
+    // 暗角
+    const g = ctx.createRadialGradient(W / 2, H / 2, H * 0.25, W / 2, H / 2, H * 0.95);
+    g.addColorStop(0, 'rgba(0,0,0,0)');
+    g.addColorStop(1, o.vignette || 'rgba(0,0,0,0.55)');
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+    ctx.restore();
+
+    if (o.grain !== false) {
+      ctx.save();
+      ctx.globalCompositeOperation = 'overlay';
+      ctx.globalAlpha = o.grainAlpha == null ? 0.10 : o.grainAlpha;
+      ctx.drawImage(grainTile(480, 270, 1, 91), 0, 0, W, H);
+      ctx.restore();
+    }
+    if (o.scan) {
+      ctx.save();
+      ctx.globalAlpha = o.scanAlpha == null ? 0.35 : o.scanAlpha;
+      ctx.drawImage(scanlines(W, H, 3, 0.55), 0, 0);
+      ctx.restore();
+    }
+    // 转场黑场（段落切换）
+    if (o.fade != null && o.fade > 0) {
+      ctx.save();
+      ctx.globalAlpha = clamp(o.fade, 0, 1);
+      ctx.fillStyle = '#000';
+      ctx.fillRect(0, 0, W, H);
+      ctx.restore();
+    }
+  }
+
+  // ---------- 导出 ----------
+  const API = {
+    W, H, ctx, PAL, FONT, TL, BEAT, HALF, SECTIONS, ALL_LINES,
+    clamp, lerp, inv, ease, rnd, hash,
+    makeCanvas, hatchTile, grainTile, halftone, scanlines,
+    beatInfo, halfPulse, sectionAt, lineAt, lineIndexOf,
+    clear, setFont, text, measure, karaoke, lineIn, woodcutText, hud, finish, fmtTC,
+    textCache: {},
+  };
+  window.K = API;
+  window.renderAt = window.renderAt || function () {};
+})();

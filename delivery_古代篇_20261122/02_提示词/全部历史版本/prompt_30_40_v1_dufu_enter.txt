@@ -1,0 +1,21 @@
+The provided image is the first frame of this shot - keep it exactly: the same night, the same long stone road now turned to a flat black sheet of water, the same crowd of small solid black hooded silhouettes standing on the water, the same floating amber lanterns and their reflections, the same stone lantern burning on the right, the same city of warm windows on the left, the same bare tree and the same mountain ridge. Same 8-bit pixel look, same palette, same camera height, same framing. The shot must begin exactly on this image.
+
+The big flame burning in the middle of the water slowly shrinks and dims down to a small quiet lantern, and as it dims it reveals a figure standing behind it.
+
+The figure is an old, thin man in a long blue-grey cloak, slightly stooped, with a narrow gaunt face, long thin eyebrows, a sparse wispy beard and hollow cheeks - drawn with only a few large pixels for the face, but a face you can read at once. He stands still under the lantern light, looking at the traveller.
+
+The crowd of black silhouettes around them quietly sinks back into the water and disappears, and the water becomes ordinary stone pavement again.
+
+The old man lifts a cloth bundle off his back and sets it down on the road. The bundle lands with a small puff of dust, and then behind it the ground rises up with more bundles - five, ten, twenty identical cloth bundles stacked into a small hill behind him, the bundles of a man who has moved house too many times.
+
+Above the bundle hill, half-transparent memories float up in the air like pale amber ghosts: the doorway of a small rented room in an old city street, a wooden rent board hanging beside the door, and a short flight of steps.
+
+A heavy hand comes into the frame from the right and pushes the rent board, and the row of copper coins hanging beside the board grows longer - one coin, two, three more coins appear on the string, the rent going up, the whole string swinging.
+
+Near the end, the traveller and the old man stand side by side facing the rented room, small under the huge night sky, and the memory slowly fades back into the dark.
+
+The traveller must always stay the largest, brightest, heaviest thing in the frame. The old man is the second largest. The memories are pale, transparent and further back. The camera only glides forward very slowly and gently - no shake, no rotation, no fast zoom.
+
+Everything is built from big visible square pixels with stair-stepped edges; flat solid colors only; no smooth gradients, no soft glow, no blur, no fine detail. Never resolve into smooth 3D or a photograph.
+
+No text, no letters, no numbers, no captions, no signs, no wood with writing on it, no watermark, no logo, no UI.

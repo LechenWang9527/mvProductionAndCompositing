@@ -1,0 +1,75 @@
+total 3631
+drwxrwxrwx 1 WangLC None    4096 Nov 10 10:04 .
+drwxrwxrwx 1 WangLC None       0 Nov 10 09:46 ..
+drwxrwxrwx 1 WangLC None       0 Nov 10 10:04 .scout
+-rwxrwxrwx 1 WangLC None    1307 Nov 10 09:21 AGENTS.md
+-rwxrwxrwx 1 WangLC None    4176 Nov 10 09:41 The OGs 自动识别.lrc
+-rwxrwxrwx 1 WangLC None    6111 Nov 10 09:41 The OGs 自动识别.srt
+-rwxrwxrwx 1 WangLC None 3679286 Nov 10 09:29 The OGs 视频音轨.mp3
+drwxrwxrwx 1 WangLC None    4096 Nov 10 10:03 analysis
+drwxrwxrwx 1 WangLC None       0 Nov 10 09:22 bench
+drwxrwxrwx 1 WangLC None       0 Nov 10 09:55 docs
+drwxrwxrwx 1 WangLC None       0 Nov 10 09:53 lyrics
+drwxrwxrwx 1 WangLC None    4096 Nov 10 10:02 mv_engine
+drwxrwxrwx 1 WangLC None    4096 Nov 10 10:03 out
+drwxrwxrwx 1 WangLC None    4096 Nov 10 09:17 ref_mv
+drwxrwxrwx 1 WangLC None    4096 Nov 10 09:16 ref_prompts
+=== ref_prompts top ===
+total 33
+drwxrwxrwx 1 WangLC None  4096 Nov 10 09:16 .
+drwxrwxrwx 1 WangLC None  4096 Nov 10 10:04 ..
+drwxrwxrwx 1 WangLC None  4096 Nov 10 09:16 .git
+-rwxrwxrwx 1 WangLC None   267 Nov 10 09:16 .gitattributes
+drwxrwxrwx 1 WangLC None     0 Nov 10 09:16 .github
+-rwxrwxrwx 1 WangLC None    93 Nov 10 09:16 .gitignore
+-rwxrwxrwx 1 WangLC None  2415 Nov 10 09:16 CONTRIBUTING.md
+-rwxrwxrwx 1 WangLC None  2889 Nov 10 09:16 LICENSE.md
+-rwxrwxrwx 1 WangLC None 13307 Nov 10 09:16 README.md
+drwxrwxrwx 1 WangLC None     0 Nov 10 09:16 docs
+drwxrwxrwx 1 WangLC None     0 Nov 10 09:16 prompts
+drwxrwxrwx 1 WangLC None     0 Nov 10 09:16 scripts
+drwxrwxrwx 1 WangLC None     0 Nov 10 09:16 skills
+=== depth2 ===
+ref_prompts
+ref_prompts/.git
+ref_prompts/.git/HEAD
+ref_prompts/.git/config
+ref_prompts/.git/description
+ref_prompts/.git/hooks
+ref_prompts/.git/index
+ref_prompts/.git/info
+ref_prompts/.git/logs
+ref_prompts/.git/objects
+ref_prompts/.git/packed-refs
+ref_prompts/.git/refs
+ref_prompts/.git/shallow
+ref_prompts/.gitattributes
+ref_prompts/.github
+ref_prompts/.github/workflows
+ref_prompts/.gitignore
+ref_prompts/CONTRIBUTING.md
+ref_prompts/LICENSE.md
+ref_prompts/README.md
+ref_prompts/docs
+ref_prompts/docs/INSTALL.md
+ref_prompts/docs/STYLES.md
+ref_prompts/docs/images
+ref_prompts/docs/source-manifest.json
+ref_prompts/prompts
+ref_prompts/prompts/one-click-import.md
+ref_prompts/scripts
+ref_prompts/scripts/build_catalog.py
+ref_prompts/scripts/build_visuals.py
+ref_prompts/scripts/install_skill.py
+ref_prompts/scripts/validate_repo.py
+ref_prompts/skills
+ref_prompts/skills/code-animation-prompts
+=== sizes ===
+4.0K	ref_prompts/CONTRIBUTING.md
+4.0K	ref_prompts/LICENSE.md
+16K	ref_prompts/README.md
+38M	ref_prompts/docs
+4.0K	ref_prompts/prompts
+24K	ref_prompts/scripts
+77M	ref_prompts/skills
+DONE

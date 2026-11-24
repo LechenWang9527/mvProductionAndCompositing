@@ -1,0 +1,3 @@
+[03:58:45] frame 1081/18353  t=18.00  53.5ms/f  eta 15m24s  png 138MB
+[03:58:51] frame 1201/18353  t=20.00  52.9ms/f  eta 15m7s  png 153MB
+[03:58:57] frame 1321/18353  t=22.00  52.6ms/f  eta 14m56s  png 170MB

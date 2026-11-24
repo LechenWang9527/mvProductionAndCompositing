@@ -1,0 +1,22 @@
+== render log tail
+[03:09:49] frame 1201/18353  t=20.00  78.3ms/f  eta 22m23s  png 223MB
+[03:10:03] frame 1321/18353  t=22.00  81.3ms/f  eta 23m5s  png 255MB
+[03:10:18] frame 1441/18353  t=24.00  85.2ms/f  eta 24m0s  png 288MB
+[03:10:31] frame 1561/18353  t=26.00  87.1ms/f  eta 24m23s  png 319MB
+[03:10:44] frame 1681/18353  t=28.00  88.6ms/f  eta 24m37s  png 342MB
+[03:11:03] frame 1801/18353  t=30.00  92.8ms/f  eta 25m37s  png 373MB
+== docs
+docs:
+total 144
+drwxrwxrwx 1 WangLC None  4096 Nov 10 11:01 .
+drwxrwxrwx 1 WangLC None  4096 Nov 10 10:51 ..
+-rwxrwxrwx 1 WangLC None 71933 Nov 10 09:40 METHODOLOGY.md
+-rwxrwxrwx 1 WangLC None 35518 Nov 10 11:01 REFPROMPTS.md
+-rwxrwxrwx 1 WangLC None 29811 Nov 10 09:55 RESEARCH.md
+drwxrwxrwx 1 WangLC None     0 Nov 10 10:58 notes
+
+docs/notes:
+total 40
+drwxrwxrwx 1 WangLC None     0 Nov 10 10:58 .
+drwxrwxrwx 1 WangLC None  4096 Nov 10 11:01 ..
+-rwxrwxrwx 1 WangLC None 36045 Nov 10 10:58 prompts_picks.json

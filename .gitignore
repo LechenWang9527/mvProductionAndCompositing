@@ -1,0 +1,79 @@
+# ==========================================
+# The OGs / 过来人 MV 工程 .gitignore
+# 目标：只向 GitHub 存档核心代码、歌词时间轴、提示词、关键帧与文档
+# 拦截：虚拟环境、模型权重、node_modules、渲染帧序列与大体积视频
+# ==========================================
+
+# --- 1. 系统、编辑器临时文件与本地协作约定 ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+AGENTS.md
+
+# --- 2. 依赖库、Python 虚拟环境与缓存 ---
+node_modules/
+.bundle/
+.tmp/
+.tmp-*/
+tmp/
+logs/
+*.log
+venv*/
+.venv/
+__pycache__/
+*.py[cod]
+*.whl
+pip-*/
+hf_home/
+models/
+
+# --- 3. 庞大的本地实验与历史渲染输出目录 (~12 GB+) ---
+_trials/
+out/
+_archive_workspace_legacy/
+film/motion-v2/studies/
+film/motion-v2/out/
+film/motion-v2/public/fonts/
+film/motion-v2/public/assets/
+film/media/
+film/pixel/frames/
+film/pixel/export/
+film/pixel/out/
+film/pixel/**/*.png
+film/pixel/**/*.jpg
+
+# --- 4. 独立嵌套参考仓（各自有独立 .git，避免外层仓库冲突） ---
+ref_mv/
+ref_prompts/
+ref_drawai/
+
+# --- 5. 大体积音视频与中间切片（防爆 GitHub 100MB 限制） ---
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.zip
+*.7z
+*.tar.gz
+
+# 例外保留：新版官方标准母带音轨仅 6.8 MB，随歌词一起上云存档
+!lyrics/PE_Annual_Party_新音轨.m4a
+
+# --- 6. 交付包中的大视频与拼接临时目录（仅保留提示词、关键帧与说明文档） ---
+delivery_古代篇_20261122/**/_temp_trimmed/
+delivery_古代篇_20261122/00_完整成片/
+delivery_古代篇_20261122/01_分段素材/
+delivery_古代篇_20261122/03_完整成品/
+source_updates_20261124/*.mp4
+source_updates_20261124/*.jpg
+
+# --- 7. 杂项大体积参考缓存 ---
+docs/external_deepseek/
+docs/refs/

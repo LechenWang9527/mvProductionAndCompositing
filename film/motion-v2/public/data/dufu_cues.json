@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "section": "01 dufu & 02 dufu-son",
+    "range": [29.993, 74.611],
+    "lineStart": 8,
+    "lineEnd": 30,
+    "fps": 60
+  },
+  "cues": {
+    "dufuTitle": {
+      "time": 29.993,
+      "frame": 1800,
+      "lineIndex": 8,
+      "text": "我是杜甫",
+      "desc": "杜甫篇开启，题字'我是杜甫'入画"
+    },
+    "relocate": {
+      "time": 31.400,
+      "frame": 1884,
+      "lineIndex": 9,
+      "text": "一辈子都在搬家",
+      "desc": "颠沛流离流转，山河与行李车轮印迹"
+    },
+    "changanRent": {
+      "time": 33.065,
+      "frame": 1984,
+      "lineIndex": 10,
+      "text": "四十岁还在长安租房",
+      "desc": "长安坊市巷陌，寒门租屋门环"
+    },
+    "rentRise": {
+      "time": 35.009,
+      "frame": 2101,
+      "lineIndex": 11,
+      "text": "房东一开口就是涨价",
+      "desc": "房东开口涨价，租单账目跳升"
+    },
+    "cottage": {
+      "time": 36.904,
+      "frame": 2214,
+      "lineIndex": 12,
+      "text": "后来总算有了茅屋",
+      "desc": "浣花溪畔草堂初成，清冷宣纸初见屋檐"
+    },
+    "hutStormHit": {
+      "time": 38.694,
+      "frame": 2322,
+      "lineIndex": 13,
+      "text": "秋风一来屋子都快散架",
+      "desc": "八月秋高风怒号，狂风掀屋三重茅"
+    },
+    "manyHomes": {
+      "time": 40.993,
+      "frame": 2460,
+      "lineIndex": 14,
+      "text": "我写安得广厦千万间",
+      "desc": "安得广厦千万间巨幅榜书破空而出"
+    },
+    "shelterWarm": {
+      "time": 43.015,
+      "frame": 2581,
+      "lineIndex": 15,
+      "text": "说白了 就是想有个家",
+      "desc": "大庇天下寒士俱欢颜，寒风中暖光初现，平滑回暖"
+    },
+    "transitionYou": {
+      "time": 44.596,
+      "frame": 2676,
+      "lineIndex": 16,
+      "text": "你也一样吧",
+      "desc": "视角转折，古今镜相对接"
+    },
+    "keyLock": {
+      "time": 45.636,
+      "frame": 2738,
+      "lineIndex": 17,
+      "text": "钥匙串上挂的全是别人的锁",
+      "desc": "重金属钥匙串，锁扣撞击冷光"
+    },
+    "workerBadge": {
+      "time": 48.250,
+      "frame": 2895,
+      "lineIndex": 18,
+      "text": "工牌挂在脖子上",
+      "desc": "胸前工牌缎带拉扯，紧扣呼吸"
+    },
+    "heartDrop": {
+      "time": 49.819,
+      "frame": 2989,
+      "lineIndex": 19,
+      "text": "一天不摘心就一天不落",
+      "desc": "心脏搏动与打卡机齿轮节拍共振"
+    },
+    "billRow1": {
+      "time": 51.930,
+      "frame": 3116,
+      "lineIndex": 20,
+      "text": "房贷",
+      "desc": "账单首行：房贷数字重压砸落"
+    },
+    "billRow2": {
+      "time": 52.436,
+      "frame": 3146,
+      "lineIndex": 20,
+      "text": "学费",
+      "desc": "账单二行：学费收据印戳叠印"
+    },
+    "billRow3": {
+      "time": 53.447,
+      "frame": 3207,
+      "lineIndex": 20,
+      "text": "爸妈的体检单",
+      "desc": "账单三行：体检单心电波纹掠过"
+    },
+    "billTotal": {
+      "time": 54.016,
+      "frame": 3241,
+      "lineIndex": 21,
+      "text": "你一样一样往购物车里搁",
+      "desc": "购物车结算清单飞速滚动累加"
+    },
+    "billPaid": {
+      "time": 55.976,
+      "frame": 3359,
+      "lineIndex": 22,
+      "text": "付完钱一看",
+      "desc": "支付扣款成功提示，屏幕微光闪现"
+    },
+    "billZero": {
+      "time": 57.240,
+      "frame": 3434,
+      "lineIndex": 23,
+      "text": "没一样是给你自己的",
+      "desc": "清单翻阅完毕，余额清零，双手空空"
+    },
+    "noRegret": {
+      "time": 58.767,
+      "frame": 3526,
+      "lineIndex": 24,
+      "text": "你也没觉得错",
+      "desc": "沉静定格，释怀与扛起"
+    },
+    "cradle": {
+      "time": 60.053,
+      "frame": 3603,
+      "lineIndex": 25,
+      "text": "我儿子出生那天",
+      "desc": "进入子嗣篇，婴儿摇篮剪影与岁月灯影"
+    },
+    "petition": {
+      "time": 61.617,
+      "frame": 3697,
+      "lineIndex": 26,
+      "text": "我还在长安低头求人办事",
+      "desc": "长安朱门深锁，风雪中低首躬身"
+    },
+    "midnight02": {
+      "time": 63.720,
+      "frame": 3823,
+      "lineIndex": 27,
+      "text": "你凌晨两点那碗泡面",
+      "desc": "凌晨两点桌灯昏黄，泡面热气在寒夜升腾"
+    },
+    "sameDays": {
+      "time": 65.334,
+      "frame": 3920,
+      "lineIndex": 28,
+      "text": "我也吃过 一样的日子",
+      "desc": "两代人隔着千年共尝人间烟火"
+    },
+    "notTeaching": {
+      "time": 67.410,
+      "frame": 4045,
+      "lineIndex": 29,
+      "text": "我不是来教你的 我就是想说",
+      "desc": "67.4s 宣纸柔和回暖，语气推心置腹"
+    },
+    "memoryAll": {
+      "time": 70.850,
+      "frame": 4251,
+      "lineIndex": 30,
+      "text": "这些事儿我也一件一件经历过",
+      "desc": "走马灯泛黄回忆展开"
+    },
+    "memory1": {
+      "time": 72.323,
+      "frame": 4339,
+      "lineIndex": 30,
+      "text": "一",
+      "desc": "回忆帧第1击：流徙与屋漏"
+    },
+    "memory2": {
+      "time": 72.604,
+      "frame": 4356,
+      "lineIndex": 30,
+      "text": "件",
+      "desc": "回忆帧第2击：长安求谒与离索"
+    },
+    "memory3": {
+      "time": 72.886,
+      "frame": 4373,
+      "lineIndex": 30,
+      "text": "一",
+      "desc": "回忆帧第3击：深夜灯影与亲眷"
+    },
+    "memory4": {
+      "time": 73.167,
+      "frame": 4390,
+      "lineIndex": 30,
+      "text": "件",
+      "desc": "回忆帧第4击：释怀与千古共鸣"
+    },
+    "dufuEnd": {
+      "time": 74.300,
+      "frame": 4458,
+      "lineIndex": 30,
+      "text": "过",
+      "desc": "杜甫篇结语，73.5~74.3s 渐入暗夜过渡边，交棒副歌"
+    }
+  }
+}

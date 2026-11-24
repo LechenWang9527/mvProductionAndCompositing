@@ -1,0 +1,18 @@
+The provided image is the first frame of this shot — keep it exactly: the traveller in the dark red hooded cloak squatting at the left holding steaming instant noodles, Du Fu in the grey-blue cloak squatting at the right holding a rough clay bowl of noodles, the stone road and the dark ridgeline of the mountains and the night sky behind them.
+
+Old 8-bit video game cutscene, not a film, not a 3D render, not an illustration. Effectively only 256 pixels wide and 144 pixels tall. Every edge stair-stepped, every pixel a large flat square. Tiny palette only: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, amber #d98a30, pale cream #e8dcc0. No gradients, no bloom, no soft glow. No text, no letters, no numbers anywhere. Locked camera: no pan, no shake, no zoom.
+
+0.0–3.4  Du Fu raises his head, three-quarter face, long thin face, long eyebrows, sparse beard. He holds his clay bowl out toward the traveller; steam drifts across. The traveller does not take it, just looks at him.
+
+3.4–7.0  FOUR MEMORY PANELS, arranged STRICTLY as one flat horizontal row of four equal square panels across the VERY TOP of the frame, flush with the top edge, filling the upper 40% of the screen from left edge to right edge. They are FLAT, SQUARE-CORNERED, EDGE-TO-EDGE panels — like four pages of an old book laid open side by side at the top of the screen, NOT like picture frames.
+
+ABSOLUTELY FORBIDDEN: panels arranged in a circle; panels orbiting around anybody's head; panels floating behind or beside the character; glowing or bright outlined borders; rounded corners; perspective tilt; panels flying or drifting around. The four panels must be dead flat, perfectly horizontal, aligned, and locked to the top of the frame like a strip of film.
+
+The panels appear one after another from LEFT to RIGHT, each one unfolding downward into place like a page being turned, each staying fully visible once revealed, so that at the end all four are on screen at the same time and every one is large and clearly readable.
+
+Panel 1 — renting a room in Chang'an: a narrow low doorway, a stout landlord standing in it with one open hand held out, a few coins and a paper lease on a table.
+Panel 2 — his thatched hut: the roof torn open by autumn wind, straw flying sideways, the hut still standing.
+Panel 3 — his child being born: a woven bamboo cradle with a swaddled newborn, a small oil lamp beside it, a woman's hand tucking the blanket.
+Panel 4 — refused at the gate: a figure squatting on the doorstep in the snow holding a bowl, head down.
+
+People inside the panels are simple pixel silhouettes, no detailed faces. The bottom 60% of the frame never changes: the two men squatting, their bowls, the road, the ridgeline, the night sky. At the end all four panels fade into warm amber points of light drifting up into the stars.

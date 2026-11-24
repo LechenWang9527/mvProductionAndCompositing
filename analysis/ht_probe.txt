@@ -1,0 +1,4 @@
+377:      ctx.drawImage(hatchTile(L.ang, L.sp, W, H, L.col, 0.55, 3), 0, 0, W, H);
+722:      ctx.drawImage(hatchTile(2 + i * 3, 6 + i * 3, W, H, '#17130f', 0.5, 2), -((t * (300 + i * 160)) % W), 0, W, H);
+723:      ctx.drawImage(hatchTile(2 + i * 3, 6 + i * 3, W, H, '#17130f', 0.5, 2), -((t * (300 + i * 160)) % W) + W, 0, W, H);
+746:    ctx.drawImage(hatchTile(20, 10, W, H, '#17130f', 0.6, 4), 0, 0, W, H);

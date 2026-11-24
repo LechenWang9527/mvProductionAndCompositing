@@ -1,0 +1,13 @@
+The provided image is the first frame of this shot — keep it exactly: the traveller in the dark red hooded cloak squatting at the left of a stone road verge holding steaming instant noodles, and Du Fu in the grey-blue cloak squatting at the right holding a rough clay bowl of noodles, one thousand years apart, symmetrical, with the dark ridgeline and night sky behind them.
+
+Old 8-bit video game cutscene, not a film, not a 3D render, not an illustration. Effectively only 256 pixels wide and 144 pixels tall. Every edge stair-stepped, every pixel a large flat square. Tiny palette only: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, amber #d98a30, pale cream #e8dcc0. No gradients, no bloom, no soft glow — light is always a hard flat shape of amber. No text, no letters, no numbers anywhere in frame. Locked camera: only a very slow push in, never pan, never shake.
+
+THE STAGE NEVER CHANGES: the stone-paved road, the dark ridgeline of the mountains and the night sky stay behind everything for the whole shot. The memory vignettes float in the air above the road — this is NOT a scene cut and NOT a flashback cut; the road and the mountains never leave the frame.
+
+0.0–3.7  Du Fu raises his head and finally shows his three-quarter face: a long thin face, long eyebrows, sparse beard, a middle-aged man; his eyes look straight at the traveller. He holds out his clay bowl toward him; the steam from the bowl drifts toward the traveller. The traveller does not take it — he just looks at him.
+3.7–7.0  Behind and above Du Fu, four semi-transparent amber memory frames rise into the air over the road and arrange themselves in a slow circle, lighting one after another like a rotating lantern show. All four are the same old 8-bit pixel style as everything else, edges stair-stepped, floating like warm mist rather than hard cards:
+  (1) Du Fu renting a low room in Chang'an: a narrow rented doorway on the roadside, a landlord at the door holding out one open hand, a few coins and a paper lease on the table — no writing on the paper, just paper and coins.
+  (2) His thatched hut: the roof torn open by autumn wind, straw flying away, the hut still standing over the road.
+  (3) His child being born: a bamboo cradle with a swaddled newborn under an oil lamp, a woman's hand tucking the blanket.
+  (4) Du Fu after being refused: squatting on the doorstep of that same closed gate in the snow, holding a bowl of noodles with both hands, steam rising, head down.
+The people inside all four frames are only silhouettes and simple pixel figures, no detailed faces. After one full turn, all four frames soften into warm amber points of light and drift up into the stars, leaving the road and the ridgeline exactly where they were.

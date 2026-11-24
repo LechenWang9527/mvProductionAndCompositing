@@ -1,0 +1,13 @@
+44:  logLines.push(line);
+45:  if (LOG) fs.writeFileSync(LOG, logLines.join('\n'), 'utf8');
+49:const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json', '.mp3': 'audio/mpeg', '.wav': 'audio/wav', '.png': 'image/png' };
+54:  res.writeHead(200, { 'content-type': MIME[path.extname(p)] || 'application/octet-stream' });
+100:  ffArgs.push('-ss', String(t0), '-t', String(Math.max(0.1, t1 - t0)), '-i', AUDIO);
+102:ffArgs.push('-c:v', 'libx264', '-preset', PRESET, '-crf', CRF, '-pix_fmt', 'yuv420p',
+105:if (!NO_AUDIO && fs.existsSync(AUDIO)) ffArgs.push('-c:a', 'aac', '-b:a', '192k', '-shortest');
+106:ffArgs.push(OUT);
+118:  const buf = await page.screenshot({ type: 'png', clip: { x: 0, y: 0, width: WIDTH, height: HEIGHT } });
+120:  if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
+125:    log(`frame ${i + 1}/${nFrames}  t=${t.toFixed(2)}  ${(per * 1000).toFixed(1)}ms/f  eta ${Math.floor(eta / 60)}m${Math.round(eta % 60)}s  png ${(bytes / 1048576).toFixed(0)}MB`);
+128:ff.stdin.end();
+136:log(`DONE ${OUT} ${(size / 1048576).toFixed(1)}MB  ${(ms / 1000).toFixed(1)}s  ${(ms / nFrames).toFixed(1)}ms/frame  png ${(bytes / 1048576).toFixed(1)}MB`);

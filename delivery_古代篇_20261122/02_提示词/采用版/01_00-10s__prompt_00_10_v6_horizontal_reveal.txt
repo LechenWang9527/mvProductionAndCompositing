@@ -1,0 +1,24 @@
+# 01段重置版（0–10s）提示词：横版卷轴·从黑暗走向万家灯火
+# 目标：解决视角矛盾，全片统一为“向右赶路（超级马里奥式横版卷轴）”；末帧与02段首帧完全对齐。
+
+========================================
+【英文提示词（喂给 Seedance / 视频生成模型）】
+========================================
+This is an opening side-scrolling cutscene from an old 8-bit retro video game, viewed from a horizontal 2D platformer side-perspective, not a 3D render and not a photographic film.
+
+STYLE & PIXEL GRID LOCK:
+The image must strictly look like an authentic 8-bit NES/retro game blown up on screen (logical resolution ~256x144). Every contour and edge is stair-stepped into visible chunky square pixels. Flat solid colors only, no smooth gradients, no soft airbrushed lighting, no modern bloom.
+Strict 6-color palette: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, warm amber #d98a30, pale rice-paper cream #e8dcc0.
+
+CAMERA & MOVEMENT DIRECTION:
+The camera moves strictly by tracking / sliding horizontally to the right at a constant ground level (classic side-scroller tracking, like Super Mario). The character walks strictly from left to right. NEVER push forward, never rotate, never shake.
+
+PROGRESSION & FANTASY CHINESE WORLD (0.0s - 10.0s):
+- 0.0s–2.0s: The scene starts in tranquil, deep night darkness with only faint starry sky above. A tiny lone traveller wearing a dark red hooded cloak steps into view from the left side, walking steadily to the right across the darkness.
+- 2.0s–5.5s: A poetic fantasy awakening occurs with his footsteps. As he walks to the right, a path of ancient Chinese stone paving slabs lights up beneath his feet out of the darkness, step by step, glowing in soft warm amber. Behind and above him, a terraced mountain village in the mist begins to awaken: wooden cliffside houses, curving tiled eaves, and mountain huts light up their small square windows one by one with glowing amber light; rows of tiny red paper lanterns ignite softly along the path, casting warm reflections.
+- 5.5s–8.5s: The camera smoothly continues tracking to the right with the traveller. As the mist parts, the vast and majestic ancient Chinese mountain city opens up in the background: towering stacked pagodas, crenellated city walls, and a magnificent multi-tiered grand palace atop the mountain, ablaze with hundreds of warm amber windows and red lanterns illuminating the deep blue night. Traditional Chinese fantasy architecture only: flying eaves, bracket sets, stone steps, tiled roofs.
+- 8.5s–10.0s: The traveller walks onto the broad stone plateau directly in front of the illuminated mountain fortress and stops at the center of the terrace. The camera smoothly decelerates and comes to a complete halt, perfectly matching the composition of the provided target reference frame: the tiny hooded traveller stands in the lower-center on the stone platform, looking up at the illuminated mountain city with its majestic golden palace and glowing rooftops filling the sky.
+
+The final frame at 10.0s must exactly converge onto the layout of the target reference image (the stone terrace in the foreground, the traveller standing still, and the fully lit mountain city behind).
+
+No text, no letters, no UI icons, no modern elements.

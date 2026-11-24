@@ -1,0 +1,43 @@
+== ref_prompts 顶层
+CONTRIBUTING.md
+LICENSE.md
+README.md
+docs
+prompts
+scripts
+skills
+
+== ref_prompts 尺寸
+225M	E:/新建文件夹/实习/MV/ref_prompts
+
+== E:/新建文件夹/日常及材料
+google.txt
+一堆材料
+体检
+小说2
+工作申请
+幕后世界
+杂项
+申请
+论文
+随想录
+== E:/新建文件夹/大学文件
+大三上
+大三下
+毕设
+== E:/新建文件夹/Book
+NUS
+书
+力量训练原理：用七大核心原理科学提升力量 (迈克·伊瑟泰尔, 詹姆斯·霍夫曼, 查德·韦斯利·史密斯) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+力量训练计划用精准计划极速提升力量和运动表现 (马克·瑞比托 (Mark Rippetoe), 安迪·贝克(Andy Baker)) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+历史
+哲学
+文学
+精益数据分析 (阿利斯泰尔·克罗尔 本杰明·尤科维奇) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+计算机
+马克思
+== E:/新建文件夹/小说
+AGENTS.md
+cogeer_acc.py
+小说设定.md
+章节梗概.md

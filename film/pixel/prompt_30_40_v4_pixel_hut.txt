@@ -1,0 +1,25 @@
+The provided image is the first frame of this shot - keep it exactly as it is. This is a low-resolution 1980s 8-bit game image, not an illustration: the whole picture is built from big visible square pixels, roughly 480 pixels wide across the entire screen, every edge stair-stepped, every pixel a flat solid square of one colour. The squares in the reference image define the exact pixel size for everything you draw. Keep every new pixel you draw at that same size for the whole shot. No anti-aliasing, no smooth gradients, no soft shading, no painted brush texture, no fine hair lines, no illustration detail, no photorealism, no 3D rendering. Flat colour blocks and hard stair-step edges only.
+
+Keep the same composition, the same night, the same water surface that mirrors the city, the same crowd of small solid black hooded silhouettes, the same floating amber lanterns, the same stone lantern burning on the right, the same city of warm windows on the left, the same bare tree and the same mountain ridge. Same camera height, same framing. The camera only glides forward very slowly - no shake, no rotation, no fast zoom.
+
+The big flame burning in the middle of the water slowly shrinks and dims into a small quiet lantern, and as it dims it reveals a figure standing behind it.
+
+The figure is an old, thin man in a long blue-grey cloak, slightly stooped. His face must read as the classic portrait of the Tang poet Du Fu, but drawn with only a dozen big square pixels: a dark cloth headwrap, a narrow gaunt bony face, high cheekbones, hollow eye sockets, two long thin drooping eyebrows and a long sparse wispy beard hanging past his chin in a few separate strands. He turns his head slowly and looks straight at the traveller. Keep the face blocky - do not smooth or beautify it.
+
+The black silhouettes sink back into the water and disappear, and the water becomes ordinary stone pavement again.
+
+The old man opens his hand and holds up one old iron key. Then another key drops onto the ring beside it, and another, one after another, faster, until a long heavy bunch of dozens of keys hangs from his hand down to the ground. At the end of the bunch hangs a small worn wooden board, and beside the board a short string of copper coins. The coins multiply by themselves - one more, two more, five more - the string growing longer and heavier, the board sinking lower, the whole bunch swinging under the weight. Every key is a place he once had to leave.
+
+For the first six seconds there is no hut in the shot at all: only the road, the water, the lanterns, the man and his keys.
+
+Then, far away at the end of the road, a small thatched hut rises up out of the ground and settles, standing alone and steady, its roof made of dry yellow straw, its walls of packed earth. It stands still for a moment.
+
+Then a cold wind comes down the road and hits it. The straw starts to tear away: a few strands first, then whole flat clumps flying off sideways across the dark sky, then the roof peels open in big chunks and the bare wooden frame underneath is exposed, the hut leaning and shaking while straw streams away.
+
+Near the end, the old man stands in the foreground holding the heavy bunch of keys, watching his hut come apart in the distance, straw flying between him and the camera.
+
+The traveller must always stay the largest, brightest, heaviest thing in the frame. The old man is second. The hut and the memories are further back.
+
+Everything stays blocky and flat from the first frame to the last frame. Never resolve into smooth 3D, a painting, or a photograph.
+
+No text, no letters, no numbers, no captions, no signs, no writing, no watermark, no logo, no UI.

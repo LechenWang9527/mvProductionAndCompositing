@@ -1,0 +1,29 @@
+The provided image is the first frame of this shot - keep it exactly as it is. This is a low-resolution 1980s 8-bit game image: the whole picture is built from big visible square pixels, roughly 480 pixels wide across the whole screen, every edge stair-stepped, every pixel a flat solid square of one colour. Keep every new pixel at that same size for the whole shot. No anti-aliasing, no gradients, no soft shading, no painted texture. Flat colour blocks and hard stair-step edges only.
+
+Same night, same water surface, same crowd of black hooded silhouettes, same floating amber lanterns, same stone lantern on the right, same city of warm windows on the left, same bare tree, same mountain ridge, same framing. The camera only glides forward very slowly.
+
+THIS SHOT IS TIMED. Follow this schedule exactly:
+
+0.0 to 1.3 seconds: the flame in the middle of the water shrinks and dims into a small quiet lantern, and as it dims it reveals an old thin man standing behind it - a long blue-grey cloak, slightly stooped, a dark cloth headwrap, a narrow gaunt bony face, high cheekbones, hollow eye sockets, two long thin drooping eyebrows and a long sparse wispy beard. He is the Tang poet Du Fu, drawn with only a dozen big square pixels but recognisable at once. He turns his head slowly and looks at the traveller.
+
+1.3 to 3.0 seconds: the black silhouettes sink back into the water and disappear, the water becomes ordinary stone pavement again, and the real world settles and freezes - the two men stand still, the road, city, tree and sky never change again for the rest of the shot. Beside them on the road, a few cloth bundles quietly appear and pile up, then more of them, until a small heap of bundles sits at the edge of the road.
+
+3.0 seconds: the first memory rises. A huge pale amber translucent image floats up in the air above the road, semi-transparent, glimmering, clearly not part of the real street. Inside it: an enormous dense Tang dynasty Chang'an, hundreds of tiled roofs packed tightly up the hillside, warm windows scattered through the mass, and in front of it all one small rented room with a wooden door and stone steps, a heap of cloth bundles stacked beside the door.
+
+5.0 seconds: a landlord appears in the doorway of that rented room - a stout round-faced man in a rich dark red silk robe, smug and well fed, the exact opposite of the thin old poet. He opens one hand palm up, demanding, and a string of copper coins hangs from his other hand. The coins multiply in his palm - one, two, five more coins appear on the string, it grows longer and heavier, and he opens his hand wider.
+
+6.8 to 7.0 seconds: the first memory fades away quickly and the real street is visible again for a moment.
+
+7.0 seconds: the second memory rises in the same place with the same pale amber translucent light. Inside it there is only one small thatched hut standing alone on an open field, dry yellow straw roof, packed earth walls.
+
+8.6 seconds: a cold autumn wind hits the hut. The straw begins to tear away - a few strands first, then whole flat clumps flying sideways, then the roof peels open in chunks and the bare wooden frame underneath is exposed, the hut leaning and shuddering while straw streams away across the dark sky. The straw flies inside the memory only, glowing faintly, never touching the real street.
+
+By the end the hut's roof is half gone and straw is still streaming sideways.
+
+Both men stay completely still in the foreground the whole time and never walk anywhere. The real street never changes.
+
+The traveller stays the largest and brightest figure. The old man is second. The memories glow amber and are further back.
+
+Everything stays blocky and flat. Never resolve into smooth 3D, a painting, or a photograph.
+
+No text, no letters, no numbers, no captions, no signs, no writing, no watermark, no logo, no UI.

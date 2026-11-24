@@ -1,0 +1,15 @@
+Locked camera. Absolutely no camera movement: no pan, no zoom, no push, no rotation, no reframing, no shake.
+
+The shot is one continuous take of the very first moment of the song, from complete darkness to a city of light.
+
+It begins on the dark frame. The long stone staircase in the foreground and the great layered Chinese city on the mountain above are almost entirely in shadow, deep indigo and near black. Only two things hold any warmth: the sealed wooden gate high above, where a faint amber light leaks through the vertical seam between the two door leaves, and two small paper lanterns hanging beside it, barely glowing.
+
+Then, slowly, from the very first step nearest the camera, the warm amber light begins to spread upward. One step lights, then the step above it, then the next, a slow wave of light climbing the staircase toward the gate. The wave of light travels steadily and unhurriedly, taking most of the shot to climb the stairs, each step lighting only its front edge and the flat top of the tread before the light moves on to the next. As the light climbs, the paper lanterns along the walls, the towers and the rooftops switch on one after another, scattered points of warm light appearing across the city, first a few, then more.
+
+As the wave of light reaches the great gate, more and more windows of the city come alive, row after row, tier after tier, until by the end the entire tiered city on the mountain glows with hundreds of warm windows and hanging red lanterns, brilliant against the deep indigo night sky. The whole city is lit.
+
+The traveller in the dark red hooded cloak stands at the bottom of the stairs throughout. He stays where he is, only his cloak moving slightly in the wind, and only near the very end does he take one single slow step up onto the first lit stair.
+
+Keep the exact same chunky 8-bit pixel art look for every single frame: sharp square pixels of the same size, flat solid colors, hard pixel edges, limited palette, no gradients, no smoothing, no anti-aliasing, no blur, no bloom, no film grain, no motion blur. The image must never resolve into smooth 3D, never become photographic, never gain fine detail. It stays a coarse pixel picture the entire time.
+
+No text, no letters, no numbers, no captions, no watermark, no logo, no UI.

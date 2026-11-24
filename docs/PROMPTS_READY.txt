@@ -1,0 +1,52 @@
+PROMPTS_READY —— 已拼好的提示词，整行复制即可（每行就是完整的一条）
+
+怎么用：找到 P01，双击选中那一整行英文（或三击全选一行），Ctrl+C，
+        粘到出图工具的输入框里，比例选 16:9（P06 选 3:4），生成。
+
+每条 = 全局风格块 + 该槽位内容，已经拼好，不要再自己加东西。
+出来的图不带字、不带线、不带边框，是对的 —— 后期程序会压字上去。
+
+如果工具的「负面提示词 / negative」框可以填，把下面这段整段贴上（8 张共用）：
+text, letters, chinese characters, watermark, signature, caption, ui, screen, interface, chart, graph, face, portrait, person, hand, cartoon, illustration, anime, 3d render, cgi, octane, unreal engine, plastic look, glossy, neon color, saturated color, cyan magenta cast, pure white background, seamless studio backdrop, vignette, border, frame, polaroid, heavy sharpening, hdr, oversaturated, low resolution, blurry, motion blur, jpeg artifacts, duplicated objects, extra fingers
+
+
+============================================================================
+P01  木纹旧桌面，俯拍   |   镜头 #25   |   比例 16:9   |   121 词
+============================================================================
+documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood, overhead flat top-down view of an empty old workbench surface, worn dark walnut planks with deep grain lines, one faint coffee ring stain, fine scratches and a little sawdust, no objects, no phone, no hands, thin warm raking side light from the left edge, hard shadow in one corner, muted warm grey, matte, paper grain, slight dust, neutral color, no grading
+
+============================================================================
+P02  轮胎断面 / 胎面特写   |   镜头 #62   |   比例 16:9   |   129 词
+============================================================================
+documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood, macro side view of a cut truck tire section standing on a workshop floor, layered rubber, steel belt edges and bead wire visible in cross section, tread blocks in sharp relief with one chipped missing rubber notch, dust in the grooves, hard side light from upper left raking across the cut face, deep shadow behind, muted warm grey and dull black rubber, matte, paper grain, no text, no logo
+
+============================================================================
+P03  胶料 / 密炼机 / 混炼车间   |   镜头 #57   |   比例 16:9   |   128 词
+============================================================================
+documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood, interior of an old rubber mixing workshop, a massive internal mixer with caked carbon black on its door, open sacks of compound and stacked black rubber bales in the foreground, dust hanging in the air, hard side-backlight from upper left through a dusty high window, long shadows across a stained concrete floor, muted warm grey with dull black rubber, matte, paper grain, no people, no text, no logo
+
+============================================================================
+P04  轮胎产线 / 车间纵深   |   镜头 #66   |   比例 16:9   |   124 词
+============================================================================
+documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood, one-point perspective down a tire curing production line, rows of tire molds and green tires receding into the far end, overhead ducts and rail structure, haze and dust in the air, long hard shadows across the concrete floor, side-backlight from upper left cutting through the haze, machine silhouettes nearly black, muted warm grey, matte, paper grain, neutral color, no people, no text, no logo
+
+============================================================================
+P05  厂区道路与路灯，黄昏   |   镜头 #83   |   比例 16:9   |   130 词
+============================================================================
+documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood, empty factory access road at late dusk, asphalt with patched repairs and a worn white lane line, a row of street lamps just switched on, low warm grey sky with soft haze, distant plant silhouette without detail, hard side light from upper left casting long shadows across the road, muted warm grey with one warm lamp glow, matte, paper grain, neutral color, no cars, no people, no text, no logo
+
+============================================================================
+P06  旧纸 / 档案纸纸纹特写   |   镜头 #6   |   比例 3:4   |   120 词
+============================================================================
+documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood, extreme close-up of aged handmade archive paper, uneven torn edges, visible fibers and chain lines, faint foxing stains and water marks, one soft crease, muted warm grey beige tone, raking side light from upper left revealing the tooth of the paper, no printing, no writing, no stamp, no ink, blank sheet, matte, paper grain, slight dust, neutral color, no grading
+
+============================================================================
+P07  空白工牌 / 挂绳工牌   |   镜头 #37   |   比例 16:9   |   117 词
+============================================================================
+documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood, three blank employee badges with dark lanyards laid on a worn metal workbench, blank white photo windows empty, no printing, no letters, no numbers, scuffed plastic holders with cracked edges, hard side light from upper left casting crisp shadows, muted warm grey with dull black lanyards, matte, paper grain, slight dust, neutral color, no people, no text
+
+============================================================================
+P08  德国马牌 Continental 标识实物 / 招牌   |   镜头 #35   |   比例 16:9   |   125 词
+============================================================================
+documentary photograph, 50mm lens at f/4, available light only, low key, muted warm grey palette, desaturated warm paper tone, faint film grain, side-backlight from upper left, hard directional shadow, crushed but open shadows, matte printed-paper texture with visible paper grain, slight dust and micro-scratch, neutral color cast, no color grading, flat contrast curve, eye-level, full-frame sharpness, restrained industrial archive mood, a weathered Continental tire brand sign mounted on a rough factory wall, raised lettering and the running horse emblem in dull yellow and black, paint worn at the edges with rust streaks below, hard side light from upper left casting the sign's own shadow on the wall, muted warm grey wall, matte surface, paper grain, neutral color, slightly off-center framing, tribute purpose, no other text
+

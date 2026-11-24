@@ -1,0 +1,19 @@
+The provided image is the first frame of this shot — keep it exactly: the same tiny traveller in the dark red hooded cloak standing on the long stone road, the same stone lantern burning on the right, the same city of warm windows and red lanterns on the left, the same bare tree, the same dark blue night sky and the same mountain ridge far behind. Same 8-bit pixel look, same palette, same camera height, same framing. The shot must begin exactly on this image and then continue from it.
+
+From there, the traveller walks the last few steps to the right and stops beside the tall stone lantern.
+
+The lantern's light drops onto the road. Where it lands, the paving stones stop being stone: the whole surface of the road turns into a flat, still sheet of black water, and the city lights on the left and the lantern on the right are reflected upside down in it, mirrored perfectly, a second city hanging beneath the real one.
+
+He takes one step forward. His foot rests on the water without sinking, and a single hard-edged ring of pale amber light spreads out from his heel across the black surface.
+
+He keeps walking slowly, and each step sends out another ring. As the rings pass outward, small amber lanterns rise up out of the water and float at head height; and beside every floating lantern, a small black silhouette of a hooded person stands up out of the water — a hard, solid, featureless black shape, no face, no detail, motionless, seen from behind, all facing the same direction. More and more of them stand up as the rings spread, until a whole crowd of small black figures is standing on the black water under floating amber lanterns, and the traveller walks slowly among them in the foreground.
+
+Far ahead, the rings reach the gate of the city, and a chain of lanterns running up the gate tower lights up one after another, their reflections lighting up in the water at the same moment.
+
+Near the end, the nearest floating lantern drifts toward the camera, and its flame grows into a large hard-edged amber shape until warm light floods the whole screen.
+
+The traveller must always stay the largest, brightest, heaviest thing in the frame; the silhouettes and floating lanterns stay smaller and further back. The camera only glides forward very slowly and gently — no shake, no rotation, no fast zoom.
+
+Everything is built from big visible square pixels with stair-stepped edges; flat solid colors only; no smooth gradients, no soft glow, no blur, no fine detail. Never resolve into smooth 3D or a photograph.
+
+No text, no letters, no numbers, no captions, no signs, no watermark, no logo, no UI.

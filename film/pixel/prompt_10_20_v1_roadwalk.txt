@@ -1,0 +1,25 @@
+This is a cutscene from an old 8-bit video game, not a film and not a 3D render.
+
+The entire picture must be built out of big visible square pixels, like a screenshot of a NES game blown up on a screen. The image is effectively only about 256 pixels wide and 144 pixels tall, so every edge is stair-stepped and every pixel is a large flat square. Flat solid colors only, a very small palette: near black, deep indigo, dark brown, dull red, amber, pale cream. No smooth gradients, no soft edges, no blending, no fading glow — light is always a hard flat shape of amber.
+
+The scene continues exactly where the previous shot ended: the same vast ancient Chinese city at night, now fully lit, hundreds of warm amber windows and red paper lanterns covering layered roofs and pagodas up the mountain, a great double-roofed gate tower at the center. Chinese architecture only: curved flying eaves, tiled roofs, pagodas, crenellated walls, red paper lanterns. No European castle, no spires, no modern buildings.
+
+A tiny traveller in a dark red hooded cloak, seen from behind, stands at the bottom of the great staircase in front of the lit city.
+
+Then the camera slowly slides to the right, keeping the same height and the same distance, and the view opens onto a long stone road that runs across the foot of the mountain. The traveller turns and starts walking to the right along that road, small in the frame, the huge glowing city receding on the left.
+
+The road lights up as he walks: the three or four paving stones just ahead of his feet turn warm amber one after another, as if the stone remembers being stepped on, while the stones far behind him dim back toward the dark. The road is alive only around him.
+
+As he passes, things along both sides of the road come alight one by one: a row of red paper lanterns hanging from wooden posts, the single small window of a low mud-brick hut, a cloth wine banner hanging from a tall pole, the bare branches of winter trees catching a faint amber edge.
+
+Halfway through, he stops walking, stands still, and lifts his head slightly to look ahead — this is the moment the first line of the song is sung.
+
+Behind him on the road, a line of faintly glowing footprints appears on the stones, stretches back into the darkness in the direction he came from, one pair of prints after another, as if someone had walked this exact road a thousand years before him in the same cloak.
+
+Then he keeps walking. At the end, far ahead in the dark, a single tall stone lantern is burning with a steady warm light, waiting at the side of the road.
+
+The camera only ever slides slowly sideways at a constant height, never zooming, never shaking, never tilting. Everything else that moves is the traveller, the light under his feet, and the things lighting up along the road.
+
+Keep the chunky pixel look perfectly consistent from first frame to last. Never resolve into smooth 3D, never become photographic or painterly, never add fine detail, never blur.
+
+No text, no letters, no numbers, no captions, no watermark, no logo, no UI, no bars.

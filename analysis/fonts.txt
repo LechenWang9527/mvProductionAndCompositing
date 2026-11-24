@@ -1,0 +1,23 @@
+CascadiaCode.ttf
+CascadiaMono.ttf
+Deng.ttf
+Dengb.ttf
+Dengl.ttf
+NotoSansSC-VF.ttf
+NotoSerifSC-VF.ttf
+OLDENGL.TTF
+STKAITI.TTF
+SimsunExtG.ttf
+SourceCodePro-Regular.ttf
+consola.ttf
+consolab.ttf
+consolai.ttf
+consolaz.ttf
+msyh.ttc
+msyhbd.ttc
+msyhl.ttc
+simhei.ttf
+simsun.ttc
+simsunb.ttf
+--- count:
+579

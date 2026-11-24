@@ -1,0 +1,10 @@
+The provided image is the first frame of this shot — keep it exactly: Du Fu and the traveller standing side by side with their backs to us on the stone road, long shadows ahead of them, the red instant-noodle cup left on the stones in the near foreground, dark ridgeline and night sky beyond.
+
+Old 8-bit video game cutscene, not a film, not a 3D render, not an illustration. Effectively only 256 pixels wide and 144 pixels tall. Every edge stair-stepped, every pixel a large flat square. Tiny palette only: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, amber #d98a30, pale cream #e8dcc0. No gradients, no bloom. No text, no letters, no numbers anywhere. Locked camera: only a very slow push forward along the road, never pan, never shake.
+
+THE STAGE NEVER CHANGES: the stone-paved road runs away from camera toward the horizon, the dark ridgeline of the mountains and the night sky stay in frame the whole shot.
+
+0.0–1.2  They start walking forward, away from us, side by side. The red cup they left behind stays on the stones and slides out of the bottom of the frame as they walk away from it.
+1.2–4.0  One by one, more people step onto the road from both sides and fall in beside them: a porter with a shoulder pole, a woman carrying a child, a labourer with a sack, an old man with a stick. Each is a simple pixel figure with a small pixel face, wearing dull period clothes, joining the walk naturally without stopping.
+4.0–6.0  More and more come in from the sides and from behind — a dozen, then twenty — until a whole loose crowd walks the same direction down the road: porters, farmhands, scholars, women with children, old men. Lanterns among them and the light from ahead rim every figure warm amber.
+6.0–8.0  Far down the road one single amber lamp lights up. It swells quickly brighter and bigger, overtaking the crowd, until its warm light FILLS THE ENTIRE FRAME — the final frames are nothing but a solid wall of warm amber light, every figure dissolving into it.

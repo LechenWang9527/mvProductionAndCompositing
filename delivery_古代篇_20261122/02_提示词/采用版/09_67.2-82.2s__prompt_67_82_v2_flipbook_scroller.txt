@@ -1,0 +1,22 @@
+The provided image is the first frame of this shot — keep it exactly: two figures squatting side by side on stone slabs at night, each holding a steaming bowl. The one on the left wears a dark red hooded cloak and holds a red instant-noodle cup; the one on the right wears a grey-blue scholar's robe and holds a clay bowl. Behind them, the stone-paved road, a dark ridgeline and the night sky.
+
+Old 8-bit video game cutscene, not a film, not a 3D render, not a painting. Effectively only 256 pixels wide and 144 pixels tall. Every edge stair-stepped, every pixel a large flat square. Tiny palette only: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, amber #d98a30, pale cream #e8dcc0. No gradients, no bloom, no soft edges. FACE RULE: every face is built from large flat pixel squares — a few blocks for cheek, brow and beard, never smooth, never shaded like a portrait, never illustrated. No text, no letters, no numbers anywhere, in any panel. Never shake, never spin.
+
+PART ONE — 0.0 to 3.6 — sitting.
+The two keep eating; steam rises in small pixel puffs. The man on the right finishes first, sets his bowl down on the stones, lifts his head and speaks quietly without turning, one hand lifting slightly as if to say: I am not here to teach you anything.
+
+PART TWO — 3.6 to 7.4 — the flip-book fills the WHOLE FRAME.
+The two figures and the road are gone. The entire screen becomes one memory image, then flips to the next, then the next — each one filling the WHOLE frame edge to edge, top to bottom, with a hard flat border of dull red at the very edges so you feel it is a stack of pages being turned, not a window floating over the scene. Fast, one page roughly every 0.9 seconds, four pages in total, like flipping through a photo album:
+  page 1 — a modern open-plan office at night: a heavy man in a shirt stands over a desk pointing and shouting, and a younger man sits with his head down, shoulders pulled in, blue screen-light on his face.
+  page 2 — ancient Chang'an, the gate of an official hall: Du Fu in his grey-blue robe stands bowed, both hands holding up a roll of paper, while a doorman with folded arms does not take it. Snow on the steps.
+  page 3 — the same modern young man alone in a lit cubicle at 3 a.m., papers across the desk, one small lamp, his head down on his hand.
+  page 4 — Du Fu squatting in the snow outside a broken earthen wall with an empty bowl, waiting.
+Every page uses the same six colours and the same flat pixel blocks — these moments are not illustrations, they are the same story told in the same crude language.
+
+PART THREE — 7.4 to 15.0 — side-scroller, walking left to right.
+The last memory page tears away and we are back on the road, but now the camera turns sideways and becomes a classic side-scrolling game view: the two of them stand on the left third of the frame in profile, walking steadily to the RIGHT in place, while the whole world scrolls past from right to left behind them, never stopping. They stay the same size and stay in the left third. The landscape they walk through keeps changing, in this order, roughly two seconds each:
+  7.4–9.6  night mountains and a stone road winding between them;
+  9.6–11.8  a busy town street at night — hanging red lanterns, stalls, awnings, crowds of small pixel people selling and buying, warm windows stacked up behind;
+  11.8–13.4  open countryside at dawn — terraced fields, low hills, a few small houses, the sky going from deep indigo to pale cream;
+  13.4–15.0  a high empty plateau under a wide sky, and far ahead at the right edge one single square of warm amber light burning on the horizon.
+Throughout part three the man in the grey-blue robe walks beside him the whole time, same pace, same direction. Their shadows slide across the ground toward the left. In the last beat the horizon light grows slightly bigger and the two keep walking toward it, still small, still going.

@@ -1,0 +1,16 @@
+docs:
+total 174
+drwxrwxrwx 1 WangLC None  4096 Nov 10 11:56 .
+drwxrwxrwx 1 WangLC None 12288 Nov 10 11:52 ..
+-rwxrwxrwx 1 WangLC None 71933 Nov 10 09:40 METHODOLOGY.md
+-rwxrwxrwx 1 WangLC None 35518 Nov 10 11:01 REFPROMPTS.md
+-rwxrwxrwx 1 WangLC None 29811 Nov 10 09:55 RESEARCH.md
+-rwxrwxrwx 1 WangLC None 22123 Nov 10 11:56 TOOLS.md
+drwxrwxrwx 1 WangLC None     0 Nov 10 11:47 notes
+
+docs/notes:
+total 64
+drwxrwxrwx 1 WangLC None     0 Nov 10 11:47 .
+drwxrwxrwx 1 WangLC None  4096 Nov 10 11:56 ..
+-rwxrwxrwx 1 WangLC None 36045 Nov 10 10:58 prompts_picks.json
+-rwxrwxrwx 1 WangLC None 24107 Nov 10 11:47 tools_trials.md

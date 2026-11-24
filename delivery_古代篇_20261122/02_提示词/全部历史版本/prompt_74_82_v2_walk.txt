@@ -1,0 +1,10 @@
+The provided image is the first frame of this shot — keep it exactly: the traveller in the dark red hooded cloak and Du Fu in the grey-blue cloak still squatting on the stone road, the last amber memory dots dying out in the night sky, dark ridgeline behind.
+
+Old 8-bit video game cutscene, not a film, not a 3D render, not an illustration. Effectively only 256 pixels wide and 144 pixels tall. Every edge stair-stepped, every pixel a large flat square. Tiny palette only: near-black #0d0d14, deep indigo #1a1a2e, dark brown #3a2a20, dull red #8c2f24, amber #d98a30, pale cream #e8dcc0. No gradients, no bloom. No text, no letters, no numbers anywhere. Locked camera: only a very slow push in, never pan, never shake.
+
+THE STAGE NEVER CHANGES: the stone-paved road, the dark ridgeline of the mountains and the night sky stay behind everything for the whole shot.
+
+0.0–0.9  The last amber dots die out. The traveller sets his cup down on the stones and pushes himself up until he is standing.
+0.9–2.3  He stands straight. Du Fu stands up too and takes his place beside him.
+2.3–4.3  Side by side, both facing forward down the long road, away from the camera; we see their backs, Du Fu's grey-blue cloak on the left, the traveller's dark red hooded cloak on the right.
+4.3–8.0  They begin to walk forward together, side by side, away from us down the road, cloaks swaying, long shadows stretching out ahead of them on the stones.
